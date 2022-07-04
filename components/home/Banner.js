@@ -8,6 +8,8 @@ import BannerImage from "../../images/bannerimage.jpg";
 import { SearchIcon } from "@heroicons/react/solid";
 import SearchModal from "./Modal/SearchModal";
 import KoseSymbol from "../../images/kossesymbol.jpg";
+import ReactPlayer from "react-player";
+
 function Banner() {
   const [isOpened, setIsOpened] = useState(false);
 
@@ -67,13 +69,22 @@ function Banner() {
           */}
         </div>
       </div>
-
+      {/* 
       <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[700px] ">
         <Image
           src={BannerImage}
           layout="fill"
           objectFit="cover"
           className="rounded-md shadow-lg"
+        />
+      </div>
+*/}
+      <div className="p-4 ">
+        <ReactPlayer
+          url="https://youtu.be/5lXbzzKvA8U"
+          width="1280"
+          height="600px"
+          controls={false}
         />
       </div>
     </div>
