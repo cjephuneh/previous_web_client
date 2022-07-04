@@ -23,9 +23,7 @@ function AboutCard() {
             Foster strong bonds beetween organizations and their customers
             through a clear and coincise communication loop.
           </p>
-          <h1 className="p-3 text-xl text-gray-900 text-center">
-            Vision Statement
-          </h1>
+          <h1 className="p-3 text-xl text-gray-900 text-center">Vision</h1>
           <p className="p-4">
             Make sure that organizations achieve customer satisfaction though
             efficient interactions.
@@ -37,7 +35,7 @@ function AboutCard() {
           <h6>Nairobi - Kenya</h6>
           <h6>(+254)793681840</h6>
         </div>
-        <div className="relative h-[600px] w-[600px] rounded-md">
+        <div className="relative h-[500px] w-[500px] rounded-md">
           <Image src={BannerImage} layout="fill" objectFit="cover" />
         </div>
       </div>
