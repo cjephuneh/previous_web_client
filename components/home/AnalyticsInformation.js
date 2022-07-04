@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import BannerImage from "../../images/bannerimage.jpg";
+import CommunicationChannels from "../../images/communicationchannels.jpeg";
 
 function AnalyticsInformation() {
   return (
@@ -36,7 +37,7 @@ function AnalyticsInformation() {
       <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
         <div className="relative h-80 w-80">
           <Image
-            src={BannerImage}
+            src={CommunicationChannels}
             layout="fill"
             objectFit="cover"
             className="rounded-md"
