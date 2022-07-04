@@ -84,7 +84,7 @@ function Banner() {
           url="https://youtu.be/5lXbzzKvA8U"
           width="1280"
           height="600px"
-          controls={false}
+          controls={true}
         />
       </div>
     </div>
