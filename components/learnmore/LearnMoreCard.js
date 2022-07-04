@@ -3,7 +3,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from "react";
 import Image from "next/image";
-import BannerImage from "../../images/bannerimage.jpg";
+import BannerImage from "../../images/customers1.jpeg";
 
 function LearnMoreCard() {
   return (
