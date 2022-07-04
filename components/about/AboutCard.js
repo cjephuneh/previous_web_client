@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
-import BannerImage from "../../images/bannerimage.jpg";
+import BannerImage from "../../images/DSC_5784.jpg";
 
 function AboutCard() {
   return (
