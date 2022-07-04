@@ -35,7 +35,7 @@ function AboutCard() {
           <h6>Nairobi - Kenya</h6>
           <h6>(+254)793681840</h6>
         </div>
-        <div className="relative h-[500px] w-[500px] rounded-md">
+        <div className="relative h-[400px] w-[400px] rounded-md">
           <Image src={BannerImage} layout="fill" objectFit="cover" />
         </div>
       </div>
