@@ -4,7 +4,7 @@ import Image from "next/image";
 import BannerImage from "../../images/bannerimage.jpg";
 import CommunicationChannels from "../../images/communicationchannels.jpeg";
 import CumulativeAnalytics from "../../images/cumulativeanalytics.jpeg";
-
+import HourlyEngagement from "../../images/hourlyengagement.webp";
 function AnalyticsInformation() {
   return (
     <div className="grid grid-cols-3">
@@ -24,7 +24,7 @@ function AnalyticsInformation() {
       <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
         <div className="relative h-80 w-80">
           <Image
-            src={BannerImage}
+            src={HourlyEngagement}
             layout="fill"
             objectFit="cover"
             className="rounded-md"
