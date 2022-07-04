@@ -37,7 +37,8 @@ function Banner() {
         <div className="max-w-7xl space-y-5 px-10 text-center">
           <h1 className="max-w-xl font-serif text-6xl p-4">
             <span className="underline decoration-black decoration-4">
-              Proxima Improve's Organization-Customer Interaction{" "}
+              Proxima Improve's Organizational | Brand | Group's Customer
+              Interaction{" "}
             </span>
             in every possible aspect.
           </h1>
