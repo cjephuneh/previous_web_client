@@ -23,7 +23,9 @@ function AboutCard() {
             Foster strong bonds beetween organizations and their customers
             through a clear and coincise communication loop.
           </p>
-          <h1 className="p-3 text-xl text-gray-900 text-center"></h1>
+          <h1 className="p-3 text-xl text-gray-900 text-center">
+            Vision Statement
+          </h1>
           <p className="p-4">
             Make sure that organizations achieve customer satisfaction though
             efficient interactions.
