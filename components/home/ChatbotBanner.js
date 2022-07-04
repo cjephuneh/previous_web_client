@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Image from "next/image";
-import BannerImage from "../../images/bannerimage.jpg";
+import BannerImage from "../../images/chatbot.jpg";
 function ChatbotBanner() {
   return (
     <div className=" scrollbar-hide grid grid-cols-2 overflow-hidden pt-8 shadow-sm ">
