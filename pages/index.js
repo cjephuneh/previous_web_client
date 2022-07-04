@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ChatbotCard from "../components/chatbot/ChatbotCard";
 import AboutSlotIntent from "../components/home/AboutSlotIntent";
-import AbutChatbot from "../components/home/AbutChatbot";
+import AbutChatbot from "../components/home/AboutChatbot";
 import AnalyticsInformation from "../components/home/AnalyticsInformation";
 import AnalyticsTopic from "../components/home/AnalyticsTopic";
 import Banner from "../components/home/Banner";
@@ -16,6 +16,7 @@ import Header from "../components/ui/Header";
 import styles from "../styles/Home.module.css";
 import { ChatIcon } from "@heroicons/react/solid";
 import { useState } from "react";
+import IndustryCard from "../components/home/IndustryCard";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
@@ -55,6 +56,9 @@ export default function Home() {
         </section>
         <section className="py-6">
           <ChatbotBanner />
+        </section>
+        <section className="py-6">
+          <IndustryCard />
         </section>
         <section className="py-6">
           <AnalyticsTopic />

@@ -9,10 +9,10 @@ function AbutChatbot() {
           Our Virtual Agents
         </h1>
         <p className="p-4 text-2xl">
-          Improving customer interaction is at the core of every organizatin's
-          practices. Efficient Implementatin of it is not so trvial however.
-          This is easily simplified by virtual agents that are built around
-          understanding customers intents and queries.
+          Improving customer interaction is at the core of every organization's
+          daily activities. This is easily simplified by our virtual
+          conversational agents that are built around understanding customers
+          intents and queries from different conversational interfaces.
         </p>
       </div>
       <div className="">
