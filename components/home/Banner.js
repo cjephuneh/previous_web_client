@@ -44,9 +44,6 @@ function Banner() {
           </h1>
         </div>
         <div className="flex flex-row">
-          <div className="relative h-[100px] w-[200px] rounded-md">
-            <Image src={KoseSymbol} layout="fill" objectFit="cover" />
-          </div>
           <a
             className="no-underline border-b border-blue text-blue"
             href="/getstarted"
