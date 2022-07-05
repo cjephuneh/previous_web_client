@@ -82,7 +82,7 @@ function Banner() {
       <div className="p-4 md:hidden">
         <ReactPlayer
           url="https://youtu.be/5lXbzzKvA8U"
-          width="320px"
+          width="330px"
           height="400px"
           controls={true}
         />
