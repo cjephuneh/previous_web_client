@@ -29,6 +29,7 @@ function WaitList() {
     })
       .then((response) => {
         //console.log(response.data.token);
+        setFormData("");
         if (response.data.token) {
           console.log(response.data);
         }

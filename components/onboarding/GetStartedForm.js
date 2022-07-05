@@ -51,6 +51,7 @@ const GetStartedForm = (props) => {
     })
       .then((response) => {
         //console.log(response.data.token);
+        setFormData("");
         if (response.data.token) {
           console.log(response.data);
         }
@@ -139,7 +140,7 @@ const GetStartedForm = (props) => {
                   >
                     Phone Number
                   </label>
-                  <input
+                  <inputsetFormData
                     type="phonenumber"
                     name="phonenumber"
                     id="phonenumber"
