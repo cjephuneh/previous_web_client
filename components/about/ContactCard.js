@@ -25,7 +25,7 @@ function ContactCard() {
               <Image
                 src={LinkedInLogo}
                 layout="fill"
-                objectFit="cover"
+                objectFit="contain"
                 className="rounded-md"
               />
             </a>
