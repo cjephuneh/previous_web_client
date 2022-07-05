@@ -46,7 +46,7 @@ const GetStartedForm = (props) => {
 
     await axios({
       method: "post",
-      url: "http://127.0.0.1:8000/api/onboarding/getstarted",
+      url: "https://murmuring-spire-64412.herokuapp.com/api/onboarding/getstarted",
       data: formField,
     })
       .then((response) => {

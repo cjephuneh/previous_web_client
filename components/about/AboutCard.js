@@ -34,6 +34,7 @@ function AboutCard() {
           <h6>PO BOX: Nairobi 3505-100</h6>
           <h6>Nairobi - Kenya</h6>
           <h6>(+254)793681840</h6>
+          <h6>(+254)790001947</h6>
         </div>
         <div className="relative h-[400px] w-[450px] md:w-[400px] rounded-md items-center ml-4">
           <Image
