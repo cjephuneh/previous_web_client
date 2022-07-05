@@ -10,7 +10,7 @@ function LearnMoreCard() {
     <div className="divide-y divide-black">
       <div className="  overflow-hidden pt-8 shadow-sm py-6 "></div>
       <div className=" scrollbar-hide grid grid-cols-1 md:grid-cols-2 overflow-hidden pt-8 shadow-sm py-6">
-        <div className="relative h-[400px] w-[450px] text-center ml-4 md:w-[500px] lg:w-[600px] rounded-md cursor-pointer shadow-md">
+        <div className="relative h-[400px] w-[350px] sm:w-[450px] text-center ml-4 md:w-[500px] lg:w-[600px] rounded-md cursor-pointer shadow-md">
           <Image
             src={BannerImage}
             layout="fill"
