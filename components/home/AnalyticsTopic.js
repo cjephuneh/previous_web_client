@@ -4,7 +4,7 @@ function AnalyticsTopic() {
   return (
     <div className="flex flex-row">
       <div className=" py-8">
-        <h1 className="font-serif text-6xl p-4 w-3/4">
+        <h1 className="font-serif text-4xl md:text-6xl p-4 w-3/4">
           Get to understand the{" "}
           <span className="underline decoration-black decoration-4">
             Analytics{" "}

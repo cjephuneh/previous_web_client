@@ -35,9 +35,9 @@ function Banner() {
           <SearchModal />
         </div>
       )}
-      <div className="flex flex-row justify-between p-4">
+      <div className="flex flex-col p-2 md:flex-row md:justify-between md:p-4">
         <div className="max-w-7xl space-y-5 px-10 text-center">
-          <h1 className="max-w-xl font-serif text-6xl p-4">
+          <h1 className="max-w-xl text-3xl font-serif p-2 md:text-5xl  md:p-3 lg:text-6xl lg:p-4">
             <span className="underline decoration-black decoration-4">
               Proxima Improve's Organizational | Brand | Group's Customer
               Interaction{" "}
@@ -46,14 +46,14 @@ function Banner() {
           </h1>
         </div>
         <div className="flex flex-row">
-          <div className="relative h-[100px] w-[200px] rounded-md">
+          <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
             <Image src={KoseSymbol} layout="fill" objectFit="cover" />
           </div>
           <a
             className="no-underline border-b border-blue text-blue"
             href="/getstarted"
           >
-            <button className=" text-black p-4 rounded-md m-6 mt-2 hover:animate-pulse h-16 border-2 border-black w-52">
+            <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52">
               Get Started
             </button>
           </a>
@@ -79,7 +79,15 @@ function Banner() {
         />
       </div>
 */}
-      <div className="p-4 ">
+      <div className="p-4 md:hidden">
+        <ReactPlayer
+          url="https://youtu.be/5lXbzzKvA8U"
+          width="450px"
+          height="400px"
+          controls={true}
+        />
+      </div>
+      <div className="p-4 hidden md:block">
         <ReactPlayer
           url="https://youtu.be/5lXbzzKvA8U"
           width="1280"

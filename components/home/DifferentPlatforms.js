@@ -14,7 +14,7 @@ function DifferentPlatforms() {
           WHere we serve our agents...
         </h1>
       </div>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-2 md:grid-cols-4">
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
           <div className="relative h-40 w-40">
             <Image

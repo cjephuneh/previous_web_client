@@ -49,7 +49,7 @@ function Calltoaction() {
           <ContactList />
         </>
       )}
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col items-center md:flex-row justify-between">
         <a
           className="no-underline border-b border-blue text-blue"
           href="/getstarted/"

@@ -4,18 +4,18 @@ import React from "react";
 function AboutSlotIntent() {
   return (
     <div className="divide-y divide-gray-400">
-      <div className=" py-8 w-1/2">
-        <h1 className="font-serif text-6xl p-4">
+      <div className=" py-8 w-3/4 md:w-1/2">
+        <h1 className="font-serif text-4xl md:text-6xl p-4">
           Understand your{" "}
           <span className="underline decoration-black decoration-4">
-            Customers Purpose and place them in Slots
+            Customers Intentions and Categorize them
           </span>
         </h1>
       </div>
       {/* */}
       <div className=" py-8">
-        <h1 className="font-serif text-6xl p-4">User Queries:</h1>
-        <div className="flex flex-row justify-center space-x-4">
+        <h1 className="font-serif text-4xl md:text-6xl p-4">User Queries:</h1>
+        <div className="flex flex-col p-2 space-y-4 items-center md:flex-row md:justify-center md:space-x-4">
           <div className=" bg-gray-200 w-[250px] h-[80px] shadow-lg">
             <p className="p-1">
               user query: "What flights are available from pittsburgh to
@@ -53,7 +53,7 @@ function AboutSlotIntent() {
       {/* */}
       <div className=" py-8">
         <h1 className="font-serif text-6xl p-4">Slots:</h1>
-        <div className="flex flex-row justify-center space-x-4">
+        <div className="flex flex-col p-2 space-y-4 items-center md:flex-row md:justify-center md:space-x-4">
           <div className=" bg-gray-200 w-[200px] h-[200px] shadow-lg">
             <h1 className="p-2 text-center">Slots:</h1>
             <ul className="p-2">
