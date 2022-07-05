@@ -28,13 +28,13 @@ function about() {
           onClick={toggle}
         />
       </div>
-
+      {/* 
       {isOpened && (
         <section className="fixed pin bottom-12 right-0 overflow-auto z-50">
           <ChatbotCard />
         </section>
       )}
-
+*/}
       <main className="max-w-7xl mx-auto divide-y divide-black">
         <section className="py-6">
           <AboutCard />

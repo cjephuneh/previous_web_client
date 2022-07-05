@@ -22,19 +22,19 @@ function Getstarted() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-
+      {/* 
       <div className="fixed bottom-0 right-0 hover:animate-pulse">
         <ChatIcon
           className="h-16 bg-white text-gray-500 rounded-full p-2 cursor-pointer "
           onClick={toggle}
         />
       </div>
-
       {isOpened && (
         <section className="fixed pin bottom-12 right-0 overflow-auto z-50">
           <ChatbotCard />
         </section>
       )}
+    */}
       <main className="divide-y divide-black">
         <section className="m-24">
           <GetStartedForm />
