@@ -5,9 +5,9 @@ import BannerImage from "../../images/bannerimage.jpg";
 import CommunicationChannels from "../../images/communicationchannels.jpeg";
 import CumulativeAnalytics from "../../images/cumulativeanalytics.jpeg";
 import HourlyEngagement from "../../images/hourlyengagement.webp";
-import Trendline from "../../images/trendline.jpeg";
-import CommunicationFrequency from "../../images/communicationfrequency.png";
-import NatureOfInteraction from "../../images/NatureOfInteraction.jpeg";
+import Trendline from "../../images/trendline.jpg";
+import CommunicationFrequency from "../../images/communicationfrequency1.png";
+import NatureOfInteraction from "../../images/NatureOfInteraction.jpg";
 
 function AnalyticsInformation() {
   return (
