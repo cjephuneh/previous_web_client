@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import BannerImage from "../../images/bannerimage.jpg";
@@ -17,6 +18,7 @@ function ContactCard() {
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
           <div className="relative h-20 w-20">
             <a
+              target="_blank"
               className="no-underline border-b border-blue text-blue"
               href="/signin/"
             >
@@ -32,6 +34,7 @@ function ContactCard() {
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
           <div className="relative h-20 w-20">
             <a
+              target="_blank"
               className="no-underline border-b border-blue text-blue"
               href="https://www.instagram.com/proxima_agents/"
             >
@@ -47,6 +50,7 @@ function ContactCard() {
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
           <div className="relative h-20 w-20">
             <a
+              target="_blank"
               className="no-underline border-b border-blue text-blue"
               href="https://www.facebook.com/Proxima-104109735661633"
             >
@@ -62,6 +66,7 @@ function ContactCard() {
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
           <div className="relative h-20 w-20">
             <a
+              target="_blank"
               className="no-underline border-b border-blue text-blue"
               href="https://twitter.com/home"
             >
