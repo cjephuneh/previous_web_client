@@ -12,7 +12,7 @@ function ContactCard() {
   return (
     <div>
       <div className=" py-8">
-        <h1 className="font-serif text-6xl p-4">REAch Us THRough...</h1>
+        <h1 className="font-serif text-6xl p-4">Reach Us Through...</h1>
       </div>
       <div className="flex flex-row space-x-4 justify-center">
         <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">

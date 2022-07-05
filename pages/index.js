@@ -78,9 +78,6 @@ export default function Home() {
         <section className="py-6">
           <DifferentPlatforms />
         </section>
-        <section className="py-6">
-          <Calltoaction />
-        </section>
 
         <section className="py-6">
           <Footer />
