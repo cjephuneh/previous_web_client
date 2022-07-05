@@ -29,8 +29,7 @@ function AboutSlotIntent() {
           </div>
           <div className=" bg-gray-200 w-[250px] h-[80px] shadow-lg">
             <p className="p-1">
-              user query: "Will I be able to understand everything about your
-              products ?"
+              user query: "Will I be able to easily use your product ?"
             </p>
           </div>
         </div>
@@ -43,7 +42,7 @@ function AboutSlotIntent() {
             <p className="p-4">Purpose: "flight info"</p>
           </div>
           <div className=" bg-gray-200 w-[105px] h-[80px] shadow-lg">
-            <p className="p-4">Purpose: "booking"</p>
+            <p className="p-4">Purpose: "hotel booking"</p>
           </div>
           <div className=" bg-gray-200 w-[105px] h-[80px] shadow-lg">
             <p className="p-4">Purpose: "products"</p>
@@ -64,7 +63,7 @@ function AboutSlotIntent() {
             </ul>
           </div>
           <div className=" bg-gray-200 w-[200px] h-[200px] shadow-lg">
-            <h1 className="p-2 text-center">Intentions:</h1>
+            <h1 className="p-2 text-center">Slots:</h1>
             <ul className="p-2">
               <li className="p-1">booking: hotel</li>
               {/* 
@@ -75,9 +74,9 @@ function AboutSlotIntent() {
             </ul>
           </div>
           <div className=" bg-gray-200 w-[200px] h-[200px] shadow-lg">
-            <h1 className="p-2 text-center">Intentions:</h1>
+            <h1 className="p-2 text-center">Slots:</h1>
             <ul className="p-2">
-              <li className="p-1">First Intention</li>
+              <li className="p-1">product use</li>
               {/* 
               <li className="p-1">First Intention</li>
               <li className="p-1">First Intention</li>
