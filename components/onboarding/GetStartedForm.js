@@ -142,7 +142,7 @@ const GetStartedForm = (props) => {
                   >
                     Phone Number
                   </label>
-                  <inputsetFormData
+                  <input
                     type="phonenumber"
                     name="phonenumber"
                     id="phonenumber"
