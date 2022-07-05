@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <header className="flex flex-col md:w-full xl:flex xl:flex-row sticky xl:w-3/4 top-5 z-50 space-x-20  justify-start  p-5 md:px-10 md:mx-auto">
+    <header className="flex flex-col md:w-full xl:flex xl:flex-row sticky xl:w-3/4 top-5 z-50 space-x-20  justify-start  p-5 md:px-10 md:mx-auto bg-gray-100">
       <div className="mx-auto flex items-center space-x-5">
         <Link href="/">
           <div className="relative h-[40px] w-[200px] rounded-md">
