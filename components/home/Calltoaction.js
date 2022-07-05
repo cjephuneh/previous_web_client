@@ -56,13 +56,13 @@ function Calltoaction() {
         </a>
         <button
           className=" text-black p-4 rounded-md m-6 mt-2 hover:animate-pulse h-16 border-2 border-black w-52"
-          onClick={toggle}
+          onClick={() => setopenContact(!openContact)}
         >
           Contact us
         </button>
         <button
           className=" text-black p-4 rounded-md m-6 mt-2 hover:animate-pulse h-16 border-2 border-black w-52"
-          onClick={toggleOpenContact}
+          onClick={() => setIsOpened(!isOpened)}
         >
           Wait List
         </button>
