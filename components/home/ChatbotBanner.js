@@ -7,7 +7,12 @@ function ChatbotBanner() {
   return (
     <div className=" scrollbar-hide grid grid-cols-1 md:grid-cols-2 overflow-hidden pt-8 shadow-sm ">
       <div className="relative h-[400px] w-[350px] sm:w-[400px] ml-4 md:ml-0 md:w-[600px] rounded-md cursor-pointer shadow-md">
-        <Image src={BannerImage} layout="fill" objectFit="fill" />
+        <Image
+          src={BannerImage}
+          layout="fill"
+          objectFit="fill"
+          className="rounded-md"
+        />
       </div>
       <div className="">
         <h1 className="p-2 text-3xl md:p-3 md:text-4xl text-gray-700">
