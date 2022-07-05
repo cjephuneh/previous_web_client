@@ -26,7 +26,7 @@ function ContactList() {
 
     await axios({
       method: "post",
-      url: "https://murmuring-spire-64412.herokuapp.com/api/onboarding/contact",
+      url: "https://murmuring-spire-64412.herokuapp.com/api/onboarding/getstarted",
       data: formField,
     })
       .then((response) => {
