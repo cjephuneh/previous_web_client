@@ -5,6 +5,10 @@ import BannerImage from "../../images/bannerimage.jpg";
 import CommunicationChannels from "../../images/communicationchannels.jpeg";
 import CumulativeAnalytics from "../../images/cumulativeanalytics.jpeg";
 import HourlyEngagement from "../../images/hourlyengagement.webp";
+import Trendline from "../../images/trendline.jpeg";
+import CommunicationFrequency from "../../images/communicationfrequency.png";
+import NatureOfInteraction from "../../images/NatureOfInteraction.jpeg";
+
 function AnalyticsInformation() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3">
@@ -51,7 +55,7 @@ function AnalyticsInformation() {
       <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
         <div className="relative h-80 w-100 md:w-80">
           <Image
-            src={BannerImage}
+            src={Trendline}
             layout="fill"
             objectFit="cover"
             className="rounded-md"
@@ -64,7 +68,7 @@ function AnalyticsInformation() {
       <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
         <div className="relative h-80 w-100 md:w-80">
           <Image
-            src={BannerImage}
+            src={CommunicationFrequency}
             layout="fill"
             objectFit="cover"
             className="rounded-md"
@@ -77,7 +81,7 @@ function AnalyticsInformation() {
       <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
         <div className="relative h-80 w-100 md:w-80">
           <Image
-            src={BannerImage}
+            src={NatureOfInteraction}
             layout="fill"
             objectFit="cover"
             className="rounded-md"
