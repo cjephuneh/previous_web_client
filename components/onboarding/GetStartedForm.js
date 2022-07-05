@@ -66,15 +66,15 @@ const GetStartedForm = (props) => {
 
   return (
     <div className="flex flex-col md:grid md:grid-cols-2 md:m-12">
-      <div className="hidden md:block bg-gray-200 rounded-lg shadow-md">
-        <h2 className="text-3xl  p-14">
+      <div className="bg-gray-200 rounded-lg shadow-md">
+        <h2 className="text-xl md:text-3xl p-14">
           You can have what you want if you help other people get what they
           want.” “A lot of people have fancy things to say about customer
           service, but it's just a day-in, day-out, ongoing, never-ending,
           persevering, compassionate kind of activity.”
         </h2>
 
-        <h2 className="text-3xl text-gray-700  p-2 text-center">
+        <h2 className="text-2xl md:text-3xl text-gray-700  p-2 text-center">
           <Typical
             wrapper="b"
             //loop={Infinity}

@@ -7,7 +7,7 @@ import BannerImage from "../../images/DSC_5784.jpg";
 function AboutCard() {
   return (
     <div>
-      <div className=" scrollbar-hide mt-10 grid grid-cols-3 overflow-hidden rounded-lg bg-gray-50 shadow-sm">
+      <div className=" scrollbar-hide mt-10 grid grid-cols-1 md:grid-cols-3 overflow-hidden rounded-lg bg-gray-50 shadow-sm">
         <div className="">
           <h1 className="p-3 text-4xl text-gray-900 text-center">PROXIMA</h1>
           <p className="p-4">
@@ -35,8 +35,13 @@ function AboutCard() {
           <h6>Nairobi - Kenya</h6>
           <h6>(+254)793681840</h6>
         </div>
-        <div className="relative h-[400px] w-[400px] rounded-md">
-          <Image src={BannerImage} layout="fill" objectFit="cover" />
+        <div className="relative h-[400px] w-[450px] md:w-[400px] rounded-md items-center ml-4">
+          <Image
+            src={BannerImage}
+            layout="fill"
+            objectFit="cover"
+            className="rounded-md"
+          />
         </div>
       </div>
     </div>

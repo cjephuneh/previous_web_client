@@ -8,16 +8,21 @@ import BannerImage from "../../images/customers1.jpeg";
 function LearnMoreCard() {
   return (
     <div className="divide-y divide-black">
-      <div className="  overflow-hidden pt-8 shadow-sm py-6 ">
-        <video></video>
-      </div>
-      <div className=" scrollbar-hide grid grid-cols-2 overflow-hidden pt-8 shadow-sm py-6">
-        <div className="relative h-[400px] w-[600px] rounded-md cursor-pointer shadow-md">
-          <Image src={BannerImage} layout="fill" objectFit="cover" />
+      <div className="  overflow-hidden pt-8 shadow-sm py-6 "></div>
+      <div className=" scrollbar-hide grid grid-cols-1 md:grid-cols-2 overflow-hidden pt-8 shadow-sm py-6">
+        <div className="relative h-[400px] w-[450px] text-center ml-4 md:w-[500px] lg:w-[600px] rounded-md cursor-pointer shadow-md">
+          <Image
+            src={BannerImage}
+            layout="fill"
+            objectFit="cover"
+            className="rounded-md"
+          />
         </div>
         <div className="">
-          <h1 className="p-3 text-8xl text-gray-700">What we want ?</h1>
-          <p className="p-4 text-2xl">
+          <h1 className="p-3 text-5xl md:text-7xl lg:text-8xl text-gray-700">
+            What we want ?
+          </h1>
+          <p className="p-4 text-xl md:text-2xl">
             We aim to help organizatiosn buid better customer relations. this is
             mainly through interactions which is really best when it is
             personalized. Customer needs exceed the current quota of interaction

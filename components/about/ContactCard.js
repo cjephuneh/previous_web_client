@@ -18,7 +18,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              //href="/signin/"
+              href="/signin/"
             >
               <Image
                 src={WhatsAppLogo}
@@ -33,7 +33,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              //href="/signin/"
+              href="/signin/"
             >
               <Image
                 src={InstagramLogo}
@@ -48,7 +48,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              //href="/signin/"
+              href="/signin/"
             >
               <Image
                 src={facebookLogo}
@@ -63,7 +63,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              //href="/signin/"
+              href="/signin/"
             >
               <Image
                 src={TwitterLogo}
