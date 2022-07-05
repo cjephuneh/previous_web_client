@@ -33,7 +33,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              href="/signin/"
+              href="https://www.instagram.com/proxima_agents/"
             >
               <Image
                 src={InstagramLogo}
@@ -48,7 +48,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              href="/signin/"
+              href="https://www.facebook.com/Proxima-104109735661633"
             >
               <Image
                 src={facebookLogo}
@@ -63,7 +63,7 @@ function ContactCard() {
           <div className="relative h-20 w-20">
             <a
               className="no-underline border-b border-blue text-blue"
-              href="/signin/"
+              href="https://twitter.com/home"
             >
               <Image
                 src={TwitterLogo}
