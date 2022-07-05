@@ -21,7 +21,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           Cumulative Interaction Analysis
         </h3>
       </div>
@@ -34,7 +34,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           {" "}
           Hourly Engagement Status
         </h3>
@@ -48,7 +48,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           Communication Channels
         </h3>
       </div>
@@ -61,7 +61,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           Interaction Trend
         </h3>
       </div>
@@ -74,7 +74,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           Frequency of Engagement
         </h3>
       </div>
@@ -87,7 +87,7 @@ function AnalyticsInformation() {
             className="rounded-md"
           />
         </div>
-        <h3 className="text-center text-2xl mt-3 text-gray-900">
+        <h3 className="text-center md:text-left text-2xl mt-3 text-gray-900">
           Nature of Interaction
         </h3>
       </div>
