@@ -97,7 +97,7 @@ const GetStartedForm = (props) => {
                 Get Started
               </h1>
             </div>
-            <div className="m-7">
+            <div className="md:m-7">
               <form onSubmit={onSubmit}>
                 <div className="mb-6">
                   <label
@@ -116,6 +116,7 @@ const GetStartedForm = (props) => {
                     onChange={onChange}
                   />
                 </div>
+
                 <div className="mb-6">
                   <label
                     for="Location"
@@ -133,6 +134,7 @@ const GetStartedForm = (props) => {
                     onChange={onChange}
                   />
                 </div>
+
                 <div className="mb-6">
                   <label
                     for="phonenumber"
@@ -150,6 +152,7 @@ const GetStartedForm = (props) => {
                     onChange={onChange}
                   />
                 </div>
+
                 <div className="mb-6">
                   <label
                     for="country"
@@ -167,6 +170,7 @@ const GetStartedForm = (props) => {
                     onChange={onChange}
                   />
                 </div>
+
                 <div className="mb-6">
                   <label
                     for="description"
@@ -184,6 +188,7 @@ const GetStartedForm = (props) => {
                     onChange={onChange}
                   />
                 </div>
+
                 <div className="mb-6">
                   <button
                     type="button"
