@@ -3,7 +3,7 @@
 import React from "react";
 import BannerImage from "../../images/bannerimage.jpg";
 import Image from "next/image";
-import WhatsAppLogo from "../../images/whatsapplogo.jpeg";
+import LinkedInLogo from "../../images/linkedin.png";
 import InstagramLogo from "../../images/instagramlogo.jpeg";
 import facebookLogo from "../../images/facebook.jpeg";
 import TwitterLogo from "../../images/twitterlogo.png";
@@ -20,10 +20,10 @@ function ContactCard() {
             <a
               target="_blank"
               className="no-underline border-b border-blue text-blue"
-              href="/signin/"
+              href="https://www.linkedin.com/company/86344946/admin/"
             >
               <Image
-                src={WhatsAppLogo}
+                src={LinkedInLogo}
                 layout="fill"
                 objectFit="cover"
                 className="rounded-md"
