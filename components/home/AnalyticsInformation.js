@@ -13,7 +13,7 @@ function AnalyticsInformation() {
           <Image
             src={CumulativeAnalytics}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
@@ -26,7 +26,7 @@ function AnalyticsInformation() {
           <Image
             src={HourlyEngagement}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
@@ -40,7 +40,7 @@ function AnalyticsInformation() {
           <Image
             src={CommunicationChannels}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
@@ -53,7 +53,7 @@ function AnalyticsInformation() {
           <Image
             src={BannerImage}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
@@ -66,7 +66,7 @@ function AnalyticsInformation() {
           <Image
             src={BannerImage}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
@@ -79,7 +79,7 @@ function AnalyticsInformation() {
           <Image
             src={BannerImage}
             layout="fill"
-            objectFit="fill"
+            objectFit="cover"
             className="rounded-md"
           />
         </div>
