@@ -21,18 +21,18 @@ function Header() {
         </Link>
         <div className="hidden items-center space-x-5 md:inline-flex">
           <Link href="/getstarted">
-            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
+            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
               Get Started
             </a>
           </Link>
           <Link href="/learnmore">
-            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
+            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
               Learn More
             </a>
           </Link>
 
           <Link href="/about">
-            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
+            <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-gray-400 hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
               About
             </a>
           </Link>
