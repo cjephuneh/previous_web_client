@@ -7,18 +7,14 @@ function Calltoaction() {
   const [isOpened, setIsOpened] = useState(false);
   const [openContact, setopenContact] = useState(false);
 
-  function toggle() {
-    setIsOpened((isOpened) => !isOpened);
-  }
-
-  function toggleOpenContact() {
-    setopenContact((openContact) => !openContact);
-  }
   return (
     <div>
       {openContact && (
         <>
-          <span className="absolute pin-t pin-b pin-r p-4" onClick={toggle}>
+          <span
+            className="absolute pin-t pin-b pin-r p-4"
+            onClick={() => setIsOpened(!isOpened)}
+          >
             <svg
               className="h-12 w-12 fill-current text-grey hover:text-grey-darkest hover:animate-pulse"
               role="button"
@@ -35,7 +31,7 @@ function Calltoaction() {
         <>
           <span
             className="absolute pin-t pin-b pin-r p-4"
-            onClick={toggleOpenContact}
+            onClick={() => setopenContact(!openContact)}
           >
             <svg
               className="h-12 w-12 fill-current text-grey hover:text-grey-darkest hover:animate-pulse"
