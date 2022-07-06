@@ -23,14 +23,15 @@ function LearnMoreCard() {
             What we want ?
           </h1>
           <p className="p-4 text-xl md:text-2xl">
-            We aim to help organizatiosn buid better customer relations. this is
+            We aim to help organizatiosn buid better customer relations, this is
             mainly through interactions which is really best when it is
             personalized. Customer needs exceed the current quota of interaction
-            which organizations provide. This is mainly because of fewer agents.
-            a hybrid model is far much better though. Agents can do tideous
+            which organizations provide, this is mainly because of fewer agents.
+            A hybrid model is far much better though. Agents can do tideous
             tasks and be at the beck and call of every customer, ready to serve
-            their needs. That is what we aim to build for all businesses. That
-            is our goal and vision. It spans the whole organizatins objectives.
+            their needs. That is what we are building for all businesses |
+            brands | organizations | groups . That is our goal and vision. It
+            spans the whole organizatins objectives.
           </p>
         </div>
       </div>
