@@ -68,7 +68,7 @@ function ContactCard() {
             <a
               target="_blank"
               className="no-underline border-b border-blue text-blue"
-              href="https://twitter.com/home"
+              href="https://twitter.com/proxima_ke/"
             >
               <Image
                 src={TwitterLogo}
