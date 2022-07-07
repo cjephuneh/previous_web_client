@@ -111,7 +111,7 @@ const GetStartedForm = (props) => {
                     name="organization_name"
                     id="organization_name"
                     placeholder="Organization Name"
-                    className="py-2 p-2 border bg-gray-100 border-gray-400 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                    className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={organization_name}
                     onChange={onChange}
                   />
@@ -129,7 +129,7 @@ const GetStartedForm = (props) => {
                     name="location"
                     id="location"
                     placeholder="Location"
-                    className="py-2 p-2 border bg-gray-100 border-gray-400 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                    className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={location}
                     onChange={onChange}
                   />
@@ -147,7 +147,7 @@ const GetStartedForm = (props) => {
                     name="phonenumber"
                     id="phonenumber"
                     placeholder="Phonenumber"
-                    className="py-2 p-2 border bg-gray-100 border-gray-400 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                    className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={phonenumber}
                     onChange={onChange}
                   />
@@ -165,7 +165,7 @@ const GetStartedForm = (props) => {
                     name="country"
                     id="country"
                     placeholder="Country"
-                    className="py-2 p-2 border bg-gray-100 border-gray-400 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                    className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={country}
                     onChange={onChange}
                   />
@@ -183,7 +183,7 @@ const GetStartedForm = (props) => {
                     name="description"
                     id="description"
                     placeholder="Organization Description"
-                    className="py-2 p-2 border bg-gray-100 border-gray-400 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
+                    className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={description}
                     onChange={onChange}
                   />
