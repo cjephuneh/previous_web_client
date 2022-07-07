@@ -93,7 +93,7 @@ const GetStartedForm = (props) => {
         <div className="container md:mx-auto">
           <div className="md:max-w-md mx-auto my-10">
             <div className="text-center">
-              <h1 className="my-3 text-3xl font-semibold  dark:text-gray-200">
+              <h1 className="my-3 text-3xl font-semiboldtext-gray-900">
                 Get Started
               </h1>
             </div>
@@ -102,7 +102,7 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <label
                     for="organization_name"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                    className="block mb-2 text-sm text-gray-900 "
                   >
                     Organization Name
                   </label>
@@ -120,7 +120,7 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <label
                     for="Location"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                    className="block mb-2 text-sm text-gray-900"
                   >
                     Location
                   </label>
@@ -138,7 +138,7 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <label
                     for="phonenumber"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                    className="block mb-2 text-sm text-gray-900"
                   >
                     Phone Number
                   </label>
@@ -156,7 +156,7 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <label
                     for="country"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                    className="block mb-2 text-sm text-gray-900"
                   >
                     Country
                   </label>
@@ -174,7 +174,7 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <label
                     for="description"
-                    className="block mb-2 text-sm text-gray-600 dark:text-gray-400"
+                    className="block mb-2 text-sm text-gray-900"
                   >
                     Organization Descripton
                   </label>
