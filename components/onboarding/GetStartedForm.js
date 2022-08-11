@@ -100,12 +100,12 @@ const GetStartedForm = (props) => {
             <div className="md:m-7">
               <form onSubmit={onSubmit}>
                 <div className="mb-6">
-                  <label
+                  {/* <label
                     for="organization_name"
                     className="block mb-2 text-sm text-gray-900 "
                   >
                     Organization Name
-                  </label>
+                  </label> */}
                   <input
                     type="organization_name"
                     name="organization_name"
@@ -118,12 +118,12 @@ const GetStartedForm = (props) => {
                 </div>
 
                 <div className="mb-6">
-                  <label
+                  {/* <label
                     for="Location"
                     className="block mb-2 text-sm text-gray-900"
                   >
                     Location
-                  </label>
+                  </label> */}
                   <input
                     type="location"
                     name="location"
@@ -136,12 +136,12 @@ const GetStartedForm = (props) => {
                 </div>
 
                 <div className="mb-6">
-                  <label
+                  {/* <label
                     for="phonenumber"
                     className="block mb-2 text-sm text-gray-900"
                   >
                     Phone Number
-                  </label>
+                  </label> */}
                   <input
                     type="phonenumber"
                     name="phonenumber"
@@ -154,12 +154,12 @@ const GetStartedForm = (props) => {
                 </div>
 
                 <div className="mb-6">
-                  <label
+                  {/* <label
                     for="country"
                     className="block mb-2 text-sm text-gray-900"
                   >
                     Country
-                  </label>
+                  </label> */}
                   <input
                     type="country"
                     name="country"
@@ -172,17 +172,17 @@ const GetStartedForm = (props) => {
                 </div>
 
                 <div className="mb-6">
-                  <label
+                  {/* <label
                     for="description"
                     className="block mb-2 text-sm text-gray-900"
                   >
-                    Organization Descripton
-                  </label>
+                    Brief Descripton
+                  </label> */}
                   <textarea
                     type="description"
                     name="description"
                     id="description"
-                    placeholder="Organization Description"
+                    placeholder="Brief Description"
                     className="py-2 p-2 border bg-gray-100 border-gray-600 rounded-lg mt-1 w-full focus:outline-none focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     value={description}
                     onChange={onChange}
@@ -192,10 +192,10 @@ const GetStartedForm = (props) => {
                 <div className="mb-6">
                   <button
                     type="button"
-                    className="w-full px-3 py-4 text-white bg-blue-900 rounded-lg focus:bg-indigo-600 focus:outline-none"
+                    className="w-full px-3 py-4 text-white bg-black hover:bg-white hover:text-black hover:border-2 hover:border-black hover:animate-pulse rounded-lg focus:bg-indigo-600 focus:outline-none"
                     onClick={onSubmit}
                   >
-                    GetStarted
+                    Submit
                   </button>
                 </div>
               </form>

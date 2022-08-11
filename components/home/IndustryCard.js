@@ -27,7 +27,7 @@ function IndustryCard() {
             </p>
           </div>
           <div className="  w-[250px] h-[80px] shadow-lg rounded-md">
-            <p className="p-2">Above all, inclusivity in diversity.</p>
+            <p className="p-2">Above all, inclusivity of all diverse groups.</p>
           </div>
         </div>
       </div>

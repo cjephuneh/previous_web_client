@@ -16,14 +16,14 @@ function ChatbotBanner() {
       </div>
       <div className="">
         <h1 className="p-2 text-3xl md:p-3 md:text-4xl text-gray-700">
-          Virtual Agents
+          How they work ?
         </h1>
         <p className="p-4 text-xl  md:text-2xl">
-          Every agent is basically built to suit the needs of a specific group
+          Every virtual agent is basically built to suit the needs of a specific group
           of customers based on the history of their interaction with the parent
           organizations or groups (But not limited to). Conversation experts
           work around streamlining objectives to facilitate conversations that
-          are dynamic in regard to responses given by our agents. Two different
+          are dynamic in regard to responses given by virtual agents. Two different
           people could receive different responses to the same query but all
           within context.
         </p>

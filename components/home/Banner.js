@@ -36,19 +36,19 @@ function Banner() {
         </div>
       )}
       <div className="flex flex-col p-2 md:flex-row md:justify-between md:p-4">
+        
         <div className="max-w-7xl space-y-5 px-10 text-center">
-          <h1 className="max-w-xl text-3xl font-serif p-2 md:text-5xl  md:p-3 lg:text-6xl lg:p-4">
+          <h1 className="max-w-7xl text-3xl font-serif p-2 md:text-5xl  md:p-3 lg:text-6xl lg:p-4">
             <span className="underline decoration-black decoration-4">
-              Proxima Improve's Organizational | Brand | Group's Customer
-              Interaction{" "}
+              Connecting Organizations | Brands | Groups to their Customers Through
+              Interaction{" "} & Inclusivity
             </span>
-            in every possible aspect.
           </h1>
         </div>
-        <div className="flex flex-row">
-          <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
+        <div className="">
+          {/* <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
             <Image src={KoseSymbol} layout="fill" objectFit="cover" />
-          </div>
+          </div> */}
           <a
             className="no-underline border-b border-blue text-blue"
             href="/getstarted"
@@ -57,28 +57,10 @@ function Banner() {
               Get Started
             </button>
           </a>
-          {/*
-          
-               <div className="border-2 border-black h-14 rounded-sm shadow-md  m-6 mt-2">
-            <SearchIcon
-              className=" h-12 bg-white text-black rounded-full p-2 cursor-pointer "
-              onClick={toggle}
-            />
-          </div>
-          
-          */}
+        
         </div>
       </div>
-      {/* 
-      <div className="relative h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[700px] ">
-        <Image
-          src={BannerImage}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-md shadow-lg"
-        />
-      </div>
-*/}
+     
       <div className="p-4 md:hidden">
         <ReactPlayer
           url="https://youtu.be/5lXbzzKvA8U"
@@ -91,7 +73,7 @@ function Banner() {
         <ReactPlayer
           url="https://youtu.be/5lXbzzKvA8U"
           width="1280"
-          height="600px"
+          height="800px"
           controls={true}
         />
       </div>
