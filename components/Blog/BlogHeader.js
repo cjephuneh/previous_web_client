@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import Footer from "../components/home/Footer";
-import Header from "../components/ui/Header";
-import Head from "next/head";
 import Image from "next/image";
 
 
