@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Footer from "../components/home/Footer";
-import BlogsCard from "../components/Blogs/LearnMoreCard";
-import Header from "../components/ui/Header";
+;
 import Head from "next/head";
+import Header from "../components/ui/Header";
 import BlogHeader from "../components/Blog/BlogHeader";
-import BlogBody from "../components/Blog/BlogBody";
 import BlogFooter from "../components/Blog/BlogFooter";
+import BlogBody from "../components/Blog/BlogBody";
+
 
 function BlogContent() {
 
