@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import FirstImage from '../../images/customers1.jpeg'
+
+
 function BlogBody({key, title,FirstImage,firstparagraph,SecondImage,secondparagraph,ThirdImage,thirdparagraph,FourthImage,fourthparagraph }) {
 
   
