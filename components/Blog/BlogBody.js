@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import FirstImage from '../../images/customers1.jpeg'
-function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,ThirdImage,thirdparagraph,FourthImage,fourthparagraph }) {
+function BlogBody({key, title,FirstImage,firstparagraph,SecondImage,secondparagraph,ThirdImage,thirdparagraph,FourthImage,fourthparagraph }) {
 
   
   return (
