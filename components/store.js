@@ -12,10 +12,13 @@ import {
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import MessagesReducer from "../redux/messageslice";
+import BlogsReducer from "../redux/blogSlice";
 
 //Combining the reducers
 const rootReducer = combineReducers({
   messages: MessagesReducer,
+  blogs: BlogsReducer,
+
 });
 // persist config obj
 // blacklist a store attribute using it's reducer name. Blacklisted attributes will not persist. (I did not find a way to blacklist specific values)

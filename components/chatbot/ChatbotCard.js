@@ -5,6 +5,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { selectMessages, setMessages } from "../../redux/messageslice";
 import { useDispatch, useSelector } from "react-redux";
+import PendoImage from '../../images/p agent v1 (1).png'
 
 function ChatbotCard() {
   const messages = useSelector(selectMessages);
@@ -51,14 +52,14 @@ function ChatbotCard() {
                 </svg>
               </span>
               <img
-                src="https://images.unsplash.com/photo-1549078642-b2ba4bda0cdb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"
+                src={"https://images.unsplash.com/photo-1549078642-b2ba4bda0cdb?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=3&amp;w=144&amp;h=144"}
                 alt=""
                 className="w-8 h-8 rounded-full"
               />
             </div>
             <div className="sleading-tight">
               <div className="text-lg">
-                <span className="text-gray-700 mr-3">Centauri</span>
+                <span className="text-gray-700 mr-3">Pendo</span>
               </div>
             </div>
           </div>
@@ -72,7 +73,7 @@ function ChatbotCard() {
               <div className="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-2 items-start">
                 <div>
                   <span className="px-4 py-2 rounded-lg inline-block rounded-bl-none  text-gray-800 bg-white">
-                    Can be verified on any platform using docker
+                    {messages}
                   </span>
                 </div>
               </div>
@@ -89,8 +90,7 @@ function ChatbotCard() {
               <div className="flex flex-col space-y-2 text-xs max-w-xs mx-2 order-1 items-end">
                 <div>
                   <span className="px-4 py-2 rounded-lg inline-block rounded-br-none bg-blue-600 text-white ">
-                    yes, I have a mac. I never had issues with root permission
-                    as well, but this helped me to solve the problem
+                    {messages}
                   </span>
                 </div>
               </div>

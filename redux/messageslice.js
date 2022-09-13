@@ -17,6 +17,6 @@ export const messagingSlice = createSlice({
 export const { setMessages } = messagingSlice.actions;
 
 //Selectors for grabbing information fom the data layer
-export const selectMessages = (state) => state.auth.messages;
+export const selectMessages = (state) => state.messages.messages;
 
 export default messagingSlice.reducer;

@@ -44,5 +44,6 @@
   },
   "main": "index.js",
   "author": "Beckham 45 <o.becks45@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/Proximaagent/frontendconsumer.git"
 }
