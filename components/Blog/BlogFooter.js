@@ -16,6 +16,7 @@ function BlogFooter({AuthorImage,authorname,background }) {
           <Image
             src={AuthorImage}
             layout="fill"
+            alt=""
             objectFit="cover"
             className="rounded-md"
           />

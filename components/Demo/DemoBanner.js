@@ -17,6 +17,7 @@ function DemoBanner() {
           <Image
             src={StudentsImage}
             layout="fill"
+            alt=""
             objectFit="cover"
             className="rounded-md"
           />
@@ -45,6 +46,7 @@ function DemoBanner() {
 <div className="scale-105 transform flex-col transition duration-300 ease-out hover:scale-110 relative h-[160px] w-[160px] text-center ml-4 rounded-md cursor-pointer shadow-md">
           <Image
             src={PendoImage}
+            alt=""
             layout="fill"
             objectFit="cover"
             className="rounded-md"

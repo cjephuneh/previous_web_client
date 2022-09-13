@@ -17,6 +17,7 @@ function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,T
         <div className="relative h-[300px] w-[350px] sm:w-[450px] text-center ml-4 md:w-[500px] lg:w-[600px] rounded-md cursor-pointer shadow-md">
           <Image
             src={FirstImage}
+            alt=""
             layout="fill"
             objectFit="cover"
             className="rounded-md"
@@ -35,6 +36,7 @@ function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,T
           <Image
             src={SecondImage}
             layout="fill"
+            alt=""
             objectFit="cover"
             className="rounded-md"
           />
@@ -48,6 +50,7 @@ function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,T
           <Image
             src={ThirdImage}
             layout="fill"
+            alt=""
             objectFit="cover"
             className="rounded-md"
           />
@@ -67,6 +70,7 @@ function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,T
             src={FourthImage}
             layout="fill"
             objectFit="cover"
+            alt=""
             className="rounded-md"
           />
         </div>

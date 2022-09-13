@@ -19,6 +19,7 @@ function BlogHeader({title,headerImage, subtitle }) {
           <Image
             src= {headerImage}
             layout="fill"
+            alt=""
             objectFit="cover"
             className="rounded-md"
           />
