@@ -33,33 +33,33 @@ function BlogContent() {
             </div> */}
             <div className="py-8">
 
-            {blogs?.map( (blog) => (
+            {/* {blogs?.map( (blog) => ( */}
        <BlogBody 
-       key={blog.id}
-       title={blog.title}
-       FirstImage={blog.FirstImage}
-       firstparagraph={blog.firstparagraph}
-       SecondImage={blog.SecondImage}
-       secondparagraph={blog.secondparagraph}
-       ThirdImage={blog.ThirdImage} 
-       thirdparagraph={blog.thirdparagraph}
-       FourthImage={blog.FourthImage}
-       fourthparagraph={blog.fourthparagraph} />
+       key={blogs.id}
+       title={blogs.title}
+       FirstImage={blogs.FirstImage}
+       firstparagraph={blogs.firstparagraph}
+       SecondImage={blogs.SecondImage}
+       secondparagraph={blogs.secondparagraph}
+       ThirdImage={blogs.ThirdImage} 
+       thirdparagraph={blogs.thirdparagraph}
+       FourthImage={blogs.FourthImage}
+       fourthparagraph={blogs.fourthparagraph} />
 
-        ))}
+        {/* ))} */}
         
                 
             </div>
             <div className="py-4">
 
-            {blogs?.map( (blog) => (
+            {/* {blogs?.map( (blog) => ( */}
        <BlogFooter 
-       AuthorImage={blog.AuthorImage}
-       authorname={blog.authorname}
-       background={blog.background}
+       AuthorImage={blogs.AuthorImage}
+       authorname={blogs.authorname}
+       background={blogs.background}
  />
 
-        ))}
+        {/* ))} */}
 
             </div>
         </section>
