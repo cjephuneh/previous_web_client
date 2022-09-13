@@ -34,6 +34,7 @@ function BlogContent() {
 
             {blogs?.map( (blog) => (
        <BlogBody 
+       key={blod.id}
        title={blog.title}
        FirstImage={blog.FirstImage}
        firstparagraph={blog.firstparagraph}
