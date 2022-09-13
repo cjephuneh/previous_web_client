@@ -17,6 +17,7 @@ function BlogContent() {
 
   
   return (
+    <>
     <div className="bg-gray-50">
       <Head>
         <title>Blog | Proxima</title>
@@ -67,6 +68,7 @@ function BlogContent() {
         </section>
       </main>
     </div>
+    </>
   );
 }
 
