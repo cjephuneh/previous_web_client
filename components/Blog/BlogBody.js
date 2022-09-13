@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from 'react'
 import Image from "next/image";
 
-
-function BlogBody({key, title,FirstImage,firstparagraph,SecondImage,secondparagraph,ThirdImage,thirdparagraph,FourthImage,fourthparagraph }) {
-
-  
+function BlogBody({title,FirstImage,firstparagraph,SecondImage,secondparagraph,ThirdImage,thirdparagraph,FourthImage,fourthparagraph }) {
   return (
     <div className="bg-gray-50">
      
@@ -83,7 +80,7 @@ function BlogBody({key, title,FirstImage,firstparagraph,SecondImage,secondparagr
         
       </main>
     </div>
-  );
+      )
 }
 
-export default BlogBody;
+export default BlogBody
