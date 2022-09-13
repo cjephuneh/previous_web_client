@@ -14,11 +14,11 @@ function Footer() {
       <div className="flex flex-column items-center justify-between py-6">
         <div>
         <div className="hidden items-center space-x-5 md:inline-flex">
-            <Link href="/getstarted">
+            {/* <Link href="/getstarted">
             <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2  duration-200 bg-black text-white hover:shadow-md lg:inline-flex lg:w-auto">
                 Get Started
               </a>
-            </Link>
+            </Link> */}
             <Link href="/internship">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2  duration-200 bg-black text-white hover:shadow-md lg:inline-flex lg:w-auto">
               Internship
@@ -35,7 +35,7 @@ function Footer() {
               </a>
             </Link>
             </div>
-          <p className="text-xl">©2022 Proxima Software</p>
+          <p className="text-xl pt-2">©2022 Proxima Software</p>
           <p className="text-xl">All rights reserved.</p>
          
 
