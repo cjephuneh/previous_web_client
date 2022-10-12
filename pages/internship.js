@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "../components/ui/Header";
 import Footer from "../components/home/Footer";
+import InternShipForm from "../components/Internship/InternshipForm";
 
 
 function internship() {
@@ -14,6 +15,7 @@ function internship() {
     </Head>
     <Header />
     <section>
+      <InternShipForm />
           <Footer />
         </section>
       </div>

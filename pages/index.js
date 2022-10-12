@@ -17,6 +17,7 @@ import styles from "../styles/Home.module.css";
 import { ChatIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import IndustryCard from "../components/home/IndustryCard";
+import FreeTrial from "../components/Trial/FreeTrial";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
@@ -48,6 +49,9 @@ export default function Home() {
       )}
 */}
       <main className="max-w-7xl mx-auto divide-y divide-black">
+      <section className="py-6">
+          <FreeTrial />
+        </section>
         <section className="py-6">
           <Banner />
         </section>
