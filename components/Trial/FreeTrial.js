@@ -21,7 +21,7 @@ function FreeTrial() {
           <div className="pt-4 text-center">
           <Link href="/freetrial">
               <a 
-            className="no-underline border-b border-blue text-blue animate-bounce">
+            className="no-underline border-b border-blue text-blue animate-pulse">
             <button className="animate-bounce animate-pulse text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52">
              Enroll Free Trial !!
             </button>             
