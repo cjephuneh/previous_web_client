@@ -5,6 +5,9 @@ module.exports = {
       // your project has ESLint errors.
       ignoreDuringBuilds: true,
     },
+    images: {
+      domains: ["https://murmuring-spire-64412.herokuapp.com"],
+    },
     rules: [
       {
         test: /\.(png|jpe?g|gif)$/i,
@@ -21,3 +24,4 @@ module.exports = {
     ],
   },
 };
+

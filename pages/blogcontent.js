@@ -10,7 +10,7 @@ import Head from "next/head";
 import { selectBlogInformation } from "../redux/blogSlice";
 
 
-
+// 
 function BlogContent() { 
 
   const blogs = useSelector(selectBlogInformation);
@@ -54,9 +54,9 @@ function BlogContent() {
 
             {/* {blogs?.map( (blog) => ( */}
        <BlogFooter 
-       AuthorImage={blogs.AuthorImage}
-       authorname={blogs.authorname}
-       background={blogs.background}
+       AuthorImage={blogs?.AuthorImage}
+       authorname={blogs?.authorname}
+       background={blogs?.background}
  />
 
         {/* ))} */}
