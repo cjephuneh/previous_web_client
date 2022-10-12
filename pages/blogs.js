@@ -13,7 +13,7 @@ function Blogs() {
     //Medicine Categories
     const getBlogData = async () => {
       const { blogInformation } = axios
-        .get(`/blog/blogdata/`)
+        .get("https://murmuring-spire-64412.herokuapp.com/api/blogs/")
         .then((response) => {
           console.log(response.data);
           // dispatch(

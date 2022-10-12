@@ -46,7 +46,7 @@ const FreeTrialForm = (props) => {
 
     await axios({
       method: "post",
-      url: "https://murmuring-spire-64412.herokuapp.com/api/onboarding/freetrial",
+      url: "http://murmuring-spire-64412.herokuapp.com/api/freetrial/",
       data: formField,
     })
       .then((response) => {
