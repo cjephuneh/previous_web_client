@@ -8,6 +8,7 @@ function Blogs() {
   // Pulling the blogs from the backend server
   // const blogs = []
   const [blogData, setblogData] = useState([]);
+  console.log(blogData, "#################")
 
 
     //Medicine Categories

@@ -11,7 +11,7 @@ import { selectBlogInformation } from "../redux/blogSlice";
 
 
 
-function BlogContent() {
+function BlogContent() { 
 
   const blogs = useSelector(selectBlogInformation);
 
@@ -35,16 +35,16 @@ function BlogContent() {
 
             {/* {blogs?.map( (blog) => ( */}
        <BlogBody 
-       key={blogs.id}
-       title={blogs.title}
-       FirstImage={blogs.FirstImage}
-       firstparagraph={blogs.firstparagraph}
-       SecondImage={blogs.SecondImage}
-       secondparagraph={blogs.secondparagraph}
-       ThirdImage={blogs.ThirdImage} 
-       thirdparagraph={blogs.thirdparagraph}
-       FourthImage={blogs.FourthImage}
-       fourthparagraph={blogs.fourthparagraph} />
+       key={blogs?.id}
+       title={blogs?.title}
+       FirstImage={blogs?.FirstImage}
+       firstparagraph={blogs?.firstparagraph}
+       SecondImage={blogs?.SecondImage}
+       secondparagraph={blogs?.secondparagraph}
+       ThirdImage={blogs?.ThirdImage} 
+       thirdparagraph={blogs?.thirdparagraph}
+       FourthImage={blogs?.FourthImage}
+       fourthparagraph={blogs?.fourthparagraph} />
 
         {/* ))} */}
         
