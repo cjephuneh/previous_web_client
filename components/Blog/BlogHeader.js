@@ -22,6 +22,7 @@ function BlogHeader({title,headerImage, subtitle }) {
             alt=""
             objectFit="cover"
             className="rounded-md"
+            onClick={() => router.push()}
           />
             <h1 className="text-center absolute bottom-3 right-3 p-1 text-white animate-pulse hover:scale-105 hover">
             {subtitle}

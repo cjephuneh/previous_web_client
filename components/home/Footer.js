@@ -24,11 +24,11 @@ function Footer() {
               Internship
               </a>
             </Link>
-            <Link href="/investment">
+            {/* <Link href="/investment">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2  duration-200 bg-black text-white hover:shadow-md lg:inline-flex lg:w-auto">
               Invest
               </a>
-            </Link>
+            </Link> */}
             <Link href="/blogs">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2  duration-200 bg-black text-white hover:shadow-md lg:inline-flex lg:w-auto">
               Blogs 
