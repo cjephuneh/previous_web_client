@@ -169,7 +169,7 @@ const FreeTrialForm = (props) => {
                     value={country}
                     onChange={onChange}
                   />
-                </div>
+                </div> 
 
                 <div className="mb-6">
                   {/* <label
@@ -187,6 +187,33 @@ const FreeTrialForm = (props) => {
                     value={description}
                     onChange={onChange}
                   />
+                </div>
+
+                {/* Area For a quick text and link to use when filling out the form. */}
+                <div className="mb-6">
+                  {/* <label
+                    for="description"
+                    className="block mb-2 text-sm text-gray-900"
+                  >
+                    Brief Descripton
+                  </label> */}
+                  <h2 className="text-lg text-gray-600 pb-3">*Check list</h2>
+                  <p className="text-gray-500 text-sm">Kindly fll out the Google form below then come back and hit submit for a smoother experience. </p>
+                  <div className="cursor-pointer hover:scale-105 transform transition duration-300 ease-out p-4">
+          <div className="relative">
+            <a
+              target="_blank"
+              className="no-underline border-b border-blue text-blue"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd3zk5zw_NJGErJ-fWNq0upfYDR6iKV5EOnFQojSk7RofWq-g/viewform"
+            >
+              <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-12 border-2 border-black w-30">
+              Quick survey
+            </button>
+
+            </a>
+          </div>
+        </div>
+             
                 </div>
 
                 <div className="mb-6">
