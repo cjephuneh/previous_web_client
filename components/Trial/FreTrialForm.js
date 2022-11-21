@@ -9,8 +9,7 @@ import Typical from "react-typical";
 
 const FreeTrialForm = (props) => {
   const router = useRouter();
-  //const { isLoggedIn } = useSelector((state) => state.auth);
-  //const { message } = useSelector((state) => state.message);
+
 
   const [formData, setFormData] = useState({
     organization_name: "",
@@ -203,6 +202,7 @@ const FreeTrialForm = (props) => {
           <div className="relative">
             <a
               target="_blank"
+              rel="noopener"
               className="no-underline border-b border-blue text-blue"
               href="https://docs.google.com/forms/d/e/1FAIpQLSd3zk5zw_NJGErJ-fWNq0upfYDR6iKV5EOnFQojSk7RofWq-g/viewform"
             >
