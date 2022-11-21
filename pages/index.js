@@ -18,6 +18,7 @@ import { ChatIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 import IndustryCard from "../components/home/IndustryCard";
 import FreeTrial from "../components/Trial/FreeTrial";
+import JoindedOrganizations from "../components/home/patners/JoindedOrganizations";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
@@ -34,7 +35,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      {/* 
+      
       <div className="fixed bottom-0 right-0 hover:animate-pulse">
         <ChatIcon
           className="h-16 bg-white text-gray-500 rounded-full p-2 cursor-pointer "
@@ -47,11 +48,11 @@ export default function Home() {
           <ChatbotCard />
         </section>
       )}
-*/}
+
       <main className="max-w-7xl mx-auto divide-y divide-black">
-      <section className="py-6">
+      {/* <section className="py-6">
           <FreeTrial />
-        </section>
+        </section> */}
         <section className="py-6">
           <Banner />
         </section>
@@ -62,14 +63,17 @@ export default function Home() {
           <ChatbotBanner />
         </section>
         <section className="py-6">
-          <IndustryCard />
+          <JoindedOrganizations />
         </section>
         <section className="py-6">
+          <IndustryCard />
+        </section>
+        {/* <section className="py-6">
           <AnalyticsTopic />
         </section>
         <section className="py-6">
           <AnalyticsInformation />
-        </section>
+        </section> */}
         <section className="py-6">
           <AboutSlotIntent />
         </section>

@@ -62,20 +62,14 @@ function Banner() {
       </div>
      
       <div className="p-4 md:hidden">
-        <ReactPlayer
-          url="https://youtu.be/5lXbzzKvA8U"
-          width="350px"
-          height="400px"
-          controls={true}
-        />
+          <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
+            <Image src={KoseSymbol} layout="fill" objectFit="cover" />
+          </div>
       </div>
-      <div className="p-4 hidden md:block">
-        <ReactPlayer
-          url="https://youtu.be/5lXbzzKvA8U"
-          width="1280"
-          height="800px"
-          controls={true}
-        />
+      <div className="p-4 md:hidden">
+          <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
+            <Image src={KoseSymbol} layout="fill" objectFit="cover" />
+          </div>
       </div>
     </div>
   );

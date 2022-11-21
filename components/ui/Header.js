@@ -51,6 +51,11 @@ function Header() {
                 About
               </a>
             </Link>
+            <Link href="/analytics/demo">
+              <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
+                Analytics/Demo
+              </a>
+            </Link>
           </div>
 
           <div className="sm:hidden relative">
