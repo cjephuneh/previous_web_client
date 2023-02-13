@@ -2,8 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import KoseSymbol from "../../images/kosselogo.png";
 import Calltoaction from "./Calltoaction";
+import ProximaAiLogo from '../../images/proximasvglogo.svg'
 
 function Footer() {
   return (
@@ -35,18 +35,20 @@ function Footer() {
               </a>
             </Link>
             </div>
-          <p className="text-xl pt-2">©2022 Proxima Software</p>
+          <p className="text-xl pt-2">©2023 Proxima Software</p>
           <p className="text-xl">All rights reserved.</p>
          
 
         </div>
-        <div className="relative h-[100px] w-[200px] rounded-md">
-          <Image
-            src={KoseSymbol}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-md"
-          />
+        <div className="relative h-[40px] w-[200px] rounded-md">
+
+        <Image
+          priority
+          src={ProximaAiLogo}
+          height={40}
+          width={200}
+          alt="Follow us on Twitter"
+        />
         </div>
       </div>
     </div>

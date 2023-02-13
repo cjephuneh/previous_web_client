@@ -16,6 +16,7 @@
     "@heroicons/react": "^1.0.6",
     "@react-three/fiber": "^8.0.16",
     "@reduxjs/toolkit": "^1.8.1",
+    "@svgr/webpack": "^6.5.1",
     "axios": "^0.27.2",
     "chart.js": "^4.0.1",
     "css-loader": "^6.7.1",

@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import PendoImage from '../../images/p agent v1 (1).png'
+import Image from "next/image";
 
 function IndustryCard() {
   return (
-    <div className="divide-y divide-gray-400">
+    <div className="">
       <div className=" py-8 w-3/4 ">
         <h1 className="font-serif text-4xl md:text-6xl p-4">
           Building for all{" "}
@@ -11,6 +13,20 @@ function IndustryCard() {
             Industries
           </span>
         </h1>
+      </div>
+      <div className="flex flex-row space-x-6 justify-center">
+      <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
+            <Image src={PendoImage} layout="fill" objectFit="cover" />
+      </div>
+      <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
+            <Image src={PendoImage} layout="fill" objectFit="cover" />
+      </div>
+      <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
+            <Image src={PendoImage} layout="fill" objectFit="cover" />
+      </div>
+      <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
+            <Image src={PendoImage} layout="fill" objectFit="cover" />
+      </div>
       </div>
       <div className=" py-8">
         <h1 className="font-serif text-4xl md:text-6xl p-4">Diversity</h1>

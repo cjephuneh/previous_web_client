@@ -7,6 +7,7 @@ import Header from "../components/ui/Header";
 import { ChatIcon } from "@heroicons/react/solid";
 import ChatbotCard from "../components/chatbot/ChatbotCard";
 import Head from "next/head";
+import LearnMoreCard from "../components/learnmore/LearnMoreCard";
 
 function about() {
   const [isOpened, setIsOpened] = useState(false);
@@ -38,6 +39,9 @@ function about() {
       <main className="max-w-7xl mx-auto divide-y divide-black">
         <section className="py-6">
           <AboutCard />
+        </section>
+        <section>
+          <LearnMoreCard />
         </section>
         <section className="py-6">
           <ContactCard />

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import ChatbotCard from "../components/chatbot/ChatbotCard";
 import AboutSlotIntent from "../components/home/AboutSlotIntent";
-import AbutChatbot from "../components/home/AboutChatbot";
+import ProductIntro from "../components/home/ProductIntro";
 import AnalyticsInformation from "../components/home/AnalyticsInformation";
 import AnalyticsTopic from "../components/home/AnalyticsTopic";
 import Banner from "../components/home/Banner";
@@ -19,6 +19,12 @@ import { useState } from "react";
 import IndustryCard from "../components/home/IndustryCard";
 import FreeTrial from "../components/Trial/FreeTrial";
 import JoindedOrganizations from "../components/home/patners/JoindedOrganizations";
+import Virtualagentcard from "../components/products/Virtualagentcard";
+import Descriptiveanalytics from "../components/products/Descriptiveanalytics";
+import Predictiveanalytics from "../components/products/Predictiveanalytics";
+import Searchengine from "../components/products/Searchengine";
+import CustomerFeedbackEngine from "../components/products/CustomerFeedbackEngine";
+import Modelscard from "../components/home/Modelscard";
 
 export default function Home() {
   const [isOpened, setIsOpened] = useState(false);
@@ -49,7 +55,7 @@ export default function Home() {
         </section>
       )}
 
-      <main className="max-w-7xl mx-auto divide-y divide-black">
+      <main className=" divide-y divide-black">
       {/* <section className="py-6">
           <FreeTrial />
         </section> */}
@@ -57,14 +63,33 @@ export default function Home() {
           <Banner />
         </section>
         <section className="py-6">
-          <AbutChatbot />
+          <ProductIntro />
         </section>
         <section className="py-6">
+          <Modelscard /> 
+        </section>
+        {/* Products section */}
+        <section className="py-6">
+          <Virtualagentcard /> 
+        </section>
+        <section className="py-6">
+          <Descriptiveanalytics /> 
+        </section>
+        <section className="py-6">
+          <Predictiveanalytics />  
+        </section>
+        <section className="py-6">
+          <Searchengine />  
+        </section>
+        <section className="py-6">
+          <CustomerFeedbackEngine />  
+        </section>
+        {/* <section className="py-6">
           <ChatbotBanner />
-        </section>
-        <section className="py-6">
+        </section> */}
+        {/* <section className="py-6">
           <JoindedOrganizations />
-        </section>
+        </section> */}
         <section className="py-6">
           <IndustryCard />
         </section>
@@ -74,9 +99,9 @@ export default function Home() {
         <section className="py-6">
           <AnalyticsInformation />
         </section> */}
-        <section className="py-6">
+        {/* <section className="py-6">
           <AboutSlotIntent />
-        </section>
+        </section> */}
         <section className="py-6">
           <Settingup />
         </section>

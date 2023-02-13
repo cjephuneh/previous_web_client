@@ -9,7 +9,7 @@ import { SearchIcon } from "@heroicons/react/solid";
 import SearchModal from "./Modal/SearchModal";
 import KoseSymbol from "../../images/kossesymbol.jpg";
 import ReactPlayer from "react-player";
-
+import ModelBannerImage1 from '../../images/model1bannerimage.jpg'
 function Banner() {
   const [isOpened, setIsOpened] = useState(false);
 
@@ -35,31 +35,68 @@ function Banner() {
           <SearchModal />
         </div>
       )}
-      <div className="flex flex-col p-2 md:flex-row md:justify-between md:p-4">
-        
-        <div className="max-w-7xl space-y-5 px-10 text-center">
-          <h1 className="max-w-7xl text-3xl font-serif p-2 md:text-5xl  md:p-3 lg:text-6xl lg:p-4">
+      <div className="relative  w-[100%] rounded-lg">
+      <Image
+        src={ModelBannerImage1}
+         objectFit="cover"
+         layout="responsive"
+        className="rounded-md"
+        />
+{/* Top comment */}
+      <div className="absolute flex flex-col p-2 md:p-4 top-0 space-x-2 left-0 max-w-3xl">
+          <h1 className="text-xl font-serif p-2 md:text-xl text-black md:p-3 lg:text-4xl lg:p-4">
             <span className="underline decoration-black decoration-4">
               Connecting Organizations | Brands | Groups to their Customers Through
               Interaction{" "} & Inclusivity
             </span>
           </h1>
         </div>
-        <div className="">
+        {/*  */}
+      <div className="absolute flex flex-col p-2 md:p-4 bottom-24 space-x-2 right-0 max-w-3xl">
+        
+        <div className=" space-y-5 px-10 text-center">
+          <h1 className="text-xl font-serif p-2 md:text-xl text-black md:p-3 lg:text-4xl lg:p-4">
+            <span className="underline decoration-black decoration-4">
+              Connecting Organizations | Brands | Groups to their Customers Through
+              Interaction{" "} & Inclusivity
+            </span>
+          </h1>
+        </div>
+        <div className="flex flex-row justify-center">
           {/* <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">
             <Image src={KoseSymbol} layout="fill" objectFit="cover" />
           </div> */}
           <a
-            className="no-underline border-b border-blue text-blue"
+            className="no-underline border-b border-blue text-blue mx-auto"
             href="/getstarted"
           >
-            <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52">
+            <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52 ">
               Get Started
+            </button>
+          </a>
+          <a
+            className="no-underline border-b border-blue text-blue mx-auto"
+            href="/getstarted"
+          >
+            <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52 ">
+              Products
+            </button>
+          </a>
+          <a
+            className="no-underline border-b border-blue text-blue mx-auto"
+            href="/getstarted"
+          >
+            <button className=" text-black p-4 rounded-md m-2  md:m-6 md:mt-2 hover:animate-pulse md:h-16 border-2 border-black w-52 ">
+              Products
             </button>
           </a>
         
         </div>
       </div>
+
+
+      </div>
+
      
       <div className="p-4 md:hidden">
           <div className="relative h-[70px] w-[150px] md:h-[100px] md:w-[200px] rounded-md">

@@ -6,7 +6,8 @@ import KosseLogo from "../../images/kosselogo.png";
 import Image from "next/image";
 import { useState } from "react";
 import menuIcon from "../../images/menuicon.png";
-
+import { ProximaLogo } from "../utils/Logo";
+import ProximaAiLogo from '../../images/proximasvglogo.svg'
 function Header() {
   const [showMenu, setShowmenu] = useState(false);
   return (
@@ -14,11 +15,13 @@ function Header() {
       <div className="mx-auto flex items-center space-x-5">
         <Link href="/">
           <div className="relative h-[40px] w-[200px] rounded-md">
+
             <Image
-              src={KosseLogo}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-md"
+              priority
+              src={ProximaAiLogo}
+              height={40}
+              width={200}
+              alt="Follow us on Twitter"
             />
           </div>
         </Link>
@@ -30,14 +33,14 @@ function Header() {
                 Get Started
               </a>
             </Link>
-            <Link href="/learnmore">
+            {/* <Link href="/learnmore">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
                 Learn More
               </a>
-            </Link>
-            <Link href="/blogs">
+            </Link> */}
+            <Link href="/research">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
-                Blogs
+                Research
               </a>
             </Link>
             <Link href="/demo">
@@ -46,14 +49,14 @@ function Header() {
               </a>
             </Link>
 
+            <Link href="/pricing">
+              <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
+                Pricing
+              </a>
+            </Link>
             <Link href="/about">
               <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
                 About
-              </a>
-            </Link>
-            <Link href="/analytics/demo">
-              <a className="transition-color w-full items-center justify-center rounded-md px-3 py-2 text-black duration-200 hover:bg-black hover:text-white hover:shadow-md lg:inline-flex lg:w-auto">
-                Analytics/Demo
               </a>
             </Link>
           </div>
