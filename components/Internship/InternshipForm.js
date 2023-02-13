@@ -73,6 +73,7 @@ const InternShipForm = (props) => {
       <div className="relative h-[400px] w-[350px] sm:w-[400px] ml-4 md:ml-0 md:w-[600px] rounded-md cursor-pointer shadow-md">
         <Image
           src={BannerImage}
+          alt=""
           layout="fill"
           objectFit="fill"
           className="rounded-md"

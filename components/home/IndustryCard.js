@@ -16,16 +16,16 @@ function IndustryCard() {
       </div>
       <div className="flex flex-row space-x-6 justify-center">
       <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover"          alt="" />
       </div>
       <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt=""/>
       </div>
       <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt=""/>
       </div>
       <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md shadow-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt=""/>
       </div>
       </div>
       <div className=" py-8">

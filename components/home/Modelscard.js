@@ -16,10 +16,10 @@ function Modelscard() {
       </div>
       <div className="flex flex-row space-x-6 justify-center">
       <div className="relative h-[70px] w-[150px] md:h-[350px] md:w-[350px] rounded-md shadow-md">
-            <Image src={Modeltwo} layout="fill" objectFit="cover" />
+            <Image src={Modeltwo} layout="fill" objectFit="cover" alt=""/>
       </div>
       <div className="relative h-[70px] w-[150px] md:h-[350px] md:w-[350px] rounded-md shadow-md">
-            <Image src={Modelthree} layout="fill" objectFit="cover" />
+            <Image src={Modelthree} layout="fill" objectFit="cover" alt=""/>
       </div>
       </div>
     </div>

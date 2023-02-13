@@ -18,7 +18,7 @@ function Virtualagentcard() {
 
 <div className='flex flex-row justify-between p-6'>
         <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt="" />
           </div>
           <div className='w-[350px] pt-12'>
             <h1 className='text-gray-600 text-xl'>IVA - Intelligent Virtual Agent</h1>
@@ -41,7 +41,7 @@ function Virtualagentcard() {
     </div>
     <div className='flex flex-row justify-between p-6'>
         <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt=""/>
           </div>
           <div className='w-[350px] pt-12'>
             <h1 className='text-gray-600 text-xl'>IVA - Intelligent Virtual Agent</h1>
@@ -53,7 +53,7 @@ function Virtualagentcard() {
             </p>
           </div>
           <div className="relative h-[70px] w-[150px] md:h-[300px] md:w-[200px] rounded-md">
-            <Image src={PendoImage} layout="fill" objectFit="cover" />
+            <Image src={PendoImage} layout="fill" objectFit="cover" alt=""/>
           </div>
     </div>
     <div className="flex flex-row justify-between">

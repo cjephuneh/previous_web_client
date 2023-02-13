@@ -56,7 +56,7 @@ function BlogContent() {
     };
   // Accessing the use Router
   useEffect(() => {
-    getBlogData();
+    // getBlogData();
   }, []);
 
   
