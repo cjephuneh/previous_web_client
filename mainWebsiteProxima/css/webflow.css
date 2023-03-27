@@ -82,6 +82,7 @@ html.w-mod-touch * {
 .w-clearfix:after {
   clear: both;
 }
+
 .w-hidden {
   display: none;
 }
@@ -1430,7 +1431,7 @@ textarea.w-select {
  * Utility classNamees
  */
 .w-lightbox-hide {
-  display: none;
+  display: block;
 }
 .w-lightbox-noscroll {
   overflow: hidden;

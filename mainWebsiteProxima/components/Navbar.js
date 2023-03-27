@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
+import Drawer from "react-modern-drawer"
+
 
 const Navbar = () => {
+  const [visible, setIsVisible] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleDrawer = () => {
+    setIsOpen((prevState) => !prevState)
+  }
   return (
     <div className="page-wrapper">
       <main className="main-wrapper">
@@ -60,54 +67,187 @@ const Navbar = () => {
                       </a>
                     </li>
                     <li className="navbar-menu-list-item">
-                    <div data-hover="false" data-delay="100" data-w-id="1b56be8d-c9e2-59ec-58e5-df231f37a721" className="navbar-menu-dropdown w-dropdown">
-                      <div className="navbar-dropdown-toggle w-dropdown-toggle">
-                        <div className="dropdown-icon w-embed"><svg width=" 100%" height=" 100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
-                          </svg></div>
-                        <div className="text-size-regular">Pages</div>
-                      </div>
-                      <nav className="navbar-dropdown-list w-dropdown-list">
-                        <div className="navbar-dropdown-container">
-                          <div className="navbar-dropdown-link-list-wrapper">
-                            <div className="navbar-dropdown-link-list">
-                              <div className="navbar-dropdown-link-text-wrapper">
-                                <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a72b-1f37a70a" className="text-weight-medium text-size-regular">Pages</div>
-                              </div>
-                              <a href="/home" aria-current="page" className="navbar-dropdown-link w--current">Home</a>
-                              <a href="/about" className="navbar-dropdown-link">About</a>
-                              <a href="/contact" className="navbar-dropdown-link">Contact</a>
-                              <a href="signin" className="navbar-dropdown-link">Sign In</a>
-                              <a href="getstarted" className="navbar-dropdown-link">Sign Up</a>
-                              <a href="forgot-password.html" className="navbar-dropdown-link">Forgot Password</a>
-                              <a href="terms-condition.html" className="navbar-dropdown-link">Terms &amp; Conditions</a>
-                              <a href="privacy-policy.html" className="navbar-dropdown-link">Privacy Policy</a>
-                            </div>
-                            <div className="navbar-dropdown-link-list">
-                              <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a742-1f37a70a" className="navbar-dropdown-link-text-wrapper">
-                                <div className="text-weight-medium text-size-regular">Pages</div>
-                              </div>
-                              <a href="blog.html" className="navbar-dropdown-link">Blog</a>
-                              <a href="/article-category/analytics" className="navbar-dropdown-link">Blog Category</a>
-                              <a href="/article/using-analytics-to-optimize-page-performance" className="navbar-dropdown-link">Blog Post</a>
-                              <a href="integrations.html" className="navbar-dropdown-link">Integrations</a>
-                              <a href="/integration/twitter" className="navbar-dropdown-link">Integration Single</a>
-                            </div>
-                            <div className="navbar-dropdown-link-list">
-                              <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a74e-1f37a70a" className="navbar-dropdown-link-text-wrapper">
-                                <div className="text-weight-medium text-size-regular">Utillity Pages</div>
-                              </div>
-                              <a href="utility-pages/style-guide.html" className="navbar-dropdown-link">Styleguide</a>
-                              <a href="utility-pages/instructions.html" className="navbar-dropdown-link">Instructions</a>
-                              <a href="404.html" className="navbar-dropdown-link">404 Not Found</a>
-                              <a href="401.html" className="navbar-dropdown-link">Password Protected</a>
-                              <a href="utility-pages/licenses.html" className="navbar-dropdown-link">Licenses</a>
-                            </div>
+                      <div
+                        data-hover="false"
+                        data-delay="100"
+                        data-w-id="1b56be8d-c9e2-59ec-58e5-df231f37a721"
+                        className="navbar-menu-dropdown w-dropdown"
+                      >
+                        <div className="navbar-dropdown-toggle w-dropdown-toggle">
+                          <div className="dropdown-icon w-embed">
+                            <svg
+                              width=" 100%"
+                              height=" 100%"
+                              viewbox="0 0 16 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
+                          <div
+                            className="text-size-regular"
+                            onClick={() => setIsVisible(!visible)}
+                          >
+                            Pages
                           </div>
                         </div>
-                      </nav>
-                    </div>
-                  </li>
+                        {visible ? (
+                          <nav className="navbar-dropdown-list w-dropdown-list">
+                            <div className="navbar-dropdown-container">
+                              <div className="navbar-dropdown-link-list-wrapper">
+                                <div className="navbar-dropdown-link-list">
+                                  <div className="navbar-dropdown-link-text-wrapper">
+                                    <div
+                                      id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a72b-1f37a70a"
+                                      className="text-weight-medium text-size-regular"
+                                    >
+                                      Pages
+                                    </div>
+                                  </div>
+                                  <a
+                                    href="/home"
+                                    aria-current="page"
+                                    className="navbar-dropdown-link w--current"
+                                  >
+                                    Home
+                                  </a>
+                                  <a
+                                    href="/about"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    About
+                                  </a>
+                                  <a
+                                    href="/contact"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Contact
+                                  </a>
+                                  <a
+                                    href="signin"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Sign In
+                                  </a>
+                                  <a
+                                    href="getstarted"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Sign Up
+                                  </a>
+                                  <a
+                                    href="forgot-password.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Forgot Password
+                                  </a>
+                                  <a
+                                    href="terms-condition.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Terms &amp; Conditions
+                                  </a>
+                                  <a
+                                    href="privacy-policy.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Privacy Policy
+                                  </a>
+                                </div>
+                                <div className="navbar-dropdown-link-list">
+                                  <div
+                                    id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a742-1f37a70a"
+                                    className="navbar-dropdown-link-text-wrapper"
+                                  >
+                                    <div className="text-weight-medium text-size-regular">
+                                      Pages
+                                    </div>
+                                  </div>
+                                  <a
+                                    href="blog.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Blog
+                                  </a>
+                                  <a
+                                    href="/article-category/analytics"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Blog Category
+                                  </a>
+                                  <a
+                                    href="/article/using-analytics-to-optimize-page-performance"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Blog Post
+                                  </a>
+                                  <a
+                                    href="integrations.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Integrations
+                                  </a>
+                                  <a
+                                    href="/integration/twitter"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Integration Single
+                                  </a>
+                                </div>
+                                <div className="navbar-dropdown-link-list">
+                                  <div
+                                    id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a74e-1f37a70a"
+                                    className="navbar-dropdown-link-text-wrapper"
+                                  >
+                                    <div className="text-weight-medium text-size-regular">
+                                      Utillity Pages
+                                    </div>
+                                  </div>
+                                  <a
+                                    href="utility-pages/style-guide.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Styleguide
+                                  </a>
+                                  <a
+                                    href="utility-pages/instructions.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Instructions
+                                  </a>
+                                  <a
+                                    href="404.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    404 Not Found
+                                  </a>
+                                  <a
+                                    href="401.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Password Protected
+                                  </a>
+                                  <a
+                                    href="utility-pages/licenses.html"
+                                    className="navbar-dropdown-link"
+                                  >
+                                    Licenses
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                        ) : (
+                          <></>
+                        )}
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 <div className="navbar-menu-right">
@@ -119,14 +259,27 @@ const Navbar = () => {
                   </a>
                 </div>
               </nav>
-              <div className="navbar-menu-button w-nav-button">
-                <div className="menu-icon">
+              <div
+                className="navbar-menu-button w-nav-button"
+              >
+                <div className="menu-icon"
+                  onClick={toggleDrawer}
+                >
                   <div className="menu-icon-line-top"></div>
                   <div className="menu-icon-line-middle">
                     <div className="menu-icon-line-middle-inner"></div>
                   </div>
                   <div className="menu-icon-line-bottom"></div>
                 </div>
+                <Drawer
+                  open={isOpen}
+                  onClose={toggleDrawer}
+                  direction="top"
+                  // className=""
+                >
+                  <h1>Hello world</h1>
+                  <h1>Hello world</h1>
+                </Drawer>
               </div>
             </div>
           </div>
