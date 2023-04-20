@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 
-const contact = () => {
+function contact  ()  {
   return (
     <div className="page-wrapper">
       <div className="section-hero">
@@ -71,21 +70,14 @@ const contact = () => {
                       alt="Icon"
                     />
                   </div>
-                  <div
-                    id="w-node-_82d7164a-ee49-2d8e-5714-b65e89a92205-e5b1e3c8"
-                    className="contact-feature"
-                  >
+                  <div id="w-node-_82d7164a-ee49-2d8e-5714-b65e89a92205-e5b1e3c8" className="contact-feature">
                     <div>Our Email</div>
                     <div className="padding-bottom padding-xxsmall"></div>
-                    <a
-                      href="mailto:info@gmail.com"
-                      className="text-style-link text-color-white"
-                    >
+                    <a href="mailto:info@gmail.com" className="text-style-link text-color-white">
                       info@gmail.com
                     </a>
                     <div className="padding-bottom padding-xxsmall"></div>
-                    <a
-                      href="mailto:youremail@gmail.com"
+                    <a href="mailto:youremail@gmail.com"
                       className="text-style-link text-color-white"
                     >
                       youremail@gmail.com

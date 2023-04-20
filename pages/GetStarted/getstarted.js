@@ -1,6 +1,6 @@
 import React from "react";
 
-const getstarted = () => {
+function getstarted () {
   return (
     <div className="page-wrapper">
       <main className="main-wrapper">
@@ -9,15 +9,8 @@ const getstarted = () => {
             <div className="container-large">
               <div className="padding-section-large">
                 <div className="signup-component">
-                  <div
-                    id="w-node-_29826690-63ec-990d-359e-b2fedc68f823-50b1e3d6"
-                    className="signup-image-wrapper"
-                  >
-                    <img
-                      className="signup-image"
-                      src="/assets/image-3_1image-3.webp"
-                      width="513.5"
-                      alt="a person sitting at a table with a laptop and a cup"
+                  <div id="w-node-_29826690-63ec-990d-359e-b2fedc68f823-50b1e3d6" className="signup-image-wrapper" >
+                    <img className="signup-image" src="/assets/image-3_1image-3.webp" width="513.5" alt="a person sitting at a table with a laptop and a cup"
                       style={{
                         WebkitTransform:
                           "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -29,6 +22,7 @@ const getstarted = () => {
                           "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                         // opacity: "0",
                       }}
+
                       sizes="(max-width: 479px) 100vw, (max-width: 991px) 90vw, 39vw"
                       data-w-id="29826690-63ec-990d-359e-b2fedc68f824"
                       loading="lazy"
@@ -36,9 +30,7 @@ const getstarted = () => {
                             /assets/image-3_1image-3.webp 1027w"
                     />
                   </div>
-                  <div
-                    id="w-node-_29826690-63ec-990d-359e-b2fedc68f7fa-50b1e3d6"
-                    data-w-id="29826690-63ec-990d-359e-b2fedc68f7fa"
+                  <div id="w-node-_29826690-63ec-990d-359e-b2fedc68f7fa-50b1e3d6" data-w-id="29826690-63ec-990d-359e-b2fedc68f7fa"
                     style={{
                       WebkitTransform:
                         "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -52,12 +44,9 @@ const getstarted = () => {
                     }}
                     className="signup-content-wrapper"
                   >
-                    <h1 className="heading-style-h2">
-                      Join grow your business
-                    </h1>
+                    <h1 className="heading-style-h2"> Join grow your business </h1>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <p className="text-size-small">
-                      Lorem ipsum dolor sit amet consectetur adipiscing
+                    <p className="text-size-small">Lorem ipsum dolor sit amet consectetur adipiscing
                       <span className="hide-mobile-landscape">
                         <br />
                       </span>{" "}
@@ -65,32 +54,15 @@ const getstarted = () => {
                     </p>
                     <div className="padding-bottom padding-small"></div>
                     <div className="signup-form-block w-form">
-                      <form
-                        id="wf-form-Sign-Up-Form"
-                        name="wf-form-Sign-Up-Form"
-                        data-name="Sign Up Form"
-                        method="get"
-                        className="signup-form"
-                      >
+                      <form id="wf-form-Sign-Up-Form" name="wf-form-Sign-Up-Form" data-name="Sign Up Form" method="get" className="signup-form" >
                         <div className="form-field-wrapper">
                           <div className="field-label">Name</div>
-                          <input
-                            type="text"
-                            className="form-input-field w-input"
-                            maxLength="256"
-                            name="Sign-up-Name"
-                            data-name="Sign-up-Name"
-                            placeholder="Jane Cooper"
-                            id="Sign-up-Name-2"
-                            required=""
-                          />
+                          <input type="text" className="form-input-field w-input" maxLength="256" name="Sign-up-Name" data-name="Sign-up-Name" placeholder="Jane Cooper"id="Sign-up-Name-2" required="" />
                         </div>
+
                         <div className="form-field-wrapper">
                           <div className="field-label">Email</div>
-                          <input
-                            type="email"
-                            className="form-input-field w-input"
-                            maxLength="256"
+                          <input type="email" className="form-input-field w-input" maxLength="256"
                             name="Sign-up-Form-Email"
                             data-name="Sign-up-Form-Email"
                             placeholder="enteryour@gmail.com"
@@ -98,6 +70,7 @@ const getstarted = () => {
                             required=""
                           />
                         </div>
+
                         <div className="form-field-wrapper">
                           <div className="field-label">Password</div>
                           <input
@@ -111,6 +84,7 @@ const getstarted = () => {
                             required=""
                           />
                         </div>
+
                         <div className="form-field-wrapper">
                           <div className="field-label">Confirm password</div>
                           <input
@@ -146,50 +120,23 @@ const getstarted = () => {
                           </span>
                         </label>
                         <div className="button-row">
-                          <input
-                            type="submit"
-                            value="Create Account"
-                            data-wait="Please wait..."
-                            id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6"
-                            className="button w-button"
-                          />
+                          <input type="submit" value="Create Account" data-wait="Please wait..." id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6" className="button w-button"/>
                         </div>
                         <div>
                           Already have an account?{" "}
-                          <a
-                            href="sign-in.html"
-                            className="text-color-blue text-style-link"
-                          >
-                            Log In
-                          </a>
+                          <a href="sign-in.html" className="text-color-blue text-style-link" >Log In </a>
                         </div>
                         <div className="w-layout-grid form-button-wrapper is-signup">
-                          <a
-                            href="https://www.google.com/"
-                            target="_blank"
-                            className="button-login w-inline-block"
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/Frame_3Frame.webp"
-                              alt="Google Logo"
-                              className="icon-1x1-xsmall"
-                            />
+                          <a href="https://www.google.com/" target="_blank" className="button-login w-inline-block">
+                            <img loading="lazy" src="/assets/Frame_3Frame.webp" alt="Google Logo" className="icon-1x1-xsmall" /> 
                             <div>Sign in with Google</div>
                           </a>
-                          <a
-                            href="https://www.facebook.com/"
-                            target="_blank"
-                            className="button-login w-inline-block"
-                          >
-                            <img
-                              loading="lazy"
-                              src="/assets/Frame-1_4Frame-1.webp"
-                              alt="Facebook Logo"
-                              className="icon-1x1-xsmall"
-                            />
+
+                          <a href="https://www.facebook.com/" target="_blank" className="button-login w-inline-block">
+                            <img loading="lazy" src="/assets/Frame-1_4Frame-1.webp" alt="Facebook Logo" className="icon-1x1-xsmall"/>
                             <div>Sign in with  Facebook</div>
                           </a>
+
                         </div>
                       </form>
                       <div className="success-message w-form-done">
