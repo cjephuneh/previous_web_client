@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+function Footer () {
   return (
     <>
       <footer className="footer-component">
@@ -8,16 +8,9 @@ const Footer = () => {
           <div className="container-large">
             <div className="padding-section-large">
               <div className="w-layout-grid footer-top-wrapper">
-                <div
-                  data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b600e"
-                  className="footer-left-wrapper"
-                >
+                <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b600e" className="footer-left-wrapper">
                   <div className="footer-logo-wrapper">
-                    <a
-                      href="index.html"
-                      aria-current="page"
-                      className="footer-logo-link w-nav-brand w--current"
-                    >
+                    <a href="index.html" aria-current="page" className="footer-logo-link w-nav-brand w--current" >
                       <img
                         src="/assets/Logo-White.png"
                         loading="lazy"
@@ -72,106 +65,46 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="w-layout-grid footer-menu-wrapper">
-                  <div
-                    data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6024"
-                    className="footer-link-list"
-                  >
+                  <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6024" className="footer-link-list" >
                     <div className="text-weight-semibold">Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a
-                      href="index.html"
-                      aria-current="page"
-                      className="footer-link w--current"
-                    >
-                      Home
-                    </a>
-                    <a href="features.html" className="footer-link">
-                      Features
-                    </a>
-                    <a href="about.html" className="footer-link">
-                      About us
-                    </a>
-                    <a href="contact-us.html" className="footer-link">
-                      Contact Us
-                    </a>
-                    <a href="blog.html" className="footer-link">
-                      Blog
-                    </a>
-                    <a
-                      href="/article-category/analytics"
-                      className="footer-link"
-                    >
-                      Blog Category
-                    </a>
-                    <a
-                      href="/article/using-analytics-to-optimize-page-performance"
-                      className="footer-link"
-                    >
-                      Blog Post
-                    </a>
+                    <a href="index.html" aria-current="page" className="footer-link w--current" >Home </a>
+
+                    <a href="features.html" className="footer-link">Features </a>
+                    <a href="about.html" className="footer-link">About us</a>
+                    <a href="contact-us.html" className="footer-link">Contact Us</a>
+                    <a href="blog.html" className="footer-link">Blog</a>
+                    <a href="/article-category/analytics" className="footer-link">Blog Category </a>
+                    <a href="/article/using-analytics-to-optimize-page-performance" className="footer-link">Blog Post</a>
                   </div>
-                  <div
-                    data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6034"
-                    className="footer-link-list"
-                  >
+
+                  <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6034" className="footer-link-list">
                     <div className="text-weight-semibold">Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="integrations.html" className="footer-link">
-                      Integrations
-                    </a>
-                    <a href="/integration/facebook" className="footer-link">
-                      Integrations Single
-                    </a>
-                    <a href="sign-in.html" className="footer-link">
-                      Sign In
-                    </a>
-                    <a href="sign-up.html" className="footer-link">
-                      Sign Up
-                    </a>
-                    <a href="forgot-password.html" className="footer-link">
-                      Forgot Password
-                    </a>
+                    <a href="integrations.html" className="footer-link"> Integrations </a>
+                    <a href="/integration/facebook" className="footer-link">Integrations Single</a>
+                    <a href="sign-in.html" className="footer-link">Sign In</a>
+                    <a href="sign-up.html" className="footer-link"> Sign Up</a>
+                    <a href="forgot-password.html" className="footer-link">Forgot Password</a>
                   </div>
-                  <div
-                    data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6042"
-                    className="footer-link-list"
-                  >
+
+                  <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6042" className="footer-link-list">
                     <div className="text-weight-semibold">Utility Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a
-                      href="utility-pages/style-guide.html"
-                      className="footer-link"
-                    >
-                      Style Guide
-                    </a>
-                    <a href="404.html" className="footer-link">
-                      404 Not Found
-                    </a>
-                    <a href="401.html" className="footer-link">
-                      Password Protected
-                    </a>
-                    <a
-                      href="utility-pages/licenses.html"
-                      className="footer-link"
-                    >
-                      License
-                    </a>
+                    <a href="utility-pages/style-guide.html" className="footer-link">Style Guide</a>
+                    <a href="404.html" className="footer-link">404 Not Found</a>
+                    <a href="401.html" className="footer-link">Password Protected</a>
+                    <a href="utility-pages/licenses.html" className="footer-link">License</a>
                   </div>
+
                 </div>
               </div>
               <div className="footer-divider"></div>
               <div className="padding-top padding-medium">
                 <div className="footer-bottom-wrapper">
                   <div className="w-layout-grid footer-legal-list">
-                    <a
-                      href="terms-condition.html"
-                      className="footer-legal-link"
-                    >
-                      Terms &amp; Conditions
-                    </a>
-                    <a href="privacy-policy.html" className="footer-legal-link">
-                      Privacy Policy
-                    </a>
+                    <a href="terms-condition.html" className="footer-legal-link">Terms &amp; Conditions</a>
+                    <a href="privacy-policy.html" className="footer-legal-link">Privacy Policy</a>
                   </div>
                   <div className="footer-credit-text">
                     Copyright 2023 © Proxima |
