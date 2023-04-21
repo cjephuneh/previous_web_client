@@ -1,7 +1,14 @@
 import React from "react";
+import Head from 'next/head'
 
 const signin = () => {
   return (
+    <>
+    <Head>
+      <title>
+        Proxima | Signin
+      </title>
+    </Head>
     <div className="page-wrapper">
       <main className="main-wrapper">
         <section className="section-login">
@@ -198,6 +205,7 @@ const signin = () => {
         </section>
       </main>
     </div>
+    </>
   );
 };
 

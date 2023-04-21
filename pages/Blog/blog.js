@@ -1,7 +1,14 @@
 import React from 'react'
+import Head from 'next/head'
 
 function blog()  {
     return(
+        <>
+        <Head>
+            <title>
+                Blog | Proxima
+            </title>
+        </Head>
         <div className="page-wrapper">
         <main className="main-wrapper">
         <header id="blog-header-5" className="section-hero">
@@ -270,6 +277,7 @@ function blog()  {
         </main>
     
   </div>
+  </>
     )
 }
 

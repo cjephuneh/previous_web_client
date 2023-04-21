@@ -1,7 +1,16 @@
 import React from "react";
+import Head from "next/head";
+
 
 function about () {
   return (
+    <>
+
+    <Head>
+      <title>
+          Proxima | About
+      </title>
+    </Head>
     <div className="page-wrapper">
       <main className="main-wrapper">
         <header className="section-header">
@@ -25,15 +34,15 @@ function about () {
                     className="header-content-wrapper is-about"
                   >
                     <div className="sub-heading">About</div>
-                    <h1>Through smart analytics, we can help your scale</h1>
+                    <h1>The essential growth platform for digital businesses</h1>
                     <div className="padding-bottom padding-small"></div>
                     <p className="text-size-medium">
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit
-                      interdum ullamcorper sed pharetra senectus donec nunc ame
+                      Proxima empowers modern brands to navigate the ever-changing digital 
+                      landscape and achieve greater marketing performance with machine learning.
                     </p>
                     <div className="padding-bottom padding-medium"></div>
                     <div className="button-row">
-                      <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="contact-us.html" className="button is-icon w-inline-block">
+                      <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/Contact/contact" className="button is-icon w-inline-block">
                         <div>Try for free</div>
                         <div className="button-icon w-embed">
                           <svg width="100%" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -973,6 +982,7 @@ function about () {
         </section>
       </main>
     </div>
+    </>
   );
 };
 

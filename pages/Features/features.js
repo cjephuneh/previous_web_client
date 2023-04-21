@@ -1,7 +1,15 @@
 import React from "react";
+import Head from 'next/head'
 
 const features = () => {
   return (
+    <>
+    <Head>
+      <title>
+        Proxima | Features
+      </title>
+    </Head>
+
     <div className="page-wrapper">
     <main className="main-wrapper">
       <header className="section-header">
@@ -309,6 +317,7 @@ const features = () => {
     </main>
 
   </div>
+  </>
   );
 };
 

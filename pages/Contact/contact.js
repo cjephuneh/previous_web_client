@@ -1,15 +1,21 @@
 import React from "react";
+import Head from "next/head"
 
 function contact  ()  {
   return (
+  <>
+    <Head>
+      <title>
+          Proxima | ContactUs
+      </title>
+    </Head>
     <div className="page-wrapper">
       <div className="section-hero">
         <div className="padding-global">
           <div className="container-large">
             <div className="padding-section-small">
               <div className="text-align-center">
-                <div
-                  data-w-id="55205c26-a0f1-ccf1-82ae-eabdb3ae473f"
+                <div data-w-id="55205c26-a0f1-ccf1-82ae-eabdb3ae473f"
                   style={{
                     WebkitTransform:
                       "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -231,6 +237,7 @@ function contact  ()  {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
