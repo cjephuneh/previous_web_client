@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import Drawer from "react-modern-drawer"
 
 
-function Navbar () {
+const Navbar = () => {
   const [visible, setIsVisible] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const toggleDrawer = () => {
@@ -30,19 +30,19 @@ function Navbar () {
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="/Features/features" className="navbar-link w-nav-link"> Features </a>
+                      <a href="features" className="navbar-link w-nav-link"> Features </a>
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="/About/about" className="navbar-link w-nav-link"> About </a>
+                      <a href="/about" className="navbar-link w-nav-link"> About </a>
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="/Contact/contact" className="navbar-link w-nav-link"> Contact Us </a>
+                      <a href="/contact" className="navbar-link w-nav-link"> Contact Us </a>
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="/Blog/blog" className="navbar-link w-nav-link"> blog</a>
+                      <a href="/blog" className="navbar-link w-nav-link"> blog</a>
                     </li>
 
                     <li className="navbar-menu-list-item">
@@ -66,10 +66,10 @@ function Navbar () {
                                   </div>
 
                                   <a href="/home" aria-current="page" className="navbar-dropdown-link w--current">Home </a>
-                                  <a href="/About/about" className="navbar-dropdown-link"> About </a>
-                                  <a href="/Contact/contact" className="navbar-dropdown-link"> Contact </a>
-                                  <a href="/Sign/signin" className="navbar-dropdown-link">Sign In </a>
-                                  <a href="/GetStarted/getstarted" className="navbar-dropdown-link"> Sign Up </a>
+                                  <a href="/about" className="navbar-dropdown-link"> About </a>
+                                  <a href="/contact" className="navbar-dropdown-link"> Contact </a>
+                                  <a href="/signin" className="navbar-dropdown-link">Sign In </a>
+                                  <a href="/getstarted" className="navbar-dropdown-link"> Sign Up </a>
                                   <a href="forgot-password.html" className="navbar-dropdown-link">Forgot Password </a>
                                   <a href="terms-condition.html" className="navbar-dropdown-link" > Terms &amp; Conditions </a>
                                   <a href="privacy-policy.html" className="navbar-dropdown-link" > Privacy Policy </a>

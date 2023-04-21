@@ -1,6 +1,6 @@
 import React from "react";
 
-function getstarted () {
+const getstarted = () => {
   return (
     <div className="page-wrapper">
       <main className="main-wrapper">

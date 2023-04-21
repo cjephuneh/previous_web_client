@@ -188,7 +188,7 @@ function FrequentlyAsked() {
                       </p>
                       <div className="padding-bottom padding-small"></div>
                     </div>
-                    <a href="contact-us.html" className="button w-button">
+                    <a href="/contact" className="button w-button">
                       Contact Us
                     </a>
                   </div>
