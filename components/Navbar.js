@@ -18,7 +18,7 @@ function Navbar () {
 
             <div className="navbar-container">
               <a href="/" aria-current="page" className="navbar-logo-link w-nav-brand w--current">
-                <img src="/assets/Logo.png" loading="lazy" width="Auto" height="40" alt="Airtech logo" className="navbar-logo"/>
+                <img src="/assets/logo12.png" loading="lazy" width="Auto" height="40" alt="Airtech logo" className="navbar-logo"/>
               </a>
 
               <nav role="navigation" className="navbar-menu w-nav-menu">

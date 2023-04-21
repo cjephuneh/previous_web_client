@@ -22,8 +22,7 @@ export default function Home() {
                 <div className="padding-section-medium">
                   <div className="header-component">
                     <div className="text-align-center">
-                      <div
-                        data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb87b"
+                      <div data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb87b"
                         style={{
                           WebkitTransform:
                             "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -41,14 +40,14 @@ export default function Home() {
                         }}
                         className="max-width-large"
                       >
-                        <h1>Find new customers with AI-powered audiences</h1>
+                        <h1>Connecting Organizations | Brands | Groups to their Customers Through Interaction & Inclusivity</h1>
                         <div className="padding-bottom padding-small"></div>
                         <p className="text-size-medium">
-                          Lower CPAs and improve digital advertising performance
+                          Proxima leverages on modern practices to not only improve interaction,
                           <span className="hide-mobile-landscape">
                             <br />
                           </span>{" "}
-                          by 30%+ with machine learning audiences built for DTC.
+                          but to also simplify and smoothen it.
                         </p>
                         <div className="padding-bottom padding-medium"></div>
                         <div className="button-row">
@@ -1651,7 +1650,7 @@ export default function Home() {
                                           width={16}
                                           height={16}
                                           viewbox="{0 0 16 16}"
-                                          fill="none"
+                                          fill="none" 
                                           width="16"
                                           height="16"
                                           xmlns="http://www.w3.org/2000/svg"

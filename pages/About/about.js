@@ -37,8 +37,8 @@ function about () {
                     <h1>The essential growth platform for digital businesses</h1>
                     <div className="padding-bottom padding-small"></div>
                     <p className="text-size-medium">
-                      Proxima empowers modern brands to navigate the ever-changing digital 
-                      landscape and achieve greater marketing performance with machine learning.
+                      Revolutionizing Customer Service and Sales with AI-Powered Virtual 
+                      Agents - Introducing Proxima, a Kenyan-Based Organization
                     </p>
                     <div className="padding-bottom padding-medium"></div>
                     <div className="button-row">
