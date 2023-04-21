@@ -486,7 +486,7 @@ export default function Home() {
                           "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                         // opacity: "0",
                       }}
-                      href="features.html"
+                      href="/Features/features"
                       className="button is-secondary w-button"
                     >
                       Explore All Features
