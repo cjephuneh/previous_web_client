@@ -13,14 +13,10 @@ function WhyChooseUs () {
                   >
                     <div className="sub-heading">Why choose us</div>
                     <h2>
-                      Using powerful analytics tools, and grow the business.
+                      Using powerful Virtual Agents to grow your business
                     </h2>
                     <div className="padding-bottom padding-small"></div>
-                    <p className="text-size-regular">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Diam ut id nisl tellus rhoncus, imperdiet consequat
-                      ornare. Nunc.
-                    </p>
+                    
                     <div className="padding-bottom padding-medium"></div>
                     <div className="why-choose-us-item-list">
                       <div id="w-node-_1f261cf3-006b-41c8-e3e4-91b9eadcb933-eadcb924" className="why-choose-us-item" >
@@ -30,11 +26,11 @@ function WhyChooseUs () {
                           </div>
                           <div className="why-choose-us-item-text-wrapper">
                             <h3 className="heading-style-h5">
-                              Task Management
+                              Customer Interaction
                             </h3>
                           </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, conse adipiscing</p>
+                        <p>Imporoved communication and engament between customers and the business</p>
                       </div>
                       <div id="w-node-_1f261cf3-006b-41c8-e3e4-91b9eadcb93c-eadcb924" className="why-choose-us-item" >
                         <div className="why-choose-us-features">
@@ -46,10 +42,10 @@ function WhyChooseUs () {
                             />
                           </div>
                           <div className="why-choose-us-item-text-wrapper">
-                            <h3 className="heading-style-h5">Collaboration</h3>
+                            <h3 className="heading-style-h5">Customer Satisfaction</h3>
                           </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, conse adipiscing</p>
+                        <p>Quick issue resolution and improved customer experience.</p>
                       </div>
                       <div
                         id="w-node-_1f261cf3-006b-41c8-e3e4-91b9eadcb945-eadcb924"
@@ -64,10 +60,10 @@ function WhyChooseUs () {
                             />
                           </div>
                           <div className="why-choose-us-item-text-wrapper">
-                            <h3 className="heading-style-h5">Time Tracking </h3>
+                            <h3 className="heading-style-h5">Customer Support</h3>
                           </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, conse adipiscing</p>
+                        <p>Robust customer support system providing timely resolution of queries and issues.</p>
                       </div>
                     </div>
                   </div>
