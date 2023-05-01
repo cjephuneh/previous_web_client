@@ -23,12 +23,10 @@ function BusinessAnalysis (){
                       className="business-analytics-content"
                     >
                       <div className="padding-bottom padding-medium"></div>
-                      <h2>Analyses of advanced nature Keep an eye on growth</h2>
+                      <h2>Data Analytics for Tenant-Client Interactions.</h2>
                       <div className="padding-bottom padding-small"></div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        In pretium, elit quis vehicula interdum, sem metus
-                        iaculis sapien, sed bibendum lectus .
+                      ProximaAI analyzes chats, issues, communication channels, client demographics, and community metrics.
                       </p>
                       <div className="padding-bottom padding-large"></div>
                       <div className="w-layout-grid business-analytics-item-list">
@@ -47,13 +45,12 @@ function BusinessAnalysis (){
                           </div>
                           <div className="business-analytics-item-text-wrapper">
                             <h3 className="heading-style-h5">
-                              Advanced Data Analytics
+                              Comprehensive coverage
                             </h3>
                             <div className="padding-bottom padding-xsmall"></div>
-                            <p>
-                              Lorem ipsum dolor sit amet, conse adipiscing elit,
-                              sed do eiusmod temr.
-                            </p>
+                            <p>   
+                              Metrics include chat counts, growth, and surveys for 
+                              virtual agent analysis and client satisfaction.                            </p>
                           </div>
                         </div>
                         <div
@@ -70,12 +67,12 @@ function BusinessAnalysis (){
                           </div>
                           <div className="business-analytics-item-text-wrapper">
                             <h3 className="heading-style-h5">
-                              Software Product Development
+                              Granular detail
                             </h3>
                             <div className="padding-bottom padding-xsmall"></div>
                             <p>
-                              Lorem ipsum dolor sit amet, conse adipiscing elit,
-                              sed do eiusmod temr.
+                            Detailed metrics allow nuanced analysis and targeted 
+                            improvements to virtual agent and customer service.
                             </p>
                           </div>
                         </div>
@@ -150,7 +147,7 @@ function BusinessAnalysis (){
                       className="business-analytics-content"
                     >
                       <div className="padding-bottom padding-medium"></div>
-                      <h2>Analyze the analytics  of the users</h2>
+                      <h2>Proxima Predictive Analytics for Customer Insights</h2>
                       <div className="padding-bottom padding-large"></div>
                       <div className="w-layout-grid business-analytics-item-list">
                         <div
@@ -168,12 +165,12 @@ function BusinessAnalysis (){
                           </div>
                           <div className="business-analytics-item-text-wrapper">
                             <h3 className="heading-style-h5">
-                              Advanced reports
+                              Predictive Analytics
                             </h3>
                             <div className="padding-bottom padding-xsmall"></div>
                             <p>
-                              Lorem ipsum dolor sit amet, conse adipiscing elit,
-                              sed do eiusmod temr.
+                              Proxima predicts data to aid tenant understanding and
+                              strategy adjustment for client interactions.
                             </p>
                           </div>
                         </div>
@@ -191,11 +188,11 @@ function BusinessAnalysis (){
                             />
                           </div>
                           <div className="business-analytics-item-text-wrapper">
-                            <h3 className="heading-style-h5">User tracking</h3>
+                            <h3 className="heading-style-h5">Granular insights.</h3>
                             <div className="padding-bottom padding-xsmall"></div>
                             <p>
-                              Lorem ipsum dolor sit amet, conse adipiscing elit,
-                              sed do eiusmod temr.
+                              Granular tracking allows nuanced insights and targeted
+                              improvements to virtual agent and customer service strategies.
                             </p>
                           </div>
                         </div>
