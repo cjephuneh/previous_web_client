@@ -13,7 +13,7 @@ function Features(){
                 >
                   <div className="sub-heading">Features</div>
                   <h2>
-                    Tracking advanced user behaviour
+                    Virtual interaction 
                     <span className="hide-tablet">
                       <br />
                     </span>{" "}
@@ -37,10 +37,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Dally Analytics</h3>
+                    <h3 className="features-heading">Reports</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                  ProximaAI generates tenant reports on chat and community issues.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -80,10 +80,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Time Tracking</h3>
+                    <h3 className="features-heading">Descriptive Analytics</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                  ProximaAI analyzes chats, issues, communication channels, client demographics, and community metrics.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -123,10 +123,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Task Management</h3>
+                    <h3 className="features-heading">Predictive Analysis</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                    ProximaAI predicts client data for resource allocation.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -166,10 +166,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Instant backups</h3>
+                    <h3 className="features-heading">Search</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                    Proxima's search feature filters chat history based on phrases and topics for tenants.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -209,10 +209,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Improved security</h3>
+                    <h3 className="features-heading">Community</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                  Tenants can manage their communities and address issues through the Proxima mobile app.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -252,10 +252,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Team collaboration</h3>
+                    <h3 className="features-heading">Interactions</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                    Proxima lets tenants communicate and manage virtual agents, including using WhatsApp for web view.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -295,10 +295,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Data Science</h3>
+                    <h3 className="features-heading">Chat Analysis</h3>
                   </div>
-                  <p>
-                    Lessons on design that cover the most recent developments.
+                  <p>                   
+                    Proxima offers chat analysis for summarizing client and virtual agent conversations in different contexts, including paraphrasing.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -338,10 +338,10 @@ function Features(){
                         className="icon-1x1-medium"
                       />
                     </div>
-                    <h3 className="features-heading">Monitoring</h3>
+                    <h3 className="features-heading">Survey</h3>
                   </div>
-                  <p>
-                    Lessons on design that cover the most recent developments.
+                  <p>                                
+                    ProximaAI offers targeted surveys with response filtering and data analysis.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a
@@ -384,7 +384,7 @@ function Features(){
                     <h3 className="features-heading">Dashboards</h3>
                   </div>
                   <p>
-                    Lessons on design that cover the most recent developments.
+                    ProximaAI gives you a interactive dashbord for you to manage your customers
                   </p>
                   <div className="padding-bottom padding-medium"></div>
                   <a

@@ -12,7 +12,7 @@ function Footer () {
                   <div className="footer-logo-wrapper">
                     <a href="index.html" aria-current="page" className="footer-logo-link w-nav-brand w--current" >
                       <img
-                        src="/assets/Logo-White.png"
+                        src="/assets/logo12.png"
                         loading="lazy"
                         width="Auto"
                         height="50"
@@ -21,11 +21,11 @@ function Footer () {
                     </a>
                   </div>
                   <div>
-                    Lorem ipsum dolor sit amet, consectetur adip
+                     Connecting Organizations Brands Groups to their
                     <span className="hide-mobile-landscape">
                       <br />
                     </span>{" "}
-                    elit.Posuere dolor massa, pellentesque.
+                    Customers Through Interaction & Inclusivity
                   </div>
                   <div className="padding-bottom padding-large"></div>
                   <div className="footer-form-block w-form">
@@ -68,33 +68,26 @@ function Footer () {
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6024" className="footer-link-list" >
                     <div className="text-weight-semibold">Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="index.html" aria-current="page" className="footer-link w--current" >Home </a>
-
-                    <a href="features.html" className="footer-link">Features </a>
-                    <a href="about.html" className="footer-link">About us</a>
-                    <a href="contact-us.html" className="footer-link">Contact Us</a>
-                    <a href="blog.html" className="footer-link">Blog</a>
-                    <a href="/article-category/analytics" className="footer-link">Blog Category </a>
-                    <a href="/article/using-analytics-to-optimize-page-performance" className="footer-link">Blog Post</a>
+                    <a href="/index" aria-current="page" className="footer-link w--current" >Home </a>
+                    <a href="/features" className="footer-link">Features </a>
+                    <a href="/about" className="footer-link">About us</a>
+                    
+                    
                   </div>
 
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6034" className="footer-link-list">
                     <div className="text-weight-semibold">Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="integrations.html" className="footer-link"> Integrations </a>
-                    <a href="/integration/facebook" className="footer-link">Integrations Single</a>
-                    <a href="sign-in.html" className="footer-link">Sign In</a>
-                    <a href="sign-up.html" className="footer-link"> Sign Up</a>
-                    <a href="forgot-password.html" className="footer-link">Forgot Password</a>
+                    <a href="/contact" className="footer-link">Contact Us</a>
+                    <a href="/blog" className="footer-link">Blog</a>
+                    
                   </div>
 
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6042" className="footer-link-list">
                     <div className="text-weight-semibold">Utility Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="utility-pages/style-guide.html" className="footer-link">Style Guide</a>
-                    <a href="404.html" className="footer-link">404 Not Found</a>
-                    <a href="401.html" className="footer-link">Password Protected</a>
-                    <a href="utility-pages/licenses.html" className="footer-link">License</a>
+                    <a href="/article-category/analytics" className="footer-link">Blog Category </a>
+                    <a href="/article/using-analytics-to-optimize-page-performance" className="footer-link">Blog Post</a>
                   </div>
 
                 </div>

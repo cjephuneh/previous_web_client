@@ -75,7 +75,7 @@ const Navbar = () => {
                                   <a href="privacy-policy.html" className="navbar-dropdown-link" > Privacy Policy </a>
 
                                 </div>
-                                <div className="navbar-dropdown-link-list">
+                                {/*<div className="navbar-dropdown-link-list">
                                   <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a742-1f37a70a" className="navbar-dropdown-link-text-wrapper">
                                     <div className="text-weight-medium text-size-regular"> Pages </div>
                                   </div>
@@ -96,7 +96,7 @@ const Navbar = () => {
                                   <a href="404.html" className="navbar-dropdown-link" > 404 Not Found</a>
                                   <a href="401.html" className="navbar-dropdown-link"> Password Protected</a>
                                   <a href="utility-pages/licenses.html" className="navbar-dropdown-link">Licenses</a>
-                                </div>
+                                 </div>*/}
                               </div>
                             </div>
                           </nav>
@@ -108,8 +108,8 @@ const Navbar = () => {
                   </ul>
                 </div>
                 <div className="navbar-menu-right">
-                  <a href="/SignIn/signin" className="button is-navbar w-button"> Sign In </a>
-                  <a href="/GetStarted/getstarted" className="button w-button"> Get Started </a>
+                  <a href="/signin" className="button is-navbar w-button"> Sign In </a>
+                  <a href="/getstarted" className="button w-button"> Get Started </a>
                 </div>
               </nav>
               <div className="navbar-menu-button w-nav-button">

@@ -24,7 +24,7 @@ function LandingFeatures (){
                     >
                       <div className="sub-heading">Features</div>
                       <h2>
-                        Tracking advanced user behaviour
+                        Virtual Interaction
                         <span className="hide-tablet">
                           <br />
                         </span>{" "}
@@ -59,12 +59,11 @@ function LandingFeatures (){
                             className="icon-1x1-medium"
                           />
                         </div>
-                        <h3 className="features-heading">Dally Analytics</h3>
-                      </div>
-                      <p>
-                        Lessons on design that cover the most recent
-                        developments.
-                      </p>
+                        <h3 className="features-heading">Reports</h3>
+                  </div>
+                  <p>
+                  ProximaAI generates tenant reports on chat and community issues.
+                  </p>
                       <div className="padding-bottom padding-medium"></div>
                       <a
                         href="contact-us.html"
@@ -100,11 +99,10 @@ function LandingFeatures (){
                             className="icon-1x1-medium"
                           />
                         </div>
-                        <h3 className="features-heading">Time Tracking</h3>
+                        <h3 className="features-heading">Descriptive Analytics</h3>
                       </div>
                       <p>
-                        Lessons on design that cover the most recent
-                        developments.
+                        ProximaAI analyzes chats, issues, communication channels, client demographics, and community metrics.
                       </p>
                       <div className="padding-bottom padding-medium"></div>
                       <a
@@ -141,11 +139,10 @@ function LandingFeatures (){
                             className="icon-1x1-medium"
                           />
                         </div>
-                        <h3 className="features-heading">Task Management</h3>
+                        <h3 className="features-heading">Predictive Analysis</h3>
                       </div>
                       <p>
-                        Lessons on design that cover the most recent
-                        developments.
+                        ProximaAI predicts client data for resource allocation.
                       </p>
                       <div className="padding-bottom padding-medium"></div>
                       <a

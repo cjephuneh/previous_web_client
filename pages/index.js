@@ -26,15 +26,15 @@ export default function Home() {
       <div className="page-wrapper">
         <main className="main-wrapper">
           <Landing />
-          <Companies />
+          {/*<Companies />*/}
           <WhyChooseUs />
           <LandingFeatures />
           <div className="section-divider"></div>
           <BusinessAnalysis />
           <div className="section-divider is-bottom"></div>
-          <Intergrations />
-          <Testimonials />
-          <Blog />
+          {/*<Intergrations />*/}
+          {/*<Testimonials />
+          {/*<Blog />*/}
           <TrackUser />          
         </main>
       </div>

@@ -15,12 +15,11 @@ function FrequentlyAsked() {
                     <div className="padding-bottom padding-small"></div>
                     <div className="padding-bottom"></div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse{" "}
+                      Proxima's website has a detailed FAQ section to answer{" "}
                       <span className="hide-mobile-landscape">
                         <br />
                       </span>
-                      varius enim in eros elementum tristique.
+                      common questions about the platform and services.
                     </p>
                   </div>
                 </div>
@@ -36,7 +35,7 @@ function FrequentlyAsked() {
                         className="faq-question"
                       >
                         <div className="text-weight-medium">
-                          Are you able to provide dedicated support?
+                          What is Proxima
                         </div>
                         <img
                           src="/assets/Vector-1_1Vector-1.webp"
@@ -47,14 +46,77 @@ function FrequentlyAsked() {
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                          Proxima is an AI kenyan based company that builds virtual 
+                          conversational agents for different organistaions,
+                          brands and groups 
                         </p>
+                        <div className="padding-bottom padding-small"></div>
+                      </div>
+                    </div>
+                    <div className="faq-accordion">
+                      <div
+                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
+                        className="faq-question"
+                      >
+                        <div className="text-weight-medium">
+                          What is a Virtual Agent?
+                        </div>
+                        <img
+                          src="/assets/Vector-1_1Vector-1.webp"
+                          loading="lazy"
+                          alt="Plus Icon"
+                          className="faq-icon"
+                        />
+                      </div>
+                      <div className="faq-answer">
+                        <p className="text-size-small">
+                          A Virtual Agent is a type of software the user natural language 
+                          processing to understand customer intent and search inquiries  
+                        </p>
+                        <div className="padding-bottom padding-small"></div>
+                      </div>
+                    </div>
+                    <div className="faq-accordion">
+                      <div
+                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
+                        className="faq-question"
+                      >
+                        <div className="text-weight-medium">
+                          Can your product be personalized?
+                        </div>
+                        <img
+                          src="/assets/Vector-1_1Vector-1.webp"
+                          loading="lazy"
+                          alt="Plus Icon"
+                          className="faq-icon"
+                        />
+                      </div>
+                      <div className="faq-answer">
+                        <p className="text-size-small">
+                         Yes it can, based on individual needs and preferences
+                        </p>
+                        <div className="padding-bottom padding-small"></div>
+                      </div>
+                    </div>
+                    <div className="faq-accordion">
+                      <div
+                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
+                        className="faq-question"
+                      >
+                        <div className="text-weight-medium">
+                          What are the benefits of Proxima agents?
+                        </div>
+                        <img
+                          src="/assets/Vector-1_1Vector-1.webp"
+                          loading="lazy"
+                          alt="Plus Icon"
+                          className="faq-icon"
+                        />
+                      </div>
+                      <div className="faq-answer">
+                        <p className="text-size-small">
+                          Proxima agents helps in bridging the gap in communication between businesses and the clients
+                          </p>
                         <div className="padding-bottom padding-small"></div>
                       </div>
                     </div>
@@ -75,97 +137,7 @@ function FrequentlyAsked() {
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
-                        </p>
-                        <div className="padding-bottom padding-small"></div>
-                      </div>
-                    </div>
-                    <div className="faq-accordion">
-                      <div
-                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
-                        className="faq-question"
-                      >
-                        <div className="text-weight-medium">
-                          Is it possible to request a higher-tier plan?
-                        </div>
-                        <img
-                          src="/assets/Vector-1_1Vector-1.webp"
-                          loading="lazy"
-                          alt="Plus Icon"
-                          className="faq-icon"
-                        />
-                      </div>
-                      <div className="faq-answer">
-                        <p className="text-size-small">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
-                        </p>
-                        <div className="padding-bottom padding-small"></div>
-                      </div>
-                    </div>
-                    <div className="faq-accordion">
-                      <div
-                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
-                        className="faq-question"
-                      >
-                        <div className="text-weight-medium">
-                          What is the process for resetting my password?
-                        </div>
-                        <img
-                          src="/assets/Vector-1_1Vector-1.webp"
-                          loading="lazy"
-                          alt="Plus Icon"
-                          className="faq-icon"
-                        />
-                      </div>
-                      <div className="faq-answer">
-                        <p className="text-size-small">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
-                        </p>
-                        <div className="padding-bottom padding-small"></div>
-                      </div>
-                    </div>
-                    <div className="faq-accordion">
-                      <div
-                        data-w-id="f8d69e92-d5d3-099c-4e54-a575096e36eb"
-                        className="faq-question"
-                      >
-                        <div className="text-weight-medium">
-                          How can I use Etech?
-                        </div>
-                        <img
-                          src="/assets/Vector-1_1Vector-1.webp"
-                          loading="lazy"
-                          alt="Plus Icon"
-                          className="faq-icon"
-                        />
-                      </div>
-                      <div className="faq-answer">
-                        <p className="text-size-small">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Suspendisse varius enim in eros elementum
-                          tristique. Duis cursus, mi quis viverra ornare, eros
-                          dolor interdum nulla, ut commodo diam libero vitae
-                          erat. Aenean faucibus nibh et justo cursus id rutrum
-                          lorem imperdiet. Nunc ut sem vitae risus tristique
-                          posuere.
+                          Click on the  "Get started" button to enjoy the experience with proxima
                         </p>
                         <div className="padding-bottom padding-small"></div>
                       </div>
@@ -184,7 +156,7 @@ function FrequentlyAsked() {
                       </h3>
                       <div className="padding-bottom padding-xsmall"></div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Feel free to contact us
                       </p>
                       <div className="padding-bottom padding-small"></div>
                     </div>
