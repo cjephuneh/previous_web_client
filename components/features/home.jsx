@@ -13,9 +13,9 @@ function Home() {
                     mozTransform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                     msTransform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                     transform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",}} className="max-width-large">
-                    <h1>Boost your sales with Etechnology</h1>
+                    <h1>Boost your sales with ProximaAI</h1>
                     <div className="padding-bottom padding-small"></div>
-                    <p className="text-size-medium">Lorem ipsum dolor sit amet consectetur adipiscing elit<span className="hide-mobile-landscape"><br/></span> interdum ullamcorper sed pharetra</p>
+                    <p className="text-size-medium">Connecting Organizations Brands Groups to <span className="hide-mobile-landscape"><br/></span> their Customers Through Interaction & Inclusivity</p>
                   </div>
                 </div>
                 <div className="header-image-wrapper"><img className="header-image is-features" src="/assets/user-gender--age_1user-gender--age.webp" width="784" alt="chart, bar chart" 

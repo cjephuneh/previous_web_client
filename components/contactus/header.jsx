@@ -24,8 +24,8 @@ function Header () {
                   <h1>Contact Us</h1>
                   <div className="padding-bottom padding-small"></div>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    interdum ullamcorper sed pharetra
+                    Foster strong bonds between organisations and their customers through
+                    a clear and coincise communication loop
                   </p>
                 </div>
               </div>

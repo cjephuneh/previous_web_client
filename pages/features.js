@@ -18,7 +18,7 @@ const features = () => {
     <div className="page-wrapper">
     <main className="main-wrapper">
       <Home />
-      <Companies />
+      {/*<Companies />*/}
       <Features />
       <FrequentlyAsked />
       <TrackUser />

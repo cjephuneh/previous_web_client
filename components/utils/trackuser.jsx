@@ -13,18 +13,18 @@ function TrackUser(){
                     className="cta-content"
                   >
                     <div className="max-width-medium">
-                      <h2>Track your user analytics to increase sales</h2>
+                      <h2>Interact with customers through virtual agents </h2>
                       <div className="padding-bottom padding-xsmall"></div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Massa adipiscing in at orci semper. Urna, urna.
+                      Connecting Organizations Brands Groups to their
+                       Customers Through Interaction & Inclusivity
                       </p>
                     </div>
                   </div>
                   <div className="cta-button-row">
                     <a
                       data-w-id="c6aa9a1b-16cb-0b97-4c9e-72c333ca05e1"
-                      href="about.html"
+                      href="/about"
                       aria-current="page"
                       className="button is-cta w-button w--current"
                     >
@@ -32,7 +32,7 @@ function TrackUser(){
                     </a>
                     <a
                       data-w-id="ee06d3d3-db8d-42e1-87c9-74ade7d0460d"
-                      href="sign-up.html"
+                      href="index.js"
                       className="button w-button"
                     >
                       Get Started

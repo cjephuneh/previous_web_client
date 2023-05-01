@@ -22,7 +22,7 @@ const about = () => {
         <Home />     
         <WhyChooseUs /> 
         <Projects /> 
-        <Team />
+        {/*<Team />*/}
         <Features />
         <FrequentlyAsked />
         <TrackUser />

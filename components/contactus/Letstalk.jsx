@@ -21,8 +21,8 @@ function Letstalk(){
             <h2>Let&#x27;s talk?</h2>
             <div className="padding-bottom padding-xsmall"></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit interdorm
-              ullamcorper sed pharetra senectus donec nunc ame
+              Make sure that the organisations achieve customer satisfaction through 
+              efficient interactions
             </p>
             <div className="padding-bottom padding-medium"></div>
             <div className="contact-form-block w-form">
@@ -43,7 +43,7 @@ function Letstalk(){
                     maxLength="256"
                     name="Contact-10-Name"
                     data-name="Contact 10 Name"
-                    placeholder="Arlene McCoy"
+                    placeholder="John Doe"
                     id="Contact-Name"
                     required=""
                   />

@@ -19,11 +19,10 @@ function Sidebar () {
               className="contact-content-left"
             >
               <div className="contact-text-wrapper">
-                <div className="text-size-huge">Welcome to our community</div>
+                <div className="text-size-huge">Welcome to our Organisation</div>
                 <div className="padding-bottom padding-xsmall"></div>
                 <div>
-                  Clarity gives you the blocks &amp; components you need to
-                  create a truly professional website.
+                  Proxima building virtual agents for your Organisation
                 </div>
               </div>
               <div className="contact-item-wrapper">
@@ -39,13 +38,13 @@ function Sidebar () {
                     <div>Our Email</div>
                     <div className="padding-bottom padding-xxsmall"></div>
                     <a href="mailto:info@gmail.com" className="text-style-link text-color-white">
-                      info@gmail.com
+                      proximaagents@gmail.com
                     </a>
                     <div className="padding-bottom padding-xxsmall"></div>
                     <a href="mailto:youremail@gmail.com"
                       className="text-style-link text-color-white"
                     >
-                      youremail@gmail.com
+                      {/*youremail@gmail.com*/}
                     </a>
                   </div>
                 </div>
@@ -61,17 +60,17 @@ function Sidebar () {
                     <div>Our Number</div>
                     <div className="padding-bottom padding-xxsmall"></div>
                     <a
-                      href="tel:+01234563232"
+                      href="tel:+254796342709"
                       className="text-style-link text-color-white"
                     >
-                      +01234563232
+                      +254796342709
                     </a>
                     <div className="padding-bottom padding-xxsmall"></div>
                     <a
                       href="tel:+92377493032"
                       className="text-style-link text-color-white"
                     >
-                      +92377493032
+                      +254790001947
                     </a>
                   </div>
                 </div>
@@ -89,9 +88,9 @@ function Sidebar () {
                   >
                     <div>Our Location</div>
                     <div className="padding-bottom padding-xxsmall"></div>
-                    <div>Almas tower, Dubai</div>
+                    <div>Juja Mordan Hospital</div>
                     <div className="padding-bottom padding-xxsmall"></div>
-                    <div>United Arab Emirates</div>
+                    <div>Juja, Kenya</div>
                   </div>
                 </div>
               </div>
