@@ -5,7 +5,7 @@ export const styles = {
         // Border
         borderRadius: '50%',
         // Background 
-        backgroundImage: `url(https://avatars.githubusercontent.com/u/92708967?v=4)`, 
+        backgroundImage: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWEqDo15s2Hm4fBd2kHsg1mf6mkGJ3jOLN0w&usqp=CAU)`, 
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         backgroundSize: '84px',
@@ -45,6 +45,7 @@ export const styles = {
         overflow: 'auto',
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
+        overflow: 'hidden',
     },
     emailFormWindow: { 
         width: '100%',  
