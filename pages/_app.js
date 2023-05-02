@@ -3,8 +3,6 @@ import "@/css/webflow.css";
 import "@/css/proxima-main-site.webflow.css";
 import "react-modern-drawer/dist/index.css"
 import '@/styles/globals.css'
-
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import  Script  from "next/script";
