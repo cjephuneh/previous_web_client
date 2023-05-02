@@ -2,7 +2,7 @@ import React from "react";
 
 import { styles } from "./styles";
 import EmailForm from './EmailForm'
-import Chat from '../../pages/Chat'
+import Chat from './Chat'
 
 const SupportWindow = props => {
     return (

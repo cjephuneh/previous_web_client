@@ -111,7 +111,9 @@ export const styles = {
         padding: '0.5rem 1rem',
         border: 'none',
         cursor: 'pointer',
-        borderRadius: '20px'
+        borderRadius: '20px',
            
-    }
+    },
+
+   
 }

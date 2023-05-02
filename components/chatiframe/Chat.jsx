@@ -1,4 +1,9 @@
 import { useState, useEffect } from 'react'
+//import MoodIcon from '@mui/icons-material/Mood';
+//import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
+//import SettingsIcon from '@mui/icons-material/Settings';
+//import OpenInFullIcon from '@mui/icons-material/OpenInFull';
+
    export default function Chat(){
     const data = [
         {
@@ -69,7 +74,7 @@ import { useState, useEffect } from 'react'
  
     return (
         
-        <div className=" my-4 bg-gray-250 flex flex-col justify-between overflow-scroll" style={{
+        <div className=" my-4 bg-gray-100 flex flex-col justify-between overflow-scroll" style={{
             scrollbarWidth: 'none',
         }}>
                 <div className="sticky top-0 flex justify-between bg-white bg-opacity-5 backdrop-blur-lg drop-shadow-lg shadow p-3">
@@ -114,28 +119,11 @@ import { useState, useEffect } from 'react'
 
             <div className="flex space-x-2 mx-2 mb-2">
                 <input value={message} onChange={(e) => setMessage(e.target.value)} type="text" className="flex-1 px-3 py-1 rounded focus:outline-none" placeholder="Type your message here..." />
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-black">
-                    <path d="M19 6H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2zM10 11v6M14 11v6" />
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-                    <circle cx="12" cy="12" r="3"/>
-                    <path d="M19.4 15a1 1 0 0 0 .6-.8V9.8a1 1 0 0 0-.6-.8l-2.8-.9V6.4a3 3 0 0 0-2.9-3 3 3 0 0 0-2.9 3v1.7l-2.8.9a1 1 0 0 0-.6.8v4.4a1 1 0 0 0 .6.8l2.8.9v1.7a3 3 0 0 0 2.9 3 3 3 0 0 0 2.9-3v-1.7l2.8-.9z"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
-                    <line x1="9" y1="9" x2="9.01" y2="9"/>
-                    <line x1="9" y1="9" x2="15.01" y2="9"/>
-                
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
-                    <path d="M20 6.21V17a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6.21m2.78-.71L12 3l3.22 2.5M16 7H8l4 4 4-4z"/>
-                </svg>
-
-
+                {/*<MoodIcon />
+                <AddPhotoAlternateIcon />
+                <SettingsIcon />
+                <OpenInFullIcon />
+                */}
                 <button onClick={() => setMessages([...messages, {
                     sender: 'me',
                     message,
