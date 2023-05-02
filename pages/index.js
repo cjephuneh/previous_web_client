@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React, { useRef, useEffect, useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Companies from '../components/utils/companies.jsx'
@@ -7,11 +8,29 @@ import LandingFeatures from '../components/landing/landingfeatures.jsx'
 import Landing from '../components/landing/landing.jsx'
 import BusinessAnalysis from '../components/landing/businessanalysis.jsx'
 import Intergrations from '../components/landing/intergrations.jsx'
+import Iframe from '../components/chatiframe/Iframe'
+import SupportWindow from "../components/chatiframe/SupportWindow";
 import Testimonials from '../components/landing/testimonials.jsx'
 import Blog from '../components/landing/blog.jsx'
 import TrackUser from '../components/utils/trackuser.jsx'
 
+
 export default function Home() {
+  const [visible, setVisible] = useState(false);
+  const ref = useRef(null)
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+        if (ref.current && !ref.current.contains(event.target)) {
+            setVisible(false)
+        }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+    };
+}, [ref])
+
   return (
     <>
       <Head>
@@ -35,7 +54,17 @@ export default function Home() {
           {/*<Intergrations />*/}
           {/*<Testimonials />
           {/*<Blog />*/}
-          <TrackUser />          
+          <TrackUser />  
+          <div ref={ref} className="h-96">
+              <SupportWindow visible={visible} />
+          <Iframe
+                    onClick={() => setVisible(true)}
+                    style={{
+                        position: 'fixed',
+                        bottom: '24px',
+                        right: '24px',
+                    }}/> 
+          </div>    
         </main>
       </div>
     </>

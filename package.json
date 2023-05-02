@@ -22,5 +22,10 @@
     "react-modern-drawer": "^1.2.0",
     "typescript": "5.0.2",
     "webp-loader": "^0.6.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }
