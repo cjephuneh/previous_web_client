@@ -8,3 +8,4 @@ export const changeAnchor = (anchor, classes) => {
         return classes.left;
     }
   };
+  

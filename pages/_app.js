@@ -2,7 +2,7 @@ import "@/css/normalize.css";
 import "@/css/webflow.css";
 import "@/css/proxima-main-site.webflow.css";
 import "react-modern-drawer/dist/index.css"
-
+import '@/styles/globals.css'
 
 
 import Navbar from "../components/Navbar";
