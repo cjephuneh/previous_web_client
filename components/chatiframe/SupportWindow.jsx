@@ -1,8 +1,10 @@
 import React from "react";
-
+import "tailwindcss/tailwind.css";
 import { styles } from "./styles";
 import EmailForm from './EmailForm'
 import Chat from './Chat'
+import Register from './Login'
+
 
 const SupportWindow = props => {
     return (
@@ -13,8 +15,8 @@ const SupportWindow = props => {
                 ...{ opacity: props.visible ? '1' : '0' }
             }}
         >
-            <EmailForm />
-            <Chat />
+           
+            <Register />
             
 
         </div>

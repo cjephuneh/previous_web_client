@@ -19,7 +19,7 @@ export const styles = {
         left: 'calc(-100% - 44px - 28px)', 
         top: 'calc(50% - 24px)', 
         // Layering
-        zIndex: '10000',
+        zIndex: '10',
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
         // Border
         padding: '12px 12px 12px 16px',
@@ -38,6 +38,7 @@ export const styles = {
         height: '480px',
         maxWidth: 'calc(100% - 48px)',
         maxHeight: 'calc(100% - 48px)',
+        
         backgroundColor: 'white',
         // Border
         borderRadius: '12px',
@@ -46,6 +47,7 @@ export const styles = {
         // Shadow
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
         overflow: 'hidden',
+    
     },
     emailFormWindow: { 
         width: '100%',  

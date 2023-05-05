@@ -37,7 +37,7 @@ function Landing(){
                         </p>
                         <div className="padding-bottom padding-medium"></div>
                         <div className="button-row">
-                          <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/Contact/contact" className="button is-icon w-inline-block" >
+                          <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/contact" className="button is-icon w-inline-block" >
                             <div>Try for free</div>
                             <div className="button-icon w-embed">
                               <svg
@@ -57,7 +57,7 @@ function Landing(){
                       </div>
                     </div>
                     <div className="header-image-wrapper">
-                      <img src="/assets/Frame-44195_1Frame-44195.webp" loading="lazy" data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb893"
+                      <img src="/assets/Frame-44195_2Frame-44195.webp" loading="lazy" data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb893"
                         style={{
                           WebkitTransform:
                             "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -69,14 +69,14 @@ function Landing(){
                             "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                           // opacity: "0",
                         }}
-                        srcSet="/assets/Frame-44195_1-p-500.png 500w, /assets/Frame-44195_1-p-800.png 800w,
-                         /assets/Frame-44195_1-p-1080.png 1080w, /assets/Frame-44195_1-p-1600.png 1600w, 
-                         /assets/Frame-44195_1-p-2000.png 2000w, /assets/Frame-44195_1Frame-44195.webp 2168w"
+                        srcSet="/assets/Frame-44195_2Frame-44195.webp 500w, /assets/Frame-44195_2Frame-44195.webp 800w,
+                         /assets/Frame-44195_2Frame-44195.webp 1080w, /assets/Frame-44195_2Frame-44195.webp 1600w, 
+                         /assets/Frame-44195_2Frame-44195.webp 2000w, /assets/Frame-44195_2Frame-44195.webp 2168w"
                         sizes="(max-width: 479px) 90vw, (max-width: 991px) 84vw, 86vw"
                         alt="Dashboard Image"
                         className="header-image"
                       />
-                      <img
+                      {/*<img
                         src="/assets/Group-1557-1_1Group-1557-1.webp"
                         loading="lazy"
                         data-w-id="b80b15a7-5a26-f500-032d-f0d8615bd113"
@@ -111,7 +111,7 @@ function Landing(){
                         }}
                         alt="background pattern"
                         className="illustration is-home-header is-top-right"
-                      />
+                      />*/}
                     </div>
                   </div>
                 </div>
