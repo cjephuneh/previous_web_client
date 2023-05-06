@@ -5,8 +5,10 @@ import LatestArticles from '../components/blog/Latestarticles.jsx'
 
 import FrequentlyAsked from '../components/utils/frequentasked.jsx'
 import TrackUser from '../components/utils/trackuser.jsx'
+import { useSelector } from 'react-redux'
 
 const blog = () => {
+    const blogs = useSelector(state => state.blog.blogs)
     return(
         <>
         <Head>

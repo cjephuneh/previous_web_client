@@ -5,11 +5,13 @@ import "react-modern-drawer/dist/index.css"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import  Script  from "next/script";
+import { store } from '../redux/store'
+import { Provider  } from "react-redux";
 
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <Provider store={store}>
       <Script type="text/javascript" src="/scripts/webflow.js" />
       <Script type="text/javascript" src="/scripts/scripts.js" />
       <Script
@@ -21,6 +23,6 @@ export default function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
       
-    </>
+    </Provider>
   );
 }
