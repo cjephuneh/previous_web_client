@@ -41,49 +41,23 @@ const EmailForm = props => {
                 
                 />
 
-                {/*<LoadingOutlined 
-                    classname='transition-5'
-                    style={{
-                        ...styles.loadingIcon,
-                        ...{
-                            zIndex: loading ? '10' : '-1',
-                            opacity: loading ? '1' : '0',
-                            fontSize: '82px',
-                            top: 'calc(50%-41px)',
-                            left: 'calc(50%-41px)',
-                        }
-                    }}
-                
-                />*/}
                  <div style={{ position: 'absolute', height: '100%', width: '100%', textAlign: 'center' }}>
-                <Iframe 
-                    style={{ 
-                        position: 'relative',
-                        left: 'calc(50% - 44px)',
-                        top: '10%',
-                    }}
-                />
+                
 
                 <div style={styles.topText}>
                     Welcome to my <br /> support 👋
                 </div>
-
-                <form 
-                    onSubmit={e => handleSubmit(e)}
-                    style={{ position: 'relative', width: '100%', top: '-30%' }}
-                >
-                    <input 
-                        placeholder='Your Email'
-                        onChange={e => setEmail(e.target.value)}
-                        style={styles.emailInput}
-                    />
-                </form>
-                
-                <div style={styles.bottomText}>
-                    Enter your email <br /> to get started.
+                 
+                <div className="flex flex-col items-center -m-36">
+                <a href="/" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4" onSubmit={e => handleSubmit(e)} >
+                     QuickChat?
+                </a>
+                <a href="/pages/blog.js" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">
+                     SecureChat?
+                </a>
                 </div>
 
-               
+              
 
             </div>
             

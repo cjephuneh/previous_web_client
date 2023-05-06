@@ -2,13 +2,14 @@ import React from 'react'
 
 function Register() {
   return (
-    <div className='min-h-fill flex items-center justify-center mt-32 py-12 px-4 sm:px-6 lg:px-8'>
+
+    <div className='min-h-fill flex items-center justify-center mt-37 py-12 px-4 sm:px-6 lg:px-8 aligh'>
         <div className= 'max-w-nd w-full space-y-8'>
             <div>
-                <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>Sign Up</h2>
+                <h2 className='mt-6 text-center text-3xl font-extrabold text-gray-900'>Sign Up now </h2>
                 <p className='mt-2 text-center text-sm text-gray-600'>
                 Or
-                <a href='#' className='font-medium text-indigo-600 hover:text-indigo-500 px-2'>Sign in</a>
+                <a href='./Login.jsx' className='font-medium text-indigo-600 hover:text-indigo-500 px-2'>Sign in</a>
                 </p>
             </div>
 
@@ -39,6 +40,7 @@ function Register() {
         </div>
 
     </div>
+    
 
    
   )

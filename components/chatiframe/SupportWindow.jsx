@@ -1,9 +1,9 @@
 import React from "react";
-import "tailwindcss/tailwind.css";
 import { styles } from "./styles";
 import EmailForm from './EmailForm'
 import Chat from './Chat'
-import Register from './Login'
+import Login from './Login'
+import Register from './Register'
 
 
 const SupportWindow = props => {
@@ -16,7 +16,9 @@ const SupportWindow = props => {
             }}
         >
            
-            <Register />
+        
+        <EmailForm />
+        
             
 
         </div>

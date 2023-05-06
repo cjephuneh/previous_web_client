@@ -19,10 +19,10 @@ export const styles = {
         left: 'calc(-100% - 44px - 28px)', 
         top: 'calc(50% - 24px)', 
         // Layering
-        zIndex: '10',
+        zIndex: '10', 
         boxShadow: '0px 0px 16px 6px rgba(0, 0, 0, 0.33)',
         // Border
-        padding: '12px 12px 12px 16px',
+        padding: '10px 10px 10px 14px',
         borderRadius: '24px', 
         // Color
         backgroundColor: '#f9f0ff',
@@ -61,13 +61,13 @@ export const styles = {
         top: '-45px',
         width: '100%',
         height: '308px',
-        backgroundColor: '#7a39e0',
+        backgroundColor: '#20b2aa',
         transform: 'skewY(-12deg)',
     },
     topText: { 
         position: 'relative',
         width: '100%', 
-        top: '-35%', 
+        top: '-50%', 
         color: 'white', 
         fontSize: '24px', 
         fontWeight: '600',
@@ -107,7 +107,7 @@ export const styles = {
         backgroundColor: '#fff',
     },
     
-    enterButton: {
+    enterButtonn: {
         backgroundColor: 'blue',
         color: '#fff', 
         fontSize: '1rem',
@@ -117,6 +117,8 @@ export const styles = {
         borderRadius: '20px',
            
     },
+
+    
 
    
 }

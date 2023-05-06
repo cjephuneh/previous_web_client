@@ -15,6 +15,7 @@ import Blog from '../components/landing/blog.jsx'
 import TrackUser from '../components/utils/trackuser.jsx'
 
 
+
 export default function Home() {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null)
@@ -55,16 +56,25 @@ export default function Home() {
           {/*<Testimonials />
           {/*<Blog />*/}
           <TrackUser />  
-          <div ref={ref} className="h-96">
-              <SupportWindow visible={visible} />
-          <Iframe
-                    onClick={() => setVisible(true)}
-                    style={{
-                        position: 'fixed',
-                        bottom: '24px',
-                        right: '24px',
-                    }}/> 
-          </div>    
+          <div style={{
+            width: '700px'
+          }}>
+            <div ref={ref} style={{
+              width: '700px',
+            }}>
+              
+
+                {/* <iframe frameBorder='0' border='0' cellSpacing='0' src="http://localhost:3001" style={{
+                          position: 'fixed',
+                          bottom: '24px',
+                          right: '24px',
+                          height: '60%',
+                          width: '1700px',
+                          borderStyle: 'none',
+                      
+                      }}></iframe>  */}
+            </div> 
+          </div>  
         </main>
       </div>
     </>
