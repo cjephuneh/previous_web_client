@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import  Script  from "next/script";
 import { store } from '../redux/store'
 import { Provider  } from "react-redux";
+import React from "react";
 
 
 export default function MyApp({ Component, pageProps }) {

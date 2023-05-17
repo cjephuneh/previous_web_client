@@ -22,7 +22,6 @@ export const getblogPosts = createAsyncThunk('blogs/get', async (thunkAPI) => {
 })
 
 
-
 export const blogSlice = createSlice({
     name: 'blog',
     initialState,
