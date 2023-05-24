@@ -40,7 +40,7 @@ describe('Getstarted', () => {
     render(<Getstarted />);
     
     // Simulate user input in the name field
-    const nameInput = screen.getByLabelText('Name:');
+    //const nameInput = screen.getByLabelText('Name:');
     fireEvent.change(nameInput, { target: { value: 'John Doe' } });
     expect(nameInput.value).toBe('John Doe');
 

@@ -1542,6 +1542,7 @@ figcaption {
 
 .navbar-menu-left {
   position: relative;
+  padding-left: 10%;
 }
 
 .navbar-link {

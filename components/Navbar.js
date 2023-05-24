@@ -49,14 +49,14 @@ const Navbar = () => {
                       <div data-hover="false" data-delay="100" data-w-id="1b56be8d-c9e2-59ec-58e5-df231f37a721" className="navbar-menu-dropdown w-dropdown">
                         <div className="navbar-dropdown-toggle w-dropdown-toggle">
                           <div className="dropdown-icon w-embed">
-                            <svg width=" 100%" height=" 100%" viewbox="0 0 16 16"fill="none"xmlns="http://www.w3.org/2000/svg">
+                            {/* <svg width=" 100%" height=" 100%" viewbox="0 0 16 16"fill="none"xmlns="http://www.w3.org/2000/svg">
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"></path>
-                            </svg>
+                            </svg> */}
                           </div>
-                          <div className="text-size-regular" onClick={() => setIsVisible(!visible)} > Pages </div>
+                          {/* <div className="text-size-regular" onClick={() => setIsVisible(!visible)} > Pages </div> */}
                         </div>
 
-                        {visible ? (
+                        {/* {visible ? (
                           <nav className="navbar-dropdown-list w-dropdown-list">
                             <div className="navbar-dropdown-container">
                               <div className="navbar-dropdown-link-list-wrapper">
@@ -96,19 +96,19 @@ const Navbar = () => {
                                   <a href="404.html" className="navbar-dropdown-link" > 404 Not Found</a>
                                   <a href="401.html" className="navbar-dropdown-link"> Password Protected</a>
                                   <a href="utility-pages/licenses.html" className="navbar-dropdown-link">Licenses</a>
-                                 </div>*/}
+                                 </div>
                               </div>
                             </div>
                           </nav>
                         ) : (
                           <></>
-                        )}
+                        )} */}
                       </div>
                     </li>
                   </ul>
                 </div>
                 <div className="navbar-menu-right">
-                  <a href="/signin" className="button is-navbar w-button"> Sign In </a>
+                  {/* <a href="/signin" className="button is-navbar w-button"> Sign In </a> */}
                   <a href="/getstarted" className="button w-button"> Get Started </a>
                 </div>
               </nav>

@@ -71,7 +71,7 @@ const getstarted = () => {
                           />
                         </div>
 
-                        <div className="form-field-wrapper">
+                        {/* <div className="form-field-wrapper">
                           <div className="field-label">Password</div>
                           <input
                             type="password"
@@ -97,7 +97,7 @@ const getstarted = () => {
                             id="Confirm-Password-2"
                             required=""
                           />
-                        </div>
+                        </div> */}
                         <label
                           id="w-node-_78f4fe73-af97-1b90-91d0-1e022065088f-50b1e3d6"
                           className="w-checkbox checkbox-field"
@@ -120,13 +120,13 @@ const getstarted = () => {
                           </span>
                         </label>
                         <div className="button-row">
-                          <input type="submit" value="Create Account" data-wait="Please wait..." id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6" className="button w-button"/>
+                          <input type="submit" value="Get Started" data-wait="Please wait..." id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6" className="button w-button"/>
                         </div>
-                        <div>
+                        {/* <div>
                           Already have an account?{" "}
                           <a href="sign-in.html" className="text-color-blue text-style-link" >Log In </a>
-                        </div>
-                        <div className="w-layout-grid form-button-wrapper is-signup">
+                        </div> */}
+                        {/* <div className="w-layout-grid form-button-wrapper is-signup">
                           <a href="https://www.google.com/" target="_blank" className="button-login w-inline-block">
                             <img loading="lazy" src="/assets/Frame_3Frame.webp" alt="Google Logo" className="icon-1x1-xsmall" /> 
                             <div>Sign in with Google</div>
@@ -137,7 +137,7 @@ const getstarted = () => {
                             <div>Sign in with  Facebook</div>
                           </a>
 
-                        </div>
+                        </div> */}
                       </form>
                       <div className="success-message w-form-done">
                         <div className="success-text">

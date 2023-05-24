@@ -1,5 +1,4 @@
-import react from 'react'
-
+import React from 'react';
 function Landing(){
     return(
         <header className="section-header">
