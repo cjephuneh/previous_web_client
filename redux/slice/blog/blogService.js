@@ -1,8 +1,14 @@
-import axios from 'axios'
 
-const getAllblogPosts = async() => {
-    const res = await axios.get('/')
-    return res.data 
-}
+import axios from 'axios';
+import BASE_URI from '../../../components/utils/ApiUrls';
 
-export default getAllblogPosts
+const getAllblogPosts = async () => {
+  try {
+    const response = await axios.get('http://localhost:8000/api/blogs/');
+    return response.data;
+  } catch (error) {
+    throw error;
+  }
+};
+
+export default getAllblogPosts;

@@ -7,4 +7,19 @@ services:
     container_name: web
     volumes:
       - .:/app
+    ports:
+      - 3000:80
 
+    command: npm run dev
+   
+    networks:
+      - traefik_proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.crmclient.rule=Host(`crm.proximaai.co`)"
+      - "traefik.http.routers.crmclient.tls=true"
+      - "traefik.http.routers.crmclient.tls.certresolver=letsencrypt"
+
+networks:
+  traefik_proxy:
+    external: true

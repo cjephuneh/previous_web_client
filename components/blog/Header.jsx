@@ -15,10 +15,10 @@ function Header(){
                         transform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",}} className="max-width-medium align-center">
                     <h1>Updates &amp; News</h1>
                     <div className="padding-bottom padding-small"></div>
-                    <p className="text-size-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum doloradipiscing elit.</p>
+                    <p className="text-size-medium">Find our latest news updates and news here</p>
                     </div>
                 </div>
-                <div className="padding-bottom padding-xxlarge"></div>
+                {/* <div className="padding-bottom padding-xxlarge"></div>
                 <div data-w-id="60cfa6aa-2bc4-b6db-edbd-4f344fa2877e" 
                     style={{WebkitTransform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                     mozTransform:"translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -89,7 +89,8 @@ function Header(){
                         </div>
                     </div>
                     </div>
-                </div>
+                
+                </div> */}
                 </div>
             </div>
             </div>

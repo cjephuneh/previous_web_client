@@ -5,39 +5,29 @@ import { submitContactForm } from '../../redux/slice/contact/contactSlice';
 
 function Letstalk() {
   const dispatch = useDispatch();
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const { isLoading, isSuccess, isError, isMessage } = useSelector(
-    (state) => state.contact
-  );
+  //const { isLoading, isError, isSuccess } = useSelector(state => state.waitlist); 
+  const [contactData, setcontactData] = useState({
+    name: '',
+    email: '',
+    subject:'',
+    message: ''
+  });
+
+  const handleChange = (e) => {
+    setcontactData({ ...contactData, [e.target.name]: e.target.value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const contactData = { name, email, message };
-    dispatch(submitContactForm(contactData));
+    dispatch(submitContactForm(contactData))
+    setcontactData({
+      name: '',
+      email: '',
+      subject:'',
+      message: ''
+    });
   };
 
-  const handleNameChange = (e) => {
-    setName(e.target.value);
-  };
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
-  const handleMessageChange = (e) => {
-    setMessage(e.target.value);
-  };
-
-  React.useEffect(() => {
-    if (isSuccess) {
-      // Clear the form values after successful submission
-      setName('');
-      setEmail('');
-      setMessage('');
-    }
-  }, [isSuccess]);
 
   return (
     <div
@@ -79,69 +69,76 @@ function Letstalk() {
               type="text"
               className="form-input is-contact w-input"
               maxLength="256"
-              name="Contact-10-Name"
+              name="name" // Update name attribute to "name"
               data-name="Contact 10 Name"
               placeholder="John Doe"
               id="Contact-Name"
               required=""
-              value={name}
-              onChange={handleNameChange}
+              value={contactData.name}
+              onChange={handleChange}
             />
-          </div>
-          <div className="form-field-wrapper">
-            <label htmlFor="Contact-Email" className="field-label">
-              Email
-            </label>
+
             <input
               type="email"
               className="form-input is-contact w-input"
               maxLength="256"
-              name="Contact-10-Email"
+              name="email" // Update name attribute to "email"
               data-name="Contact 10 Email"
               placeholder="youremail@gmail.com"
               id="Contact-Email"
               required=""
-              value={email}
-              onChange={handleEmailChange}
+              value={contactData.email}
+              onChange={handleChange}
             />
-          </div>
-          <div className="form-field-wrapper">
-            <label htmlFor="Contact-Message" className="field-label">
-              Message
-            </label>
+
+
+            <textarea
+              id="Contact-subject"
+              name="subject" // Update name attribute to "message"
+              maxLength="5000"
+              data-name="Contact 10 Message"
+              placeholder="subject..."
+              required=""
+              className="form-input is-contact is-text-area w-input"
+              value={contactData.subject}
+              onChange={handleChange}
+            ></textarea>
+
+
             <textarea
               id="Contact-Message"
-              name="Contact-10-Message"
+              name="message" 
               maxLength="5000"
               data-name="Contact 10 Message"
               placeholder="Type your message..."
               required=""
               className="form-input is-contact is-text-area w-input"
-              value={message}
-              onChange={handleMessageChange}
+              value={contactData.message}
+              onChange={handleChange}
             ></textarea>
+
+             
           </div>
           <input
-            type="submit"
-            value={isLoading ? 'Sending...' : 'Send Message'}
-            data-wait="Please wait..."
-            id="w-node-c5cf970e-c2f6-ab4f-cef1-d6ebcfabad19-e5b1e3c8"
-            className="button w-button"
-            disabled={isLoading}
+           type="submit"
+           value="Send Message"
+           data-wait="Please wait..."
+           id="w-node-c5cf970e-c2f6-ab4f-cef1-d6ebcfabad19-e5b1e3c8"
+           className="button w-button"
           />
         </form>
-        {isSuccess && (
+        
           <div className="success-message w-form-done">
             <div className="success-text">
               Thank you! Your submission has been received!
             </div>
           </div>
-        )}
-        {isError && (
+     
+        
           <div className="error-message w-form-fail">
-            <div className="error-text">{isMessage}</div>
+            <div className="error-text"></div>
           </div>
-        )}
+      
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import waitlist from './waitlistService';
 
 const initialState = {
   waitlist: [],
@@ -16,7 +17,7 @@ export const submitWaitlist = createAsyncThunk('waitlist/submit', async (waitlis
 
     // Simulating API request delay
     //await new Promise(resolve => setTimeout(resolve, 1000));
-
+    //  console.log(waitlistData)
     // Return any data received from the API response (if needed)
     return await waitlist(waitlistData)
   } catch (error) {
@@ -25,6 +26,8 @@ export const submitWaitlist = createAsyncThunk('waitlist/submit', async (waitlis
     return thunkAPI.rejectWithValue(message);
   }
 });
+
+
 
 export const waitlistSlice = createSlice({
   name: 'waitlist',

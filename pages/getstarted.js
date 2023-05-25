@@ -1,6 +1,36 @@
-import React from "react";
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { submitGetStarted } from '../redux/slice/getstarted/getstartedSlice';
 
-const getstarted = () => {
+function GetStarted() {
+  const dispatch = useDispatch();
+  const [getstartedData, setgetstartedData] = useState({
+    organization: '',
+    location: '',
+    email: '',
+    phonenumber: '',
+    country: '',
+    description: '',
+  });
+
+  const handleChange = (e) => {
+    setgetstartedData({ ...getstartedData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(getstartedData)
+    dispatch(submitGetStarted(getstartedData));
+    setgetstartedData({
+      organization: '',
+      location: '',
+      email: '',
+      phoneNumber: '',
+      country: '',
+      description: '',
+    })
+  };
+
   return (
     <div className="page-wrapper">
       <main className="main-wrapper">
@@ -9,7 +39,7 @@ const getstarted = () => {
             <div className="container-large">
               <div className="padding-section-large">
                 <div className="signup-component">
-                  <div id="w-node-_29826690-63ec-990d-359e-b2fedc68f823-50b1e3d6" className="signup-image-wrapper" >
+                <div id="w-node-_29826690-63ec-990d-359e-b2fedc68f823-50b1e3d6" className="signup-image-wrapper" >
                     <img className="signup-image" src="/assets/image-3_1image-3.webp" width="513.5" alt="a person sitting at a table with a laptop and a cup"
                       style={{
                         WebkitTransform:
@@ -44,133 +74,113 @@ const getstarted = () => {
                     }}
                     className="signup-content-wrapper"
                   >
+                  <div className="signup-content-wrapper">
                     <h1 className="heading-style-h2"> Join grow your business </h1>
                     <div className="padding-bottom padding-xsmall"></div>
-                    {/* <p className="text-size-small">Lorem ipsum dolor sit amet consectetur adipiscing
-                      <span className="hide-mobile-landscape">
-                        <br />
-                      </span>{" "}
-                      elit interdorm ullamcorper sed pharetra
-                    </p> */}
                     <div className="padding-bottom padding-small"></div>
                     <div className="signup-form-block w-form">
-                      <form id="wf-form-Sign-Up-Form" name="wf-form-Sign-Up-Form" data-name="Sign Up Form" method="get" className="signup-form" >
+                      <form onSubmit={handleSubmit} className="signup-form">
                         <div className="form-field-wrapper">
                           <div className="field-label">Organisation</div>
-                          <input type="text" className="form-input-field w-input" maxLength="256" name="Sign-up-Name" data-name="Sign-up-Name" placeholder="Jane Cooper"id="Sign-up-Name-2" required="" />
+                          <input
+                            type="text"
+                            className="form-input-field w-input"
+                            maxLength="256"
+                            name="organization"
+                            value={getstartedData.organization}
+                            onChange={handleChange}
+                            placeholder="Jane Cooper"
+                            id="Sign-up-Name-2"
+                            required
+                          />
                         </div>
 
                         <div className="form-field-wrapper">
                           <div className="field-label">Location</div>
-                          <input type="email" className="form-input-field w-input" maxLength="256"
+                          <input
+                            type="text"
+                            className="form-input-field w-input"
+                            maxLength="256"
                             name="location"
-                            data-name="Sign-up-Form-Email"
+                            value={getstartedData.location}
+                            onChange={handleChange}
                             placeholder="enteryourlocation"
                             id="Sign-up-Form-Email-2"
-                            required=""
+                            required
                           />
                         </div>
 
-                         <div className="form-field-wrapper">
+                        <div className="form-field-wrapper">
                           <div className="field-label">Email</div>
                           <input
-                            type="password"
+                            type="email"
                             className="form-input-field w-input"
                             maxLength="256"
-                            name="Sign-up-Form-Password"
-                            data-name="Sign-up-Form-Password"
+                            name="email"
+                            value={getstartedData.email}
+                            onChange={handleChange}
                             placeholder="enteryouemail@gmail.com"
                             id="Sign-up-Form-Password-2"
-                            required=""
+                            required
                           />
                         </div>
 
                         <div className="form-field-wrapper">
                           <div className="field-label">Phonenumber</div>
                           <input
-                            type="password"
+                            type="text"
                             className="form-input-field w-input"
                             maxLength="256"
-                            name="Confirm-Password"
-                            data-name="Confirm-Password"
-                            placeholder="phoneno"
-                            id="Confirm-Password-2"
-                            required=""
+                            name="phoneNumber"
+                            value={getstartedData.phoneNumber}
+                            onChange={handleChange}
+                            placeholder="enteryourphonenumber"
+                            id="Sign-up-Form-Password-2"
+                            required
                           />
-                        </div> 
+                        </div>
+
                         <div className="form-field-wrapper">
                           <div className="field-label">Country</div>
                           <input
-                            type="password"
+                            type="text"
                             className="form-input-field w-input"
                             maxLength="256"
-                            name="Confirm-Password"
-                            data-name="Confirm-Password"
-                            placeholder="country?"
-                            id="Confirm-Password-2"
-                            required=""
+                            name="country"
+                            value={getstartedData.country}
+                            onChange={handleChange}
+                            placeholder="enteryourcountry"
+                            id="Sign-up-Form-Password-2"
+                            required
                           />
-                        </div> 
+                        </div>
+
                         <div className="form-field-wrapper">
                           <div className="field-label">Description</div>
                           <textarea
-                            id="Contact-Message"
-                            name="Contact-10-Message"
+                            className="form-input-field form-textarea w-input"
                             maxLength="5000"
-                            data-name="Contact 10 Message"
-                            placeholder="Type your message..."
-                            required=""
-                            className="form-input is-contact is-text-area w-input"
-                            
+                            name="description"
+                            value={getstartedData.description}
+                            onChange={handleChange}
+                            placeholder="enter your description here"
+                            id="Sign-up-Form-Password-2"
+                            required
                           ></textarea>
-                        </div> 
-                        <label
-                          id="w-node-_78f4fe73-af97-1b90-91d0-1e022065088f-50b1e3d6"
-                          className="w-checkbox checkbox-field"
-                        >
-                          {/* <input
-                            type="checkbox"
-                            id="checkbox"
-                            name="checkbox"
-                            data-name="Checkbox"
-                            required=""
-                            className="w-checkbox-input form-checkbox-icon"
-                          /> */}
-                          
-                        </label>
-                        <div className="button-row">
-                          <input type="submit" value="Get Started" data-wait="Please wait..." id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6" className="button w-button"/>
                         </div>
-                        {/* <div>
-                          Already have an account?{" "}
-                          <a href="sign-in.html" className="text-color-blue text-style-link" >Log In </a>
-                        </div> */}
-                        {/* <div className="w-layout-grid form-button-wrapper is-signup">
-                          <a href="https://www.google.com/" target="_blank" className="button-login w-inline-block">
-                            <img loading="lazy" src="/assets/Frame_3Frame.webp" alt="Google Logo" className="icon-1x1-xsmall" /> 
-                            <div>Sign in with Google</div>
-                          </a>
 
-                          <a href="https://www.facebook.com/" target="_blank" className="button-login w-inline-block">
-                            <img loading="lazy" src="/assets/Frame-1_4Frame-1.webp" alt="Facebook Logo" className="icon-1x1-xsmall"/>
-                            <div>Sign in with  Facebook</div>
-                          </a>
-
-                        </div> */}
+                        <div className="div-block-3">
+                          <input
+                            type="submit"
+                            value="Get Started"
+                            className="getstarted-button w-button"
+                          />
+                        </div>
                       </form>
-                      <div className="success-message w-form-done">
-                        <div className="success-text">
-                          Thank you! Your submission has been received!
-                        </div>
-                      </div>
-                      <div className="error-message w-form-fail">
-                        <div className="error-text">
-                          Oops! Something went wrong while submitting the form.
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
@@ -178,6 +188,6 @@ const getstarted = () => {
       </main>
     </div>
   );
-};
+  }
 
-export default getstarted;
+export default GetStarted;

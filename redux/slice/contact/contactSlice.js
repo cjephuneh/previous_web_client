@@ -2,6 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import contactUs from './contactService';
 
 const initialState = {
+  contact: [],
   isError: false,
   isLoading: false,
   isSuccess: false,
@@ -10,14 +11,7 @@ const initialState = {
 
 export const submitContactForm = createAsyncThunk('contact/post', async (contactData, thunkAPI) => {
   try {
-    // Make the API request using formData
-    // Replace the following line with your actual API request
-    // Example: await axios.post('/api/contact', formData);
-
-    // Simulating API request delay
-    // await new Promise(resolve => setTimeout(resolve, 1000));
-
-    // Return any data received from the API response (if needed)
+  
     return await contactUs(contactData)
   } catch (error) {
     console.error(error);
@@ -50,3 +44,5 @@ export const contactSlice = createSlice({
 });
 
 export default contactSlice.reducer;
+
+

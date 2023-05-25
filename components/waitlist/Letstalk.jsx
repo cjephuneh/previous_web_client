@@ -2,32 +2,29 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { submitWaitlist } from '../../redux/slice/waitlist/waitlistSlice';
 
+
 function Letstalk() {
   const dispatch = useDispatch();
-  const [formData, setFormData] = useState({
+  //const { isLoading, isError, isSuccess } = useSelector(state => state.waitlist); 
+  const [waitlistData, setWaitlistData] = useState({
     firstName: '',
     lastName: '',
     email: ''
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setWaitlistData({ ...waitlistData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(submitWaitlist(formData))
-      .then(() => {
-        // Handle success, show success message or perform any additional actions
-        console.log('Waitlist submitted successfully');
-        window.location.reload(); // Reload the page
-      })
-      .catch((error) => {
-        // Handle error, show error message or perform any additional actions
-        console.error('Error submitting waitlist:', error);
-      });
+    dispatch(submitWaitlist(waitlistData))
+    setWaitlistData({
+      firstName: '',
+      lastName: '',
+      email: ''
+    });
   };
-
 
   return (
     <div
@@ -74,7 +71,7 @@ function Letstalk() {
               placeholder="John"
               id="first_name"
               required=""
-              value={formData.firstName}
+              value={waitlistData.firstName}
               onChange={handleChange}
             />
           </div>
@@ -91,7 +88,7 @@ function Letstalk() {
               placeholder="Doe"
               id="last_name"
               required=""
-              value={formData.lastName}
+              value={waitlistData.lastName}
               onChange={handleChange}
             />
           </div>
@@ -108,7 +105,7 @@ function Letstalk() {
               placeholder="youremail@gmail.com"
               id="email"
               required=""
-              value={formData.email}
+              value={waitlistData.email}
               onChange={handleChange}
             />
           </div>
