@@ -42,6 +42,10 @@ const Navbar = () => {
                     </li>
 
                     <li className="navbar-menu-list-item">
+                      <a href="/waitlist" className="navbar-link w-nav-link"> Waitlist </a>
+                    </li>
+
+                    <li className="navbar-menu-list-item">
                       <a href="/blog" className="navbar-link w-nav-link"> blog</a>
                     </li>
 
