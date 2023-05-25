@@ -1,8 +1,8 @@
 import axios from 'axios'
-import { BASE_URI} from '../../../components/utils/ApiUrls'
+import { BASE_URI } from '../../../components/utils/ApiUrls'
 
 const contactUs = async(contactData) => {
-    const res = await axios.post(`${BASE_URI}`,{
+    const res = await axios.post(`${BASE_URI}/contact/`,{
         name: contactData.name,
         email: contactData.email,
         subject: contactData.subject,
