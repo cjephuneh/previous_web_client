@@ -8,7 +8,7 @@ const initialState = {
   isMessage: '',
 };
 
-export const submitContactForm = createAsyncThunk('contact/submit', async (contactData, thunkAPI) => {
+export const submitContactForm = createAsyncThunk('contact/post', async (contactData, thunkAPI) => {
   try {
     // Make the API request using formData
     // Replace the following line with your actual API request

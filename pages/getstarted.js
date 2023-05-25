@@ -46,78 +46,97 @@ const getstarted = () => {
                   >
                     <h1 className="heading-style-h2"> Join grow your business </h1>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <p className="text-size-small">Lorem ipsum dolor sit amet consectetur adipiscing
+                    {/* <p className="text-size-small">Lorem ipsum dolor sit amet consectetur adipiscing
                       <span className="hide-mobile-landscape">
                         <br />
                       </span>{" "}
                       elit interdorm ullamcorper sed pharetra
-                    </p>
+                    </p> */}
                     <div className="padding-bottom padding-small"></div>
                     <div className="signup-form-block w-form">
                       <form id="wf-form-Sign-Up-Form" name="wf-form-Sign-Up-Form" data-name="Sign Up Form" method="get" className="signup-form" >
                         <div className="form-field-wrapper">
-                          <div className="field-label">Name</div>
+                          <div className="field-label">Organisation</div>
                           <input type="text" className="form-input-field w-input" maxLength="256" name="Sign-up-Name" data-name="Sign-up-Name" placeholder="Jane Cooper"id="Sign-up-Name-2" required="" />
                         </div>
 
                         <div className="form-field-wrapper">
-                          <div className="field-label">Email</div>
+                          <div className="field-label">Location</div>
                           <input type="email" className="form-input-field w-input" maxLength="256"
-                            name="Sign-up-Form-Email"
+                            name="location"
                             data-name="Sign-up-Form-Email"
-                            placeholder="enteryour@gmail.com"
+                            placeholder="enteryourlocation"
                             id="Sign-up-Form-Email-2"
                             required=""
                           />
                         </div>
 
-                        {/* <div className="form-field-wrapper">
-                          <div className="field-label">Password</div>
+                         <div className="form-field-wrapper">
+                          <div className="field-label">Email</div>
                           <input
                             type="password"
                             className="form-input-field w-input"
                             maxLength="256"
                             name="Sign-up-Form-Password"
                             data-name="Sign-up-Form-Password"
-                            placeholder="minimum 8 characters"
+                            placeholder="enteryouemail@gmail.com"
                             id="Sign-up-Form-Password-2"
                             required=""
                           />
                         </div>
 
                         <div className="form-field-wrapper">
-                          <div className="field-label">Confirm password</div>
+                          <div className="field-label">Phonenumber</div>
                           <input
                             type="password"
                             className="form-input-field w-input"
                             maxLength="256"
                             name="Confirm-Password"
                             data-name="Confirm-Password"
-                            placeholder="minimum 8 characters"
+                            placeholder="phoneno"
                             id="Confirm-Password-2"
                             required=""
                           />
-                        </div> */}
+                        </div> 
+                        <div className="form-field-wrapper">
+                          <div className="field-label">Country</div>
+                          <input
+                            type="password"
+                            className="form-input-field w-input"
+                            maxLength="256"
+                            name="Confirm-Password"
+                            data-name="Confirm-Password"
+                            placeholder="country?"
+                            id="Confirm-Password-2"
+                            required=""
+                          />
+                        </div> 
+                        <div className="form-field-wrapper">
+                          <div className="field-label">Description</div>
+                          <textarea
+                            id="Contact-Message"
+                            name="Contact-10-Message"
+                            maxLength="5000"
+                            data-name="Contact 10 Message"
+                            placeholder="Type your message..."
+                            required=""
+                            className="form-input is-contact is-text-area w-input"
+                            
+                          ></textarea>
+                        </div> 
                         <label
                           id="w-node-_78f4fe73-af97-1b90-91d0-1e022065088f-50b1e3d6"
                           className="w-checkbox checkbox-field"
                         >
-                          <input
+                          {/* <input
                             type="checkbox"
                             id="checkbox"
                             name="checkbox"
                             data-name="Checkbox"
                             required=""
                             className="w-checkbox-input form-checkbox-icon"
-                          />
-                          <span className="w-form-label" htmlFor="checkbox">
-                            I had read and accept the Etech{" "}
-                            <a href="terms-condition.html">
-                              Terms &amp; Conditions
-                            </a>{" "}
-                            and{" "}
-                            <a href="privacy-policy.html">Privacy Policy.</a>
-                          </span>
+                          /> */}
+                          
                         </label>
                         <div className="button-row">
                           <input type="submit" value="Get Started" data-wait="Please wait..." id="w-node-_29826690-63ec-990d-359e-b2fedc68f813-50b1e3d6" className="button w-button"/>
