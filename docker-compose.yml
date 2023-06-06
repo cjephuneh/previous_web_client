@@ -17,9 +17,9 @@ services:
       - traefik_proxy
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.crmclient.rule=Host(`web.proximaai.co`)"
-      - "traefik.http.routers.crmclient.tls=true"
-      - "traefik.http.routers.crmclient.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.webclient.rule=Host(`0.0.0.0:3000`)"
+      - "traefik.http.routers.webclient.tls=false"
+      # - "traefik.http.routers.crmclient.tls.certresolver=letsencrypt"
 
 networks:
   traefik_proxy:
