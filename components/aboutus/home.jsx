@@ -32,7 +32,7 @@ function Home() {
               </p>
               <div className="padding-bottom padding-medium"></div>
               <div className="button-row">
-                <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/Contact/contact" className="button is-icon w-inline-block">
+                <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/contact" className="button is-icon w-inline-block">
                   <div>Try for free</div>
                   <div className="button-icon w-embed">
                     <svg width="100%" viewbox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -55,8 +55,7 @@ function Home() {
                     "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                   // opacity: "0",
                 }}
-                srcSet="/assets/Rectangle-4338_1-p-500.png 500w, /assets/Rectangle-4338_1-p-800.png 800w, 
-                /assets/Rectangle-4338_1-p-1080.png 1080w, /assets/Rectangle-4338_1Rectangle-4338.webp 1266w"
+                srcSet="/assets/IMG_3246.jpg"
                 sizes="(max-width: 991px) 90vw, 41vw"
                 alt="A man sitting at a table with a laptop"
                 className="header-image"
@@ -78,7 +77,7 @@ function Home() {
               <img
                 src="/assets/Group-1557-1_1Group-1557-1.webp"
                 loading="lazy"
-                alt="background pattern"
+                alt=""
                 className="illustration is-about-bottom-right"
               />
               <img

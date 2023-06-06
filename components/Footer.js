@@ -86,8 +86,8 @@ function Footer () {
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6042" className="footer-link-list">
                     <div className="text-weight-semibold">Utility Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="/article-category/analytics" className="footer-link">Blog Category </a>
-                    <a href="/article/using-analytics-to-optimize-page-performance" className="footer-link">Blog Post</a>
+                    <a href="/blog" className="footer-link">Blog Category </a>
+                    <a href="/blog" className="footer-link">Blog Post</a>
                   </div>
 
                 </div>
