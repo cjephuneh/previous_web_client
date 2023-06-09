@@ -61,7 +61,7 @@ function GetStarted() {
                       }}
                       sizes="(max-width: 479px) 100vw, (max-width: 991px) 90vw, 39vw"
                       data-w-id="29826690-63ec-990d-359e-b2fedc68f824"
-                      loading="lazy"
+                      // loading="lazy"
                       srcSet="/assets/IMG_3232.jpg"
                     />
                   </div>

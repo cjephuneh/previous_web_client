@@ -76,17 +76,17 @@ function Home() {
               />
               <img
                 src="/assets/Group-1557-1_1Group-1557-1.webp"
-                loading="lazy"
+                // loading="lazy"
                 alt=""
                 className="illustration is-about-bottom-right"
               />
-              <img
+              {/* <img
                 src="/assets/Group-1557-1_1Group-1557-1.webp"
                 loading="lazy"
                 data-w-id="f8919201-1bf8-e36c-d0e4-a2a57c2a9f15"
                 alt="background pattern"
                 className="illustration is-about-top-left"
-              />
+              /> */}
             </div>
           </div>
         </div>
