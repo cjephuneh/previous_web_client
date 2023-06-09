@@ -130,8 +130,30 @@ const Navbar = () => {
                   direction="top"
                   // className=""
                 >
-                  <h1>Hello world</h1>
-                  <h1>Hello world</h1>
+                 <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/" aria-current="page" style={{ textDecoration: "none" }}>Home</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/features" style={{ textDecoration: "none" }}>Features</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/about" style={{ textDecoration: "none" }}>About</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/contactus" style={{ textDecoration: "none" }}>Contact Us</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/waitlist" style={{ textDecoration: "none" }}>Waitlist</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/blog" style={{ textDecoration: "none" }}>Blog</a>
+                </div>
+                <div style={{ color: "black", textAlign: "right" }}>
+                  <a href="/getstarted" style={{ textDecoration: "none" }}>GetStarted</a>
+                </div>
+
+
+
                 </Drawer>
               </div>
             </div>
