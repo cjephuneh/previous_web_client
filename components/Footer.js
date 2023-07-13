@@ -68,7 +68,7 @@ function Footer () {
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6024" className="footer-link-list" >
                     <div className="text-weight-semibold">Pages</div>
                     <div className="padding-bottom padding-xsmall"></div>
-                    <a href="/index" aria-current="page" className="footer-link w--current" >Home </a>
+                    <a href="/" aria-current="page" className="footer-link w--current" >Home </a>
                     <a href="/features" className="footer-link">Features </a>
                     <a href="/about" className="footer-link">About us</a>
                     
@@ -96,8 +96,8 @@ function Footer () {
               <div className="padding-top padding-medium">
                 <div className="footer-bottom-wrapper">
                   <div className="w-layout-grid footer-legal-list">
-                    <a href="terms-condition.html" className="footer-legal-link">Terms &amp; Conditions</a>
-                    <a href="privacy-policy.html" className="footer-legal-link">Privacy Policy</a>
+                    <a href="/" className="footer-legal-link">Terms &amp; Conditions</a>
+                    <a href="/" className="footer-legal-link">Privacy Policy</a>
                   </div>
                   <div className="footer-credit-text">
                     Copyright 2023 © Proxima |

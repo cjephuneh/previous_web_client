@@ -20,8 +20,8 @@ const about = () => {
     <div className="page-wrapper">
       <main className="main-wrapper">
         <Home />     
-        <WhyChooseUs /> 
-        <Projects /> 
+        {/* <WhyChooseUs />  */}
+        {/* <Projects />  */}
         {/*<Team />*/}
         <Features />
         <FrequentlyAsked />

@@ -23,13 +23,14 @@ function Home() {
               }}
               className="header-content-wrapper is-about"
             >
-              <div className="sub-heading">About</div>
-              <h1>The essential growth platform for digital businesses</h1>
+              <div className="sub-heading">Vision</div>
+              <h1>We focus on your customers</h1>
               <div className="padding-bottom padding-small"></div>
               <p className="text-size-medium">
-                Revolutionizing Customer Service and Sales with AI-Powered Virtual 
-                Agents - Introducing Proxima, a Kenyan-Based Organization
+                To improve your customer's experience, retention and reduce your customer support
+                costs by building virtual conversation assistants that understand your customer needs
               </p>
+              
               <div className="padding-bottom padding-medium"></div>
               <div className="button-row">
                 <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/contact" className="button is-icon w-inline-block">
@@ -60,15 +61,13 @@ function Home() {
                 alt="A man sitting at a table with a laptop"
                 className="header-image"
               />
-              <img
+              {/* <img
                 src="/assets/Frame-2528_1Frame-2528.webp"
                 loading="lazy"
-                alt="text"
                 className="illustration is-about-top-right"
-              />
+              /> */}
               <img
                 src="/assets/Metric-item_1Metric-item.webp"
-                loading="lazy"
                 srcSet="/assets/Metric-item_1-p-500.webp 500w, /assets/Metric-item_1Metric-item.webp 602w"
                 sizes="(max-width: 479px) 90vw, (max-width: 767px) 160px, (max-width: 991px) 208px, 276px"
                 alt="graphical user interface, text, application"

@@ -37,9 +37,7 @@ const Navbar = () => {
                       <a href="/about" className="navbar-link w-nav-link"> About </a>
                     </li>
 
-                    <li className="navbar-menu-list-item">
-                      <a href="/contact" className="navbar-link w-nav-link"> Contact Us </a>
-                    </li>
+                    
 
                     <li className="navbar-menu-list-item">
                       <a href="/waitlist" className="navbar-link w-nav-link"> Waitlist </a>
@@ -47,6 +45,10 @@ const Navbar = () => {
 
                     <li className="navbar-menu-list-item">
                       <a href="/blog" className="navbar-link w-nav-link"> blog</a>
+                    </li>
+
+                    <li className="navbar-menu-list-item">
+                      <a href="/contact" className="navbar-link w-nav-link"> Contact Us </a>
                     </li>
 
                     <li className="navbar-menu-list-item">

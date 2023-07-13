@@ -14,7 +14,7 @@ function WhyChooseUs () {
                   >
                     <div className="sub-heading">Why choose us</div>
                     <h2>
-                      Using powerful Virtual Agents to grow your business
+                      Using powerful Virtual Assistants to grow your business
                     </h2>
                     <div className="padding-bottom padding-small"></div>
                     

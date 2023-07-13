@@ -25,7 +25,7 @@ function Landing(){
                         }}
                         className="max-width-large"
                       >
-                        <h1>Connecting Organizations | Brands | Groups to their Customers Through Interaction & Inclusivity</h1>
+                        <h1>Connecting <br/> Brands to their Customers Through Virtual Agents</h1>
                         <div className="padding-bottom padding-small"></div>
                         <p className="text-size-medium">
                           Proxima leverages on modern practices to not only improve interaction,
@@ -55,7 +55,7 @@ function Landing(){
                         </div>
                       </div>
                     </div>
-                    <div className="header-image-wrapper">
+                    {/* <div className="header-image-wrapper">
                       <img src="/assets/Frame-44195_2Frame-44195.webp" loading="lazy" data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb893"
                         style={{
                           WebkitTransform:
@@ -74,7 +74,7 @@ function Landing(){
                         sizes="(max-width: 479px) 90vw, (max-width: 991px) 84vw, 86vw"
                         alt="Dashboard Image"
                         className="header-image"
-                      />
+                      /> */}
                       {/*<img
                         src="/assets/Group-1557-1_1Group-1557-1.webp"
                         loading="lazy"
@@ -111,7 +111,7 @@ function Landing(){
                         alt="background pattern"
                         className="illustration is-home-header is-top-right"
                       />*/}
-                    </div>
+                    
                   </div>
                 </div>
               </div>

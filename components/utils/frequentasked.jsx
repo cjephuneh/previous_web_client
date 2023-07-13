@@ -38,17 +38,17 @@ function FrequentlyAsked() {
                         <div className="text-weight-medium">
                           What is Proxima
                         </div>
-                        <img
+                        {/* <img
                           src="/assets/Vector-1_1Vector-1.webp"
                           loading="lazy"
                           alt="Plus Icon"
                           className="faq-icon"
-                        />
+                        /> */}
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
                           Proxima is an AI kenyan based company that builds virtual 
-                          conversational agents for different organistaions,
+                          conversational assistants for different organistaions,
                           brands and groups 
                         </p>
                         <div className="padding-bottom padding-small"></div>
@@ -60,18 +60,18 @@ function FrequentlyAsked() {
                         className="faq-question"
                       >
                         <div className="text-weight-medium">
-                          What is a Virtual Agent?
+                          What is a Virtual Assistant?
                         </div>
-                        <img
+                        {/* <img
                           src="/assets/Vector-1_1Vector-1.webp"
                           loading="lazy"
                           alt="Plus Icon"
                           className="faq-icon"
-                        />
+                        /> */}
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
-                          A Virtual Agent is a type of software the user natural language 
+                          A Virtual Assistant is a type of software the user natural language 
                           processing to understand customer intent and search inquiries  
                         </p>
                         <div className="padding-bottom padding-small"></div>
@@ -85,12 +85,12 @@ function FrequentlyAsked() {
                         <div className="text-weight-medium">
                           Can your product be personalized?
                         </div>
-                        <img
+                        {/* <img
                           src="/assets/Vector-1_1Vector-1.webp"
                           loading="lazy"
                           alt="Plus Icon"
                           className="faq-icon"
-                        />
+                        /> */}
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
@@ -105,18 +105,18 @@ function FrequentlyAsked() {
                         className="faq-question"
                       >
                         <div className="text-weight-medium">
-                          What are the benefits of Proxima agents?
+                          What are the benefits of Proxima assistant?
                         </div>
-                        <img
+                        {/* <img
                           src="/assets/Vector-1_1Vector-1.webp"
                           loading="lazy"
                           alt="Plus Icon"
                           className="faq-icon"
-                        />
+                        /> */}
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">
-                          Proxima agents helps in bridging the gap in communication between businesses and the clients
+                          Proxima assistant helps in bridging the gap in communication between businesses and the clients
                           </p>
                         <div className="padding-bottom padding-small"></div>
                       </div>
@@ -129,12 +129,12 @@ function FrequentlyAsked() {
                         <div className="text-weight-medium">
                           How do I get started?
                         </div>
-                        <img
+                        {/* <img
                           src="/assets/Vector-1_1Vector-1.webp"
                           loading="lazy"
                           alt="Plus Icon"
                           className="faq-icon"
-                        />
+                        /> */}
                       </div>
                       <div className="faq-answer">
                         <p className="text-size-small">

@@ -32,7 +32,7 @@ function TrackUser(){
                     </a>
                     <a
                       data-w-id="ee06d3d3-db8d-42e1-87c9-74ade7d0460d"
-                      href="index.js"
+                      href="/getstarted"
                       className="button w-button"
                     >
                       Get Started
