@@ -62,7 +62,7 @@ const Navbar = () => {
                           {/* <div className="text-size-regular" onClick={() => setIsVisible(!visible)} > Pages </div> */}
                         </div>
 
-                        {/* {visible ? (
+                        {visible ? (
                           <nav className="navbar-dropdown-list w-dropdown-list">
                             <div className="navbar-dropdown-container">
                               <div className="navbar-dropdown-link-list-wrapper">
@@ -81,7 +81,7 @@ const Navbar = () => {
                                   <a href="privacy-policy.html" className="navbar-dropdown-link" > Privacy Policy </a>
 
                                 </div>
-                                {/*<div className="navbar-dropdown-link-list">
+                                *<div className="navbar-dropdown-link-list">
                                   <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a742-1f37a70a" className="navbar-dropdown-link-text-wrapper">
                                     <div className="text-weight-medium text-size-regular"> Pages </div>
                                   </div>
@@ -108,7 +108,7 @@ const Navbar = () => {
                           </nav>
                         ) : (
                           <></>
-                        )} */}
+                        )}
                       </div>
                     </li>
                   </ul>
