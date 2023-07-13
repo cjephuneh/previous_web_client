@@ -44,7 +44,7 @@ function Home() {
               </div>
             </div>
             <div className="header-image-wrapper is-about">
-              <img src="/assets/Rectangle-4338_1Rectangle-4338.webp" loading="lazy" data-w-id="6d47d01d-246e-bb3b-fd73-4df0fc415880"
+              <img src="/assets/Rectangle-4338_1Rectangle-4338.webp"  data-w-id="6d47d01d-246e-bb3b-fd73-4df0fc415880"
                 style={{
                   WebkitTransform:
                     "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
