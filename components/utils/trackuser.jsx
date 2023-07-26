@@ -16,8 +16,8 @@ function TrackUser(){
                       <h2>Interact with customers through virtual agents </h2>
                       <div className="padding-bottom padding-xsmall"></div>
                       <p>
-                      Connecting Organizations Brands Groups to their
-                       Customers Through Interaction & Inclusivity
+                      Connecting
+                      Brands to Customers Through Virtual Agents
                       </p>
                     </div>
                   </div>

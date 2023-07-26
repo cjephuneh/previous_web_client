@@ -21,14 +21,14 @@ function Footer () {
                     </a>
                   </div>
                   <div>
-                     Connecting Organizations Brands Groups to their
+                  Connecting Brands to Customers 
                     <span className="hide-mobile-landscape">
                       <br />
                     </span>{" "}
-                    Customers Through Interaction & Inclusivity
+                    Through Virtual Agents
                   </div>
                   <div className="padding-bottom padding-large"></div>
-                  <div className="footer-form-block w-form">
+                  {/* <div className="footer-form-block w-form">
                     <form
                       id="email-form"
                       name="email-form"
@@ -62,7 +62,7 @@ function Footer () {
                         Oops! Something went wrong while submitting the form.
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="w-layout-grid footer-menu-wrapper">
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6024" className="footer-link-list" >
@@ -95,10 +95,6 @@ function Footer () {
               <div className="footer-divider"></div>
               <div className="padding-top padding-medium">
                 <div className="footer-bottom-wrapper">
-                  <div className="w-layout-grid footer-legal-list">
-                    <a href="/" className="footer-legal-link">Terms &amp; Conditions</a>
-                    <a href="/" className="footer-legal-link">Privacy Policy</a>
-                  </div>
                   <div className="footer-credit-text">
                     Copyright 2023 © Proxima |
                   </div>

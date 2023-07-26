@@ -25,7 +25,7 @@ function Landing(){
                         }}
                         className="max-width-large"
                       >
-                        <h1>Connecting <br/> Brands to their Customers Through Virtual Agents</h1>
+                        <h1>Connecting <br/> Brands to Customers Through Virtual Agents</h1>
                         <div className="padding-bottom padding-small"></div>
                         <p className="text-size-medium">
                           Proxima leverages on modern practices to not only improve interaction,
@@ -55,64 +55,7 @@ function Landing(){
                         </div>
                       </div>
                     </div>
-                    {/* <div className="header-image-wrapper">
-                      <img src="/assets/Frame-44195_2Frame-44195.webp" loading="lazy" data-w-id="eeb22a88-7d3e-0834-0527-2b1b3e9fb893"
-                        style={{
-                          WebkitTransform:
-                            "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          mozTransform:
-                            "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          msTransform:
-                            "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          transform:
-                            "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          // opacity: "0",
-                        }}
-                        srcSet="/assets/Frame-44195_2Frame-44195.webp 500w, /assets/Frame-44195_2Frame-44195.webp 800w,
-                         /assets/Frame-44195_2Frame-44195.webp 1080w, /assets/Frame-44195_2Frame-44195.webp 1600w, 
-                         /assets/Frame-44195_2Frame-44195.webp 2000w, /assets/Frame-44195_2Frame-44195.webp 2168w"
-                        sizes="(max-width: 479px) 90vw, (max-width: 991px) 84vw, 86vw"
-                        alt="Dashboard Image"
-                        className="header-image"
-                      /> */}
-                      {/*<img
-                        src="/assets/Group-1557-1_1Group-1557-1.webp"
-                        loading="lazy"
-                        data-w-id="b80b15a7-5a26-f500-032d-f0d8615bd113"
-                        style={{
-                          WebkitTransform:
-                            "translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          mozTransform:
-                            "translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          msTransform:
-                            "translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          transform:
-                            "translate3d(-50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          // opacity: "0",
-                        }}
-                        alt="background pattern"
-                        className="illustration is-home-header"
-                      />
-                      <img
-                        src="/assets/Group-1557-1_1Group-1557-1.webp"
-                        loading="lazy"
-                        data-w-id="a23e38df-c5fd-7f6e-3337-83d2117a2244"
-                        style={{
-                          WebkitTransform:
-                            "translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          mozTransform:
-                            "translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          msTransform:
-                            "translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          transform:
-                            "translate3d(50px, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
-                          // opacity: "0",
-                        }}
-                        alt="background pattern"
-                        className="illustration is-home-header is-top-right"
-                      />*/}
-                    
-                  </div>
+                   </div>
                 </div>
               </div>
             </div>
