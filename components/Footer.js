@@ -10,7 +10,7 @@ function Footer () {
               <div className="w-layout-grid footer-top-wrapper">
                 <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b600e" className="footer-left-wrapper">
                   <div className="footer-logo-wrapper">
-                    <a href="index.html" aria-current="page" className="footer-logo-link w-nav-brand w--current" >
+                    <a href="/" aria-current="page" className="footer-logo-link w-nav-brand w--current" >
                       <img
                         src="/assets/logo12.png"
                         loading="lazy"
@@ -76,7 +76,7 @@ function Footer () {
                   </div>
 
                   <div data-w-id="3af3ce62-e206-cc52-3a38-fdc4e64b6034" className="footer-link-list">
-                    <div className="text-weight-semibold">Pages</div>
+                    {/* <div className="text-weight-semibold">Pages</div> */}
                     <div className="padding-bottom padding-xsmall"></div>
                     <a href="/contact" className="footer-link">Contact Us</a>
                     <a href="/blog" className="footer-link">Blog</a>

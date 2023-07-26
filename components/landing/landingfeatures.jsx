@@ -69,7 +69,7 @@ function LandingFeatures (){
                         href="contact-us.html"
                         className="button features w-inline-block"
                       >
-                        <div>Learn More</div>
+                        {/* <div>Learn More</div>
                         <div className="button-icon-embed w-embed">
                           <svg
                             width="100%"
@@ -85,7 +85,7 @@ function LandingFeatures (){
                               stroke-linejoin="round"
                             ></path>
                           </svg>
-                        </div>
+                        </div> */}
                       </a>
                     </div>
                     <div className="features-card">
@@ -109,7 +109,7 @@ function LandingFeatures (){
                         href="contact-us.html"
                         className="button features w-inline-block"
                       >
-                        <div>Learn More</div>
+                        {/* <div>Learn More</div>
                         <div className="button-icon-embed w-embed">
                           <svg
                             width="100%"
@@ -125,7 +125,7 @@ function LandingFeatures (){
                               stroke-linejoin="round"
                             ></path>
                           </svg>
-                        </div>
+                        </div> */}
                       </a>
                     </div>
                     <div className="features-card">
@@ -149,7 +149,7 @@ function LandingFeatures (){
                         href="contact-us.html"
                         className="button features w-inline-block"
                       >
-                        <div>Learn More</div>
+                        {/* <div>Learn More</div>
                         <div className="button-icon-embed w-embed">
                           <svg
                             width="100%"
@@ -165,7 +165,7 @@ function LandingFeatures (){
                               stroke-linejoin="round"
                             ></path>
                           </svg>
-                        </div>
+                        </div> */}
                       </a>
                     </div>
                   </div>
@@ -198,7 +198,7 @@ function LandingFeatures (){
                           "translate3d(null, 40px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
                         // opacity: "0",
                       }}
-                      href="/Features/features"
+                      href="/features"
                       className="button is-secondary w-button"
                     >
                       Explore All Features

@@ -653,7 +653,7 @@ textarea.w-select {
     right: auto;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .w-hidden-main {
     display: inherit !important;
   }
@@ -1732,7 +1732,7 @@ textarea.w-select {
     display: block;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .w-nav[data-collapse="small"] .w-nav-menu {
     display: none;
   }
@@ -1798,7 +1798,7 @@ textarea.w-select {
 .w--tab-active {
   display: block;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 768px) {
   .w-tab-link {
     display: block;
   }

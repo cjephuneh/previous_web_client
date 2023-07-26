@@ -30,17 +30,17 @@ const Navbar = () => {
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="features" className="navbar-link w-nav-link"> Features </a>
+                      <a href="/features" className="navbar-link w-nav-link"> Features </a>
                     </li>
 
                     <li className="navbar-menu-list-item">
-                      <a href="/about" className="navbar-link w-nav-link"> About </a>
+                      <a href="/about" className="navbar-link w-nav-link"> About Us</a>
                     </li>
 
                     
 
                     <li className="navbar-menu-list-item">
-                      <a href="/waitlist" className="navbar-link w-nav-link"> Waitlist </a>
+                      <a href="/pricing" className="navbar-link w-nav-link"> Pricing </a>
                     </li>
 
                     <li className="navbar-menu-list-item">
@@ -62,53 +62,7 @@ const Navbar = () => {
                           {/* <div className="text-size-regular" onClick={() => setIsVisible(!visible)} > Pages </div> */}
                         </div>
 
-                        {visible ? (
-                          <nav className="navbar-dropdown-list w-dropdown-list">
-                            <div className="navbar-dropdown-container">
-                              <div className="navbar-dropdown-link-list-wrapper">
-                                <div className="navbar-dropdown-link-list">
-                                  <div className="navbar-dropdown-link-text-wrapper">
-                                    <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a72b-1f37a70a" className="text-weight-medium text-size-regular">Pages</div>
-                                  </div>
-
-                                  <a href="/home" aria-current="page" className="navbar-dropdown-link w--current">Home </a>
-                                  <a href="/about" className="navbar-dropdown-link"> About </a>
-                                  <a href="/contact" className="navbar-dropdown-link"> Contact </a>
-                                  <a href="/signin" className="navbar-dropdown-link">Sign In </a>
-                                  <a href="/getstarted" className="navbar-dropdown-link"> Sign Up </a>
-                                  <a href="forgot-password.html" className="navbar-dropdown-link">Forgot Password </a>
-                                  <a href="terms-condition.html" className="navbar-dropdown-link" > Terms &amp; Conditions </a>
-                                  <a href="privacy-policy.html" className="navbar-dropdown-link" > Privacy Policy </a>
-
-                                </div>
-                                *<div className="navbar-dropdown-link-list">
-                                  <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a742-1f37a70a" className="navbar-dropdown-link-text-wrapper">
-                                    <div className="text-weight-medium text-size-regular"> Pages </div>
-                                  </div>
-                                  <a href="blog.html" className="navbar-dropdown-link"> Blog </a>
-
-                                  <a href="/article-category/analytics" className="navbar-dropdown-link"> Blog Category</a>
-                                  <a href="/article/using-analytics-to-optimize-page-performance" className="navbar-dropdown-link">Blog Post </a>
-                                  <a href="integrations.html" className="navbar-dropdown-link" > Integrations</a>
-                                  <a href="/integration/twitter"className="navbar-dropdown-link">Integration Single</a>
-                                </div>
-
-                                <div className="navbar-dropdown-link-list">
-                                  <div id="w-node-_1b56be8d-c9e2-59ec-58e5-df231f37a74e-1f37a70a" className="navbar-dropdown-link-text-wrapper">
-                                    <div className="text-weight-medium text-size-regular"> Utillity Pages</div>
-                                  </div>
-                                  <a href="utility-pages/style-guide.html" className="navbar-dropdown-link">Styleguide</a>
-                                  <a href="utility-pages/instructions.html" className="navbar-dropdown-link" > Instructions</a>
-                                  <a href="404.html" className="navbar-dropdown-link" > 404 Not Found</a>
-                                  <a href="401.html" className="navbar-dropdown-link"> Password Protected</a>
-                                  <a href="utility-pages/licenses.html" className="navbar-dropdown-link">Licenses</a>
-                                 </div>
-                              </div>
-                            </div>
-                          </nav>
-                        ) : (
-                          <></>
-                        )}
+                       
                       </div>
                     </li>
                   </ul>
@@ -142,7 +96,7 @@ const Navbar = () => {
                   <a href="/about" style={{ textDecoration: "none" }}>About</a>
                 </div>
                 <div style={{ color: "black", textAlign: "right" }}>
-                  <a href="/contactus" style={{ textDecoration: "none" }}>Contact Us</a>
+                  <a href="/contact" style={{ textDecoration: "none" }}>Contact Us</a>
                 </div>
                 <div style={{ color: "black", textAlign: "right" }}>
                   <a href="/waitlist" style={{ textDecoration: "none" }}>Waitlist</a>

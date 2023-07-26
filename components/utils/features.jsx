@@ -44,7 +44,7 @@ function Features(){
                   ProximaAI generates tenant reports on chat and community issues.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -65,7 +65,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a08a"
@@ -87,7 +87,7 @@ function Features(){
                   ProximaAI analyzes chats, issues, communication channels, client demographics, and community metrics.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -108,7 +108,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a097"
@@ -130,7 +130,7 @@ function Features(){
                     ProximaAI predicts client data for resource allocation.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -151,7 +151,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0a4"
@@ -173,7 +173,7 @@ function Features(){
                     Proxima's search feature filters chat history based on phrases and topics for tenants.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -194,7 +194,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0b1"
@@ -216,7 +216,7 @@ function Features(){
                   Tenants can manage their communities and address issues through the Proxima mobile app.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -237,7 +237,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0be"
@@ -259,7 +259,7 @@ function Features(){
                     Proxima lets tenants communicate and manage virtual agents, including using WhatsApp for web view.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -280,7 +280,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0cb"
@@ -302,7 +302,7 @@ function Features(){
                     Proxima offers chat analysis for summarizing client and virtual agent conversations in different contexts, including paraphrasing.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -323,7 +323,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0d8"
@@ -345,7 +345,7 @@ function Features(){
                     ProximaAI offers targeted surveys with response filtering and data analysis.
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -366,7 +366,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
                 <div
                   data-w-id="5af42538-5e12-b5dd-a2cf-86297969a0e5"
@@ -388,7 +388,7 @@ function Features(){
                     ProximaAI gives you a interactive dashbord for you to manage your customers
                   </p>
                   <div className="padding-bottom padding-medium"></div>
-                  <a
+                  {/* <a
                     href="contact-us.html"
                     className="button features w-inline-block"
                   >
@@ -409,7 +409,7 @@ function Features(){
                         ></path>
                       </svg>
                     </div>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

@@ -1682,6 +1682,7 @@ figcaption {
   padding: 0rem;
 }
 
+
 .navbar-menu-list-item {
   display: flex;
   flex-direction: row;
@@ -3880,7 +3881,7 @@ figcaption {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 2.5rem;
   }

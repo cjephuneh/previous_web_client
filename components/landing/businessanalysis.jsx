@@ -148,7 +148,7 @@ function BusinessAnalysis (){
                       className="business-analytics-content"
                     >
                       <div className="padding-bottom padding-medium"></div>
-                      <h2>Proxima Predictive Analytics for Customer Insights</h2>
+                      <h2>ProximaAI Predictive Analytics for Customer Insights</h2>
                       <div className="padding-bottom padding-large"></div>
                       <div className="w-layout-grid business-analytics-item-list">
                         <div
@@ -170,7 +170,7 @@ function BusinessAnalysis (){
                             </h3>
                             <div className="padding-bottom padding-xsmall"></div>
                             <p>
-                              Proxima predicts data to aid tenant understanding and
+                              ProximaAI predicts data to aid tenant understanding and
                               strategy adjustment for client interactions.
                             </p>
                           </div>
