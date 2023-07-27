@@ -4,6 +4,8 @@ import Check from "../public/assets/check-circle.png";
 import Image from "next/image";
 import Exclamation from "../public/assets/exclamation-circle.png";
 
+
+
 const SelectSubcription = () => {
   return (
     <div
@@ -14,9 +16,10 @@ const SelectSubcription = () => {
         height: "1091px",
         overflow: "hidden",
         textAlign: "left",
-        fontSize: "16px",
+        fontSize: "18px",
         color: "#000",
         fontFamily: "Inter",
+        left:"70px",
       }}
     >
       <div
@@ -38,6 +41,67 @@ const SelectSubcription = () => {
             height: "1091px",
           }}
         />
+        <div
+          style={{
+            position: "absolute",
+            top: "0px",
+            left: "0px",
+            width: "1600px",
+            height: "61px",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: "0px",
+              left: "0px",
+              backgroundColor: "#fff",
+              boxShadow: "0px 1px 0px rgba(18, 32, 59, 0.09)",
+              width: "1600px",
+              height: "61px",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "11px",
+              left: "325px",
+              width: "910px",
+              height: "40px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              justifyContent: "center",
+            }}
+          >
+            <div
+              style={{
+                position: "relative",
+                lineHeight: "24px",
+                fontWeight: "500",
+                display: "none",
+              }}
+            >
+              Input Label
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "9px",
+              left: "1433px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              justifyContent: "flex-start",
+              color: "#18181b",
+              fontFamily: "'Plus Jakarta Sans'",
+            }}
+          >
+            
+          </div>
+          
+        </div>
       </div>
       <div
         style={{
@@ -51,6 +115,7 @@ const SelectSubcription = () => {
           boxSizing: "border-box",
           alignItems: "flex-start",
           justifyContent: "flex-start",
+          fontSize: "36px",
           color: "#101828",
         }}
       >
@@ -75,7 +140,6 @@ const SelectSubcription = () => {
               gap: "20px",
               zIndex: "0",
               textAlign: "center",
-              fontSize: "36px",
             }}
           >
             <div
@@ -120,6 +184,7 @@ const SelectSubcription = () => {
               justifyContent: "center",
               gap: "24px",
               zIndex: "1",
+              fontSize: "16px",
               color: "#191d23",
             }}
           >
@@ -166,15 +231,15 @@ const SelectSubcription = () => {
               <div style={{ position: "relative", fontWeight: "300" }}>
                 Pay Yearly
               </div>
-              <img
+              {/* <Image
                 style={{
                   position: "relative",
                   width: "68px",
                   height: "12.04px",
                 }}
                 alt=""
-                src="/line-10.svg"
-              />
+                src={Star}
+              /> */}
             </div>
           </div>
           <div
@@ -205,14 +270,103 @@ const SelectSubcription = () => {
               Save 25%
             </b>
           </div>
+        </div>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: "357px",
+          left: "50px",
+          width: "1498px",
+          height: "1125px",
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "flex-start",
+          justifyContent: "flex-start",
+          gap: "10px",
+          color: "#777576",
+          fontFamily: "Manrope",
+        }}
+      >
+        <div
+          style={{ position: "relative", width: "374.5px", height: "598px" }}
+        >
           <div
             style={{
-              position: "relative",
-              width: "1137px",
+              position: "absolute",
+              top: "0px",
+              left: "0px",
+              borderRadius: "6px",
+              width: "374.5px",
               height: "598px",
-              zIndex: "3",
-              color: "#777576",
-              fontFamily: "Manrope",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "503.96px",
+              left: "35.99px",
+              borderRadius: "5px",
+              backgroundColor: "#2dabb1",
+              width: "253.49px",
+              height: "55px",
+              display: "flex",
+              flexDirection: "column",
+              padding: "16px",
+              boxSizing: "border-box",
+              alignItems: "center",
+              justifyContent: "center",
+              textAlign: "right",
+              color: "#fff",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "9px",
+              }}
+            > 
+              <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+              <div style={{ position: "relative", lineHeight: "24px" }}>
+                Get 30 Days Free Trial
+              </div>
+              <div
+                style={{
+                  display: "none",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  style={{
+                    position: "relative",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                    flexShrink: "0",
+                  }}
+                  alt=""
+                  src="/iconoutlinearrowright.svg"
+                />
+              </div>
+              </a>
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "268px",
+              left: "36.51px",
+              width: "272.79px",
+              height: "200px",
+              fontFamily: "Inter",
             }}
           >
             <div
@@ -220,1109 +374,1407 @@ const SelectSubcription = () => {
                 position: "absolute",
                 top: "0px",
                 left: "0px",
-                width: "359px",
-                height: "598px",
+                width: "272.79px",
+                height: "24px",
               }}
             >
               <div
                 style={{
                   position: "absolute",
                   top: "0px",
-                  left: "0px",
-                  borderRadius: "6px",
-                  width: "359px",
-                  height: "598px",
-                }}
-              />
-              <div
-                style={{
-                  position: "absolute",
-                  top: "504px",
-                  left: "34px",
-                  borderRadius: "5px",
-                  backgroundColor: "#2dabb1",
-                  width: "292px",
-                  height: "55px",
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "16px",
-                  boxSizing: "border-box",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "right",
-                  color: "#fff",
-                }}
-              >
-                <a
-                  href="https://app.proximaai.co/"
-                  style={{ textDecoration: "none", color: "#fff" }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      gap: "9px",
-                    }}
-                  >
-                    <div style={{ position: "relative", lineHeight: "24px" }}>
-                      Get 30 Days Free Trial
-                    </div>
-                    <div
-                      style={{
-                        display: "none",
-                        flexDirection: "row",
-                        alignItems: "center",
-                        justifyContent: "center",
-                      }}
-                    >
-                      <img
-                        style={{
-                          position: "relative",
-                          width: "18px",
-                          height: "18px",
-                          overflow: "hidden",
-                          flexShrink: "0",
-                        }}
-                        alt=""
-                        src="/iconoutlinearrowright.svg"
-                      />
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "268px",
-                  left: "35px",
-                  width: "259px",
-                  height: "200px",
-                  fontFamily: "Inter",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    width: "259px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Full Access to Landingfolio
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "241px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "44px",
-                    left: "0px",
-                    width: "212px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    100 GB Free Storage
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "194px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "88px",
-                    left: "0px",
-                    width: "161px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Unlimited Visitors
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "132px",
-                    left: "0px",
-                    width: "103px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    10 Agents
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "176px",
-                    left: "0px",
-                    width: "196px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Live Chat Support
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "178px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "31px",
-                  left: "35px",
-                  width: "45px",
-                  height: "30px",
-                  fontSize: "18px",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "30px",
-                  }}
-                >
-                  Basic
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "159px",
-                  left: "35px",
+                  left: "27.38px",
                   lineHeight: "24px",
-                  color: "#a1a1aa",
+                  fontWeight: "500",
                   display: "inline-block",
-                  width: "259px",
+                  width: "215.92px",
                 }}
               >
-                All the basic features to boost organization’s functionality
+                Full Access to Landingfolio
               </div>
-              <div
+              <Image
                 style={{
                   position: "absolute",
-                  top: "75px",
-                  left: "34px",
-                  width: "166px",
-                  height: "66px",
-                  fontSize: "60px",
+                  top: "2px",
+                  left: "0px",
+                  width: "21.06px",
+                  height: "20px",
+                  overflow: "hidden",
                 }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "66px",
-                  }}
-                >
-                  $50
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "38px",
-                    left: "108px",
-                    fontSize: "16px",
-                    lineHeight: "24px",
-                    color: "#71717a",
-                  }}
-                >
-                  / month
-                </div>
-              </div>
-              <div
+                alt=""
+                src={Check}
+              />
+              <Image
                 style={{
                   position: "absolute",
-                  top: "237.5px",
-                  left: "34.5px",
-                  borderTop: "1px solid #27272a",
-                  boxSizing: "border-box",
-                  width: "292px",
-                  height: "1px",
+                  top: "3px",
+                  left: "253.83px",
+                  width: "18.96px",
+                  height: "18px",
+                  overflow: "hidden",
                 }}
+                alt=""
+                src={Exclamation}
               />
             </div>
             <div
               style={{
                 position: "absolute",
-                top: "0px",
-                left: "389px",
-                width: "359px",
-                height: "598px",
-                color: "#979c9e",
+                top: "44px",
+                left: "0px",
+                width: "223.29px",
+                height: "24px",
               }}
             >
               <div
                 style={{
                   position: "absolute",
                   top: "0px",
-                  left: "0px",
-                  borderRadius: "6px",
-                  backgroundColor: "#fff9e2",
-                  width: "359px",
-                  height: "598px",
-                }}
-              />
-              <div
-                style={{
-                  position: "absolute",
-                  top: "504px",
-                  left: "34px",
-                  borderRadius: "5px",
-                  backgroundColor: "#53b4b0",
-                  width: "292px",
-                  height: "55px",
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "16px",
-                  boxSizing: "border-box",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "right",
-                  color: "#fdfbff",
-                }}
-              >
-                <a
-                  href="https://app.proximaai.co/"
-                  style={{ textDecoration: "none", color: "#fff" }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      gap: "9px",
-                    }}
-                  >
-                    <div style={{ position: "relative", lineHeight: "24px" }}>
-                      Get 30 Days Free Trial
-                    </div>
-                    <div
-                      style={{
-                        display: "none",
-                        flexDirection: "row",
-                        alignItems: "center",
-                        justifyContent: "center",
-                      }}
-                    >
-                      <img
-                        style={{
-                          position: "relative",
-                          width: "18px",
-                          height: "18px",
-                          overflow: "hidden",
-                          flexShrink: "0",
-                        }}
-                        alt=""
-                        src="/iconoutlinearrowright.svg"
-                      />
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "268px",
-                  left: "35px",
-                  width: "259px",
-                  height: "200px",
-                  fontFamily: "Inter",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    width: "259px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Full Access to Landingfolio
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "241px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "44px",
-                    left: "0px",
-                    width: "212px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    100 GB Free Storage
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "194px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "88px",
-                    left: "0px",
-                    width: "161px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Unlimited Visitors
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "132px",
-                    left: "0px",
-                    width: "103px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    10 Agents
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "176px",
-                    left: "0px",
-                    width: "196px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Live Chat Support
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "178px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "31px",
-                  left: "35px",
-                  width: "104px",
-                  height: "30px",
-                  fontSize: "18px",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "30px",
-                  }}
-                >
-                  Professional
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "159px",
-                  left: "35px",
+                  left: "27.38px",
                   lineHeight: "24px",
-                  color: "#a1a1aa",
+                  fontWeight: "500",
                   display: "inline-block",
-                  width: "259px",
+                  width: "166.41px",
                 }}
               >
-                All the basic features to boost your freelance career
+                100 GB Free Storage
               </div>
-              <div
+              <Image
                 style={{
                   position: "absolute",
-                  top: "75px",
-                  left: "34px",
-                  width: "166px",
-                  height: "66px",
-                  fontSize: "60px",
+                  top: "2px",
+                  left: "0px",
+                  width: "21.06px",
+                  height: "20px",
+                  overflow: "hidden",
                 }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "66px",
-                  }}
-                >
-                  $150
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "38px",
-                    left: "108px",
-                    fontSize: "16px",
-                    lineHeight: "24px",
-                    color: "#71717a",
-                  }}
-                >
-                  / month
-                </div>
-              </div>
-              <div
+                alt=""
+                src={Check}
+              />
+              <Image
                 style={{
                   position: "absolute",
-                  top: "237.5px",
-                  left: "34.5px",
-                  borderTop: "1px solid #27272a",
-                  boxSizing: "border-box",
-                  width: "292px",
-                  height: "1px",
+                  top: "3px",
+                  left: "204.33px",
+                  width: "18.96px",
+                  height: "18px",
+                  overflow: "hidden",
                 }}
+                alt=""
+                src={Exclamation}
               />
             </div>
             <div
               style={{
                 position: "absolute",
-                top: "0px",
-                left: "778px",
-                width: "359px",
-                height: "598px",
+                top: "88px",
+                left: "0px",
+                width: "169.57px",
+                height: "24px",
               }}
             >
               <div
                 style={{
                   position: "absolute",
                   top: "0px",
-                  left: "0px",
-                  borderRadius: "6px",
-                  width: "359px",
-                  height: "598px",
-                }}
-              />
-              <div
-                style={{
-                  position: "absolute",
-                  top: "504px",
-                  left: "34px",
-                  borderRadius: "5px",
-                  backgroundColor: "#2dabb1",
-                  width: "292px",
-                  height: "55px",
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "16px",
-                  boxSizing: "border-box",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  textAlign: "right",
-                  color: "#fff",
-                }}
-              >
-                <a
-                  href="https://app.proximaai.co/"
-                  style={{ textDecoration: "none", color: "#fff" }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "row",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      gap: "9px",
-                    }}
-                  >
-                    <div style={{ position: "relative", lineHeight: "24px" }}>
-                      Get 30 Days Free Trial
-                    </div>
-                    <div
-                      style={{
-                        display: "none",
-                        flexDirection: "row",
-                        alignItems: "center",
-                        justifyContent: "center",
-                      }}
-                    >
-                      <img
-                        style={{
-                          position: "relative",
-                          width: "18px",
-                          height: "18px",
-                          overflow: "hidden",
-                          flexShrink: "0",
-                        }}
-                        alt=""
-                        src="/iconoutlinearrowright.svg"
-                      />
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "268px",
-                  left: "35px",
-                  width: "259px",
-                  height: "200px",
-                  fontFamily: "Inter",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    width: "259px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Full Access to Landingfolio
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "241px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "44px",
-                    left: "0px",
-                    width: "212px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    100 GB Free Storage
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "194px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "88px",
-                    left: "0px",
-                    width: "161px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Unlimited Visitors
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "132px",
-                    left: "0px",
-                    width: "103px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    10 Agents
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "176px",
-                    left: "0px",
-                    width: "196px",
-                    height: "24px",
-                  }}
-                >
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "0px",
-                      left: "26px",
-                      lineHeight: "24px",
-                      fontWeight: "500",
-                    }}
-                  >
-                    Live Chat Support
-                  </div>
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "2px",
-                      left: "0px",
-                      width: "20px",
-                      height: "20px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Check}
-                  />
-                  <Image
-                    style={{
-                      position: "absolute",
-                      top: "3px",
-                      left: "178px",
-                      width: "18px",
-                      height: "18px",
-                      overflow: "hidden",
-                    }}
-                    alt=""
-                    src={Exclamation}
-                  />
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "31px",
-                  left: "35px",
-                  width: "76px",
-                  height: "30px",
-                  fontSize: "18px",
-                }}
-              >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "30px",
-                  }}
-                >
-                  Business
-                </div>
-              </div>
-              <div
-                style={{
-                  position: "absolute",
-                  top: "159px",
-                  left: "35px",
+                  left: "27.38px",
                   lineHeight: "24px",
-                  color: "#a1a1aa",
+                  fontWeight: "500",
                   display: "inline-block",
-                  width: "259px",
+                  width: "142.19px",
                 }}
               >
-                All the basic features to boost your freelance career
+                Unlimited Visitors
               </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "21.06px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "132px",
+                left: "0px",
+                width: "108.48px",
+                height: "24px",
+              }}
+            >
               <div
                 style={{
                   position: "absolute",
-                  top: "75px",
-                  left: "34px",
-                  width: "166px",
-                  height: "66px",
-                  fontSize: "60px",
+                  top: "0px",
+                  left: "27.38px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "81.1px",
                 }}
               >
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "0px",
-                    left: "0px",
-                    lineHeight: "66px",
-                  }}
-                >
-                  $99
-                </div>
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "38px",
-                    left: "108px",
-                    fontSize: "16px",
-                    lineHeight: "24px",
-                    color: "#71717a",
-                  }}
-                >
-                  / month
-                </div>
+                10 Agents
               </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "21.06px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "176px",
+                left: "0px",
+                width: "206.44px",
+                height: "24px",
+              }}
+            >
               <div
                 style={{
                   position: "absolute",
-                  top: "237.5px",
-                  left: "34.5px",
-                  borderTop: "1px solid #27272a",
-                  boxSizing: "border-box",
-                  width: "292px",
-                  height: "1px",
+                  top: "0px",
+                  left: "27.38px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "145.35px",
                 }}
+              >
+                Live Chat Support
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "21.06px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "3px",
+                  left: "187.48px",
+                  width: "18.96px",
+                  height: "18px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Exclamation}
               />
             </div>
           </div>
-          
+          <div
+            style={{
+              position: "absolute",
+              top: "31px",
+              left: "36.51px",
+              width: "46.94px",
+              height: "30px",
+              fontSize: "18px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                lineHeight: "30px",
+                display: "flex",
+                alignItems: "center",
+                width: "46.94px",
+              }}
+            >
+              Basic
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "158.96px",
+              left: "37.03px",
+              lineHeight: "24px",
+              color: "#a1a1aa",
+              display: "inline-block",
+              width: "240.97px",
+            }}
+          >
+            All the basic features to boost organization’s functionality
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "75px",
+              left: "30px",
+              width: "178.64px",
+              height: "66px",
+              fontSize: "60px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                lineHeight: "66px",
+                display: "flex",
+                alignItems: "center",
+                width: "113px",
+              }}
+            >
+              $50
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "38px",
+                left: "118.13px",
+                fontSize: "16px",
+                lineHeight: "24px",
+                color: "#71717a",
+                display: "inline-block",
+                width: "60.5px",
+              }}
+            >
+              / month
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "237.46px",
+              left: "35.49px",
+              borderTop: "1px solid #27272a",
+              boxSizing: "border-box",
+              width: "254.49px",
+              height: "1px",
+            }}
+          />
+        </div>
+        <div
+          style={{
+            position: "relative",
+            width: "357px",
+            height: "598px",
+            color: "#979c9e",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              top: "0px",
+              left: "0px",
+              borderRadius: "6px",
+              backgroundColor: "#edfeff",
+              width: "357px",
+              height: "598px",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "504px",
+              left: "25.25px",
+              borderRadius: "5px",
+              backgroundColor: "#53b4b0",
+              width: "292px",
+              height: "55px",
+              display: "flex",
+              flexDirection: "column",
+              padding: "16px",
+              boxSizing: "border-box",
+              alignItems: "center",
+              justifyContent: "center",
+              textAlign: "right",
+              color: "#fdfbff",
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "9px",
+              }}
+            >
+              <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+              <div style={{ position: "relative", lineHeight: "24px" }}>
+                Get 30 Days Free Trial
+              </div>
+              <div
+                style={{
+                  display: "none",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  style={{
+                    position: "relative",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                    flexShrink: "0",
+                  }}
+                  alt=""
+                  src="/iconoutlinearrowright1.svg"
+                />
+              </div>
+              </a>
+
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "268px",
+              left: "26.25px",
+              width: "259px",
+              height: "200px",
+              fontFamily: "Inter",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                width: "259px",
+                height: "24px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "26px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "205px",
+                }}
+              >
+                Full Access to Landingfolio
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "20px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "3px",
+                  left: "241px",
+                  width: "18px",
+                  height: "18px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Exclamation}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "44px",
+                left: "0px",
+                width: "212px",
+                height: "24px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "26px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "158px",
+                }}
+              >
+                100 GB Free Storage
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "20px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "3px",
+                  left: "194px",
+                  width: "18px",
+                  height: "18px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Exclamation}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "88px",
+                left: "0px",
+                width: "161px",
+                height: "24px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "26px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "135px",
+                }}
+              >
+                Unlimited Visitors
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "20px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "132px",
+                left: "0px",
+                width: "103px",
+                height: "24px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "26px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "77px",
+                }}
+              >
+                10 Agents
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "20px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "176px",
+                left: "0px",
+                width: "196px",
+                height: "24px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "26px",
+                  lineHeight: "24px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  width: "138px",
+                }}
+              >
+                Live Chat Support
+              </div>
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "2px",
+                  left: "0px",
+                  width: "20px",
+                  height: "20px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Check}
+              />
+              <Image
+                style={{
+                  position: "absolute",
+                  top: "3px",
+                  left: "178px",
+                  width: "18px",
+                  height: "18px",
+                  overflow: "hidden",
+                }}
+                alt=""
+                src={Exclamation}
+              />
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "31px",
+              left: "26.25px",
+              width: "104px",
+              height: "30px",
+              fontSize: "18px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                lineHeight: "30px",
+                display: "flex",
+                alignItems: "center",
+                width: "104px",
+              }}
+            >
+              Professional
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "159px",
+              left: "26.25px",
+              lineHeight: "24px",
+              color: "#a1a1aa",
+              display: "inline-block",
+              width: "259px",
+            }}
+          >
+            All the basic features to boost your freelance career
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "75px",
+              left: "19.5px",
+              width: "219px",
+              height: "66px",
+              fontSize: "60px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                lineHeight: "66px",
+                display: "flex",
+                alignItems: "center",
+                width: "150px",
+              }}
+            >
+              $150
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "42px",
+                left: "136px",
+                fontSize: "16px",
+                lineHeight: "24px",
+                color: "#71717a",
+                display: "inline-block",
+                width: "83px",
+              }}
+            >
+              / Quarterly
+            </div>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: "237.5px",
+              left: "25.75px",
+              borderTop: "1px solid #27272a",
+              boxSizing: "border-box",
+              width: "292px",
+              height: "1px",
+            }}
+          />
+        </div>
+        <div style={{ position: "relative", width: "359px", height: "598px" }}>
+          <div
+            style={{
+              position: "absolute",
+              top: "0px",
+              left: "0px",
+              width: "359px",
+              height: "598px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                borderRadius: "6px",
+                backgroundColor: "#fff9e2",
+                width: "359px",
+                height: "598px",
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                top: "504px",
+                left: "34px",
+                borderRadius: "5px",
+                backgroundColor: "#2dabb1",
+                width: "292px",
+                height: "55px",
+                display: "flex",
+                flexDirection: "column",
+                padding: "16px",
+                boxSizing: "border-box",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "right",
+                color: "#fff",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "9px",
+                }}
+              >
+                <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                <div style={{ position: "relative", lineHeight: "24px" }}>
+                  Get 30 Days Free Trial
+                </div>
+                <div
+                  style={{
+                    display: "none",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    style={{
+                      position: "relative",
+                      width: "18px",
+                      height: "18px",
+                      overflow: "hidden",
+                      flexShrink: "0",
+                    }}
+                    alt=""
+                    src="/iconoutlinearrowright2.svg"
+                  />
+                </div>
+                </a>
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "268px",
+                left: "35px",
+                width: "259px",
+                height: "200px",
+                fontFamily: "Inter",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  width: "259px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Full Access to Landingfolio
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "241px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "44px",
+                  left: "0px",
+                  width: "212px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  100 GB Free Storage
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "194px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "88px",
+                  left: "0px",
+                  width: "161px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Unlimited Visitors
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "132px",
+                  left: "0px",
+                  width: "103px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  10 Agents
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "176px",
+                  left: "0px",
+                  width: "196px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Live Chat Support
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "178px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "31px",
+                left: "35px",
+                width: "76px",
+                height: "30px",
+                fontSize: "18px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  lineHeight: "30px",
+                }}
+              >
+                Business
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "159px",
+                left: "35px",
+                lineHeight: "24px",
+                color: "#a1a1aa",
+                display: "inline-block",
+                width: "259px",
+              }}
+            >
+              All the basic features to boost your freelance career
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "75px",
+                left: "34px",
+                width: "260.5px",
+                height: "66px",
+                fontSize: "60px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  lineHeight: "66px",
+                }}
+              >
+                $300
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "37.96px",
+                  left: "174.5px",
+                  fontSize: "16px",
+                  lineHeight: "24px",
+                  color: "#71717a",
+                }}
+              >
+                / Half a year
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "237.5px",
+                left: "34.5px",
+                borderTop: "1px solid #27272a",
+                boxSizing: "border-box",
+                width: "292px",
+                height: "1px",
+              }}
+            />
+          </div>
+        </div>
+        <div style={{ position: "relative", width: "359px", height: "598px" }}>
+          <div
+            style={{
+              position: "absolute",
+              top: "0px",
+              left: "0px",
+              width: "359px",
+              height: "598px",
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: "0px",
+                left: "0px",
+                borderRadius: "6px",
+                backgroundColor: "#beb9ff",
+                width: "359px",
+                height: "598px",
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                top: "504px",
+                left: "34px",
+                borderRadius: "5px",
+                backgroundColor: "#2dabb1",
+                width: "292px",
+                height: "55px",
+                display: "flex",
+                flexDirection: "column",
+                padding: "16px",
+                boxSizing: "border-box",
+                alignItems: "center",
+                justifyContent: "center",
+                textAlign: "right",
+                color: "#fff",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "9px",
+                }}
+              >
+                <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
+                >
+                <div style={{ position: "relative", lineHeight: "24px" }}>
+                  Get 30 Days Free Trial
+                </div>
+                <div
+                  style={{
+                    display: "none",
+                    flexDirection: "row",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <img
+                    style={{
+                      position: "relative",
+                      width: "18px",
+                      height: "18px",
+                      overflow: "hidden",
+                      flexShrink: "0",
+                    }}
+                    alt=""
+                    src="/iconoutlinearrowright2.svg"
+                  />
+                </div>
+                </a>
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "268px",
+                left: "35px",
+                width: "259px",
+                height: "200px",
+                fontFamily: "Inter",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  width: "259px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Full Access to Landingfolio
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "241px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "44px",
+                  left: "0px",
+                  width: "212px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  100 GB Free Storage
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "194px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "88px",
+                  left: "0px",
+                  width: "161px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Unlimited Visitors
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "132px",
+                  left: "0px",
+                  width: "103px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  10 Agents
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "176px",
+                  left: "0px",
+                  width: "196px",
+                  height: "24px",
+                }}
+              >
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "0px",
+                    left: "26px",
+                    lineHeight: "24px",
+                    fontWeight: "500",
+                  }}
+                >
+                  Live Chat Support
+                </div>
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "2px",
+                    left: "0px",
+                    width: "20px",
+                    height: "20px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Check}
+                />
+                <Image
+                  style={{
+                    position: "absolute",
+                    top: "3px",
+                    left: "178px",
+                    width: "18px",
+                    height: "18px",
+                    overflow: "hidden",
+                  }}
+                  alt=""
+                  src={Exclamation}
+                />
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "159px",
+                left: "35px",
+                lineHeight: "24px",
+                color: "#a1a1aa",
+                display: "inline-block",
+                width: "259px",
+              }}
+            >
+              All the basic features to boost your freelance career
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "75px",
+                left: "34px",
+                width: "215.5px",
+                height: "66px",
+                fontSize: "60px",
+              }}
+            >
+              <div
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  lineHeight: "66px",
+                }}
+              >
+                $600
+              </div>
+              <div
+                style={{
+                  position: "absolute",
+                  top: "37.96px",
+                  left: "174.5px",
+                  fontSize: "16px",
+                  lineHeight: "24px",
+                  color: "#71717a",
+                }}
+              >
+                / Year
+              </div>
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "237.5px",
+                left: "34.5px",
+                borderTop: "1px solid #27272a",
+                boxSizing: "border-box",
+                width: "292px",
+                height: "1px",
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>
