@@ -10,24 +10,24 @@ import { Provider } from "react-redux";
 import React, { useEffect } from "react";
 
 export default function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    // Create the iframe element
-    const iframe = document.createElement("iframe");
-    iframe.src = "https://iframe.proximaai.co/?community_id=1";
-    iframe.style.position = "fixed";
-    iframe.style.bottom = "20px";
-    iframe.style.right = "20px";
-    iframe.style.width = "800px";
-    iframe.style.height = "1000px";
-    iframe.style.border = "none";
-    iframe.style.zIndex = "9999";
-    document.body.appendChild(iframe);
+  // useEffect(() => {
+  //   // Create the iframe element
+  //   const iframe = document.createElement("iframe");
+  //   iframe.src = "https://iframe.proximaai.co/?community_id=1";
+  //   iframe.style.position = "fixed";
+  //   iframe.style.bottom = "20px";
+  //   iframe.style.right = "20px";
+  //   iframe.style.width = "800px";
+  //   iframe.style.height = "1000px";
+  //   iframe.style.border = "none";
+  //   iframe.style.zIndex = "9999";
+  //   document.body.appendChild(iframe);
 
-    return () => {
-      // Clean up the iframe when the component unmounts
-      document.body.removeChild(iframe);
-    };
-  }, []);
+  //   return () => {
+  //     // Clean up the iframe when the component unmounts
+  //     document.body.removeChild(iframe);
+  //   };
+  // }, []);
 
   return (
     <Provider store={store}>
