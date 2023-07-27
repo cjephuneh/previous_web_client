@@ -1,9 +1,8 @@
 import React from "react";
-import Star from "../public/assets/Group 39866.png"
-import Check from "../public/assets/check-circle.png"
+import Star from "../public/assets/Group 39866.png";
+import Check from "../public/assets/check-circle.png";
 import Image from "next/image";
-
-
+import Exclamation from "../public/assets/exclamation-circle.png";
 
 const SelectSubcription = () => {
   return (
@@ -39,7 +38,6 @@ const SelectSubcription = () => {
             height: "1091px",
           }}
         />
-        
       </div>
       <div
         style={{
@@ -255,41 +253,43 @@ const SelectSubcription = () => {
                   color: "#fff",
                 }}
               >
-                <a href="https://app.proximaai.co/" style={{ textDecoration: "none", color: "#fff" }}>
-
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "9px",
-                  }}
+                <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <div style={{ position: "relative", lineHeight: "24px" }}>
-                    Get 14 Days Free Trial
-                  </div>
                   <div
                     style={{
-                      display: "none",
+                      display: "flex",
                       flexDirection: "row",
                       alignItems: "center",
                       justifyContent: "center",
+                      gap: "9px",
                     }}
                   >
-                    <img
+                    <div style={{ position: "relative", lineHeight: "24px" }}>
+                      Get 30 Days Free Trial
+                    </div>
+                    <div
                       style={{
-                        position: "relative",
-                        width: "18px",
-                        height: "18px",
-                        overflow: "hidden",
-                        flexShrink: "0",
+                        display: "none",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "center",
                       }}
-                      alt=""
-                      src="/iconoutlinearrowright.svg"
-                    />
+                    >
+                      <img
+                        style={{
+                          position: "relative",
+                          width: "18px",
+                          height: "18px",
+                          overflow: "hidden",
+                          flexShrink: "0",
+                        }}
+                        alt=""
+                        src="/iconoutlinearrowright.svg"
+                      />
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div
@@ -334,7 +334,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -344,7 +344,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -379,7 +379,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -389,7 +389,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -490,7 +490,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -500,7 +500,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
               </div>
@@ -556,7 +556,7 @@ const SelectSubcription = () => {
                     lineHeight: "66px",
                   }}
                 >
-                  $19
+                  $50
                 </div>
                 <div
                   style={{
@@ -623,40 +623,43 @@ const SelectSubcription = () => {
                   color: "#fdfbff",
                 }}
               >
-                <a href="https://app.proximaai.co/" style={{ textDecoration: "none", color: "#fff" }}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "9px",
-                  }}
+                <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <div style={{ position: "relative", lineHeight: "24px" }}>
-                    Get 14 Days Free Trial
-                  </div>
                   <div
                     style={{
-                      display: "none",
+                      display: "flex",
                       flexDirection: "row",
                       alignItems: "center",
                       justifyContent: "center",
+                      gap: "9px",
                     }}
                   >
-                    <img
+                    <div style={{ position: "relative", lineHeight: "24px" }}>
+                      Get 30 Days Free Trial
+                    </div>
+                    <div
                       style={{
-                        position: "relative",
-                        width: "18px",
-                        height: "18px",
-                        overflow: "hidden",
-                        flexShrink: "0",
+                        display: "none",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "center",
                       }}
-                      alt=""
-                      src="/iconoutlinearrowright.svg"
-                    />
+                    >
+                      <img
+                        style={{
+                          position: "relative",
+                          width: "18px",
+                          height: "18px",
+                          overflow: "hidden",
+                          flexShrink: "0",
+                        }}
+                        alt=""
+                        src="/iconoutlinearrowright.svg"
+                      />
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div
@@ -701,7 +704,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -711,7 +714,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -746,7 +749,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -756,7 +759,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -857,7 +860,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -867,7 +870,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
               </div>
@@ -901,7 +904,6 @@ const SelectSubcription = () => {
                   color: "#a1a1aa",
                   display: "inline-block",
                   width: "259px",
-
                 }}
               >
                 All the basic features to boost your freelance career
@@ -924,7 +926,7 @@ const SelectSubcription = () => {
                     lineHeight: "66px",
                   }}
                 >
-                  $49
+                  $150
                 </div>
                 <div
                   style={{
@@ -988,41 +990,44 @@ const SelectSubcription = () => {
                   textAlign: "right",
                   color: "#fff",
                 }}
-              > 
-                <a href="https://app.proximaai.co/" style={{ textDecoration: "none", color: "#fff" }}>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "9px",
-                  }}
+              >
+                <a
+                  href="https://app.proximaai.co/"
+                  style={{ textDecoration: "none", color: "#fff" }}
                 >
-                  <div style={{ position: "relative", lineHeight: "24px" }}>
-                    Get 14 Days Free Trial
-                  </div>
                   <div
                     style={{
-                      display: "none",
+                      display: "flex",
                       flexDirection: "row",
                       alignItems: "center",
                       justifyContent: "center",
+                      gap: "9px",
                     }}
                   >
-                    <img
+                    <div style={{ position: "relative", lineHeight: "24px" }}>
+                      Get 30 Days Free Trial
+                    </div>
+                    <div
                       style={{
-                        position: "relative",
-                        width: "18px",
-                        height: "18px",
-                        overflow: "hidden",
-                        flexShrink: "0",
+                        display: "none",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: "center",
                       }}
-                      alt=""
-                      src="/iconoutlinearrowright.svg"
-                    />
+                    >
+                      <img
+                        style={{
+                          position: "relative",
+                          width: "18px",
+                          height: "18px",
+                          overflow: "hidden",
+                          flexShrink: "0",
+                        }}
+                        alt=""
+                        src="/iconoutlinearrowright.svg"
+                      />
+                    </div>
                   </div>
-                </div>
                 </a>
               </div>
               <div
@@ -1077,7 +1082,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src={Check}
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -1112,7 +1117,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -1122,7 +1127,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
                 <div
@@ -1223,7 +1228,7 @@ const SelectSubcription = () => {
                     alt=""
                     src={Check}
                   />
-                  <img
+                  <Image
                     style={{
                       position: "absolute",
                       top: "3px",
@@ -1233,7 +1238,7 @@ const SelectSubcription = () => {
                       overflow: "hidden",
                     }}
                     alt=""
-                    src="/iconoutlineexclamationcircle.svg"
+                    src={Exclamation}
                   />
                 </div>
               </div>
@@ -1317,6 +1322,7 @@ const SelectSubcription = () => {
               />
             </div>
           </div>
+          
         </div>
       </div>
     </div>
