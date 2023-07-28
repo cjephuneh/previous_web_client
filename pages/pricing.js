@@ -188,7 +188,7 @@ const SelectSubcription = () => {
               color: "#191d23",
             }}
           >
-            <div
+            {/* <div
               style={{ position: "relative", fontWeight: "300" }}
             >{`Pay Monthly `}</div>
             <div
@@ -240,9 +240,9 @@ const SelectSubcription = () => {
                 alt=""
                 src={Star}
               /> */}
-            </div>
+            
           </div>
-          <div
+          <div 
             style={{
               position: "absolute",
               margin: "0",
@@ -266,9 +266,9 @@ const SelectSubcription = () => {
               alt=""
               src={Star}
             />
-            <b style={{ position: "absolute", top: "51px", right: "0px" }}>
+            {/* <b style={{ position: "absolute", top: "51px", right: "0px" }}>
               Save 25%
-            </b>
+            </b> */}
           </div>
         </div>
       </div>

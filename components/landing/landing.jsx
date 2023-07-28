@@ -37,7 +37,7 @@ function Landing(){
                         </p>
                         <div className="padding-bottom padding-medium"></div>
                         <div className="button-row">
-                          <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/contact" className="button is-icon w-inline-block" >
+                          <a data-w-id="20ec7267-8628-5b61-6b1d-2a4f5c42810e" href="/pricing" className="button is-icon w-inline-block" >
                             <div>Try for free</div>
                             <div className="button-icon w-embed">
                               <svg
