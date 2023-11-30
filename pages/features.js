@@ -19,7 +19,7 @@ const features = () => {
     <main className="main-wrapper">
       <Home />
       {/*<Companies />*/}
-      <Features />
+      {/* <Features /> */}
       <FrequentlyAsked />
       <TrackUser />
     </main>
